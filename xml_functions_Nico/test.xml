@@ -1,0 +1,7 @@
+<temika>
+	<microscope>
+		<eclipsetie>
+			<zdrive_move_relative>12 0</zdrive_move_relative> <!-- displacement, speed (0..8) -->
+		</eclipsetie>
+	</microscope>
+</temika>

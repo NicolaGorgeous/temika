@@ -1,0 +1,4005 @@
+<temika>
+	<!-- Position x=0y=250 -->
+		<!-- MOVE -->
+		<microscope>
+			<xystage axis="x">
+				<enable>ON</enable>
+				<move_absolute>0 5</move_absolute>
+			</xystage>
+			<xystage axis="y">
+				<enable>ON</enable>
+				<move_absolute>250 5</move_absolute>
+			</xystage>
+			<xystage axis="x">
+				<wait_moving_end></wait_moving_end>
+			</xystage>
+			<xystage axis="y">
+				<wait_moving_end></wait_moving_end>
+			</xystage>
+		</microscope>
+		<microscope>
+			<xystage axis="x">
+				<enable>OFF</enable>
+			</xystage>
+			<xystage axis="y">
+				<enable>OFF</enable>
+			</xystage>
+		</microscope>
+<sleep>0:0:0.2</sleep>
+		<!-- SET NAME -->
+		<save>
+			<basename>/data/np451/boyko/MATLAB/xml_functions/X_0.Y_250.</basename>
+			<append>DATE</append>
+		</save>
+		<!-- Take a record -->
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>ON</record></camera>
+		<sleep>0:0:3</sleep>
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>OFF</record></camera>
+	<!-- Position x=0y=500 -->
+		<!-- MOVE -->
+		<microscope>
+			<xystage axis="x">
+				<enable>ON</enable>
+				<move_absolute>0 5</move_absolute>
+			</xystage>
+			<xystage axis="y">
+				<enable>ON</enable>
+				<move_absolute>500 5</move_absolute>
+			</xystage>
+			<xystage axis="x">
+				<wait_moving_end></wait_moving_end>
+			</xystage>
+			<xystage axis="y">
+				<wait_moving_end></wait_moving_end>
+			</xystage>
+		</microscope>
+		<microscope>
+			<xystage axis="x">
+				<enable>OFF</enable>
+			</xystage>
+			<xystage axis="y">
+				<enable>OFF</enable>
+			</xystage>
+		</microscope>
+<sleep>0:0:0.2</sleep>
+		<!-- SET NAME -->
+		<save>
+			<basename>/data/np451/boyko/MATLAB/xml_functions/X_0.Y_500.</basename>
+			<append>DATE</append>
+		</save>
+		<!-- Take a record -->
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>ON</record></camera>
+		<sleep>0:0:3</sleep>
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>OFF</record></camera>
+	<!-- Position x=0y=750 -->
+		<!-- MOVE -->
+		<microscope>
+			<xystage axis="x">
+				<enable>ON</enable>
+				<move_absolute>0 5</move_absolute>
+			</xystage>
+			<xystage axis="y">
+				<enable>ON</enable>
+				<move_absolute>750 5</move_absolute>
+			</xystage>
+			<xystage axis="x">
+				<wait_moving_end></wait_moving_end>
+			</xystage>
+			<xystage axis="y">
+				<wait_moving_end></wait_moving_end>
+			</xystage>
+		</microscope>
+		<microscope>
+			<xystage axis="x">
+				<enable>OFF</enable>
+			</xystage>
+			<xystage axis="y">
+				<enable>OFF</enable>
+			</xystage>
+		</microscope>
+<sleep>0:0:0.2</sleep>
+		<!-- SET NAME -->
+		<save>
+			<basename>/data/np451/boyko/MATLAB/xml_functions/X_0.Y_750.</basename>
+			<append>DATE</append>
+		</save>
+		<!-- Take a record -->
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>ON</record></camera>
+		<sleep>0:0:3</sleep>
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>OFF</record></camera>
+	<!-- Position x=-303.1944y=750 -->
+		<!-- MOVE -->
+		<microscope>
+			<xystage axis="x">
+				<enable>ON</enable>
+				<move_absolute>-303.1944 5</move_absolute>
+			</xystage>
+			<xystage axis="y">
+				<enable>ON</enable>
+				<move_absolute>750 5</move_absolute>
+			</xystage>
+			<xystage axis="x">
+				<wait_moving_end></wait_moving_end>
+			</xystage>
+			<xystage axis="y">
+				<wait_moving_end></wait_moving_end>
+			</xystage>
+		</microscope>
+		<microscope>
+			<xystage axis="x">
+				<enable>OFF</enable>
+			</xystage>
+			<xystage axis="y">
+				<enable>OFF</enable>
+			</xystage>
+		</microscope>
+<sleep>0:0:0.2</sleep>
+		<!-- SET NAME -->
+		<save>
+			<basename>/data/np451/boyko/MATLAB/xml_functions/X_-303.1944.Y_750.</basename>
+			<append>DATE</append>
+		</save>
+		<!-- Take a record -->
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>ON</record></camera>
+		<sleep>0:0:3</sleep>
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>OFF</record></camera>
+	<!-- Position x=-303.1944y=500 -->
+		<!-- MOVE -->
+		<microscope>
+			<xystage axis="x">
+				<enable>ON</enable>
+				<move_absolute>-303.1944 5</move_absolute>
+			</xystage>
+			<xystage axis="y">
+				<enable>ON</enable>
+				<move_absolute>500 5</move_absolute>
+			</xystage>
+			<xystage axis="x">
+				<wait_moving_end></wait_moving_end>
+			</xystage>
+			<xystage axis="y">
+				<wait_moving_end></wait_moving_end>
+			</xystage>
+		</microscope>
+		<microscope>
+			<xystage axis="x">
+				<enable>OFF</enable>
+			</xystage>
+			<xystage axis="y">
+				<enable>OFF</enable>
+			</xystage>
+		</microscope>
+<sleep>0:0:0.2</sleep>
+		<!-- SET NAME -->
+		<save>
+			<basename>/data/np451/boyko/MATLAB/xml_functions/X_-303.1944.Y_500.</basename>
+			<append>DATE</append>
+		</save>
+		<!-- Take a record -->
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>ON</record></camera>
+		<sleep>0:0:3</sleep>
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>OFF</record></camera>
+	<!-- Position x=-303.1944y=250 -->
+		<!-- MOVE -->
+		<microscope>
+			<xystage axis="x">
+				<enable>ON</enable>
+				<move_absolute>-303.1944 5</move_absolute>
+			</xystage>
+			<xystage axis="y">
+				<enable>ON</enable>
+				<move_absolute>250 5</move_absolute>
+			</xystage>
+			<xystage axis="x">
+				<wait_moving_end></wait_moving_end>
+			</xystage>
+			<xystage axis="y">
+				<wait_moving_end></wait_moving_end>
+			</xystage>
+		</microscope>
+		<microscope>
+			<xystage axis="x">
+				<enable>OFF</enable>
+			</xystage>
+			<xystage axis="y">
+				<enable>OFF</enable>
+			</xystage>
+		</microscope>
+<sleep>0:0:0.2</sleep>
+		<!-- SET NAME -->
+		<save>
+			<basename>/data/np451/boyko/MATLAB/xml_functions/X_-303.1944.Y_250.</basename>
+			<append>DATE</append>
+		</save>
+		<!-- Take a record -->
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>ON</record></camera>
+		<sleep>0:0:3</sleep>
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>OFF</record></camera>
+	<!-- Position x=-606.3889y=250 -->
+		<!-- MOVE -->
+		<microscope>
+			<xystage axis="x">
+				<enable>ON</enable>
+				<move_absolute>-606.3889 5</move_absolute>
+			</xystage>
+			<xystage axis="y">
+				<enable>ON</enable>
+				<move_absolute>250 5</move_absolute>
+			</xystage>
+			<xystage axis="x">
+				<wait_moving_end></wait_moving_end>
+			</xystage>
+			<xystage axis="y">
+				<wait_moving_end></wait_moving_end>
+			</xystage>
+		</microscope>
+		<microscope>
+			<xystage axis="x">
+				<enable>OFF</enable>
+			</xystage>
+			<xystage axis="y">
+				<enable>OFF</enable>
+			</xystage>
+		</microscope>
+<sleep>0:0:0.2</sleep>
+		<!-- SET NAME -->
+		<save>
+			<basename>/data/np451/boyko/MATLAB/xml_functions/X_-606.3889.Y_250.</basename>
+			<append>DATE</append>
+		</save>
+		<!-- Take a record -->
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>ON</record></camera>
+		<sleep>0:0:3</sleep>
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>OFF</record></camera>
+	<!-- Position x=-606.3889y=500 -->
+		<!-- MOVE -->
+		<microscope>
+			<xystage axis="x">
+				<enable>ON</enable>
+				<move_absolute>-606.3889 5</move_absolute>
+			</xystage>
+			<xystage axis="y">
+				<enable>ON</enable>
+				<move_absolute>500 5</move_absolute>
+			</xystage>
+			<xystage axis="x">
+				<wait_moving_end></wait_moving_end>
+			</xystage>
+			<xystage axis="y">
+				<wait_moving_end></wait_moving_end>
+			</xystage>
+		</microscope>
+		<microscope>
+			<xystage axis="x">
+				<enable>OFF</enable>
+			</xystage>
+			<xystage axis="y">
+				<enable>OFF</enable>
+			</xystage>
+		</microscope>
+<sleep>0:0:0.2</sleep>
+		<!-- SET NAME -->
+		<save>
+			<basename>/data/np451/boyko/MATLAB/xml_functions/X_-606.3889.Y_500.</basename>
+			<append>DATE</append>
+		</save>
+		<!-- Take a record -->
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>ON</record></camera>
+		<sleep>0:0:3</sleep>
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>OFF</record></camera>
+	<!-- Position x=-606.3889y=750 -->
+		<!-- MOVE -->
+		<microscope>
+			<xystage axis="x">
+				<enable>ON</enable>
+				<move_absolute>-606.3889 5</move_absolute>
+			</xystage>
+			<xystage axis="y">
+				<enable>ON</enable>
+				<move_absolute>750 5</move_absolute>
+			</xystage>
+			<xystage axis="x">
+				<wait_moving_end></wait_moving_end>
+			</xystage>
+			<xystage axis="y">
+				<wait_moving_end></wait_moving_end>
+			</xystage>
+		</microscope>
+		<microscope>
+			<xystage axis="x">
+				<enable>OFF</enable>
+			</xystage>
+			<xystage axis="y">
+				<enable>OFF</enable>
+			</xystage>
+		</microscope>
+<sleep>0:0:0.2</sleep>
+		<!-- SET NAME -->
+		<save>
+			<basename>/data/np451/boyko/MATLAB/xml_functions/X_-606.3889.Y_750.</basename>
+			<append>DATE</append>
+		</save>
+		<!-- Take a record -->
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>ON</record></camera>
+		<sleep>0:0:3</sleep>
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>OFF</record></camera>
+	<!-- Position x=-909.5833y=750 -->
+		<!-- MOVE -->
+		<microscope>
+			<xystage axis="x">
+				<enable>ON</enable>
+				<move_absolute>-909.5833 5</move_absolute>
+			</xystage>
+			<xystage axis="y">
+				<enable>ON</enable>
+				<move_absolute>750 5</move_absolute>
+			</xystage>
+			<xystage axis="x">
+				<wait_moving_end></wait_moving_end>
+			</xystage>
+			<xystage axis="y">
+				<wait_moving_end></wait_moving_end>
+			</xystage>
+		</microscope>
+		<microscope>
+			<xystage axis="x">
+				<enable>OFF</enable>
+			</xystage>
+			<xystage axis="y">
+				<enable>OFF</enable>
+			</xystage>
+		</microscope>
+<sleep>0:0:0.2</sleep>
+		<!-- SET NAME -->
+		<save>
+			<basename>/data/np451/boyko/MATLAB/xml_functions/X_-909.5833.Y_750.</basename>
+			<append>DATE</append>
+		</save>
+		<!-- Take a record -->
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>ON</record></camera>
+		<sleep>0:0:3</sleep>
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>OFF</record></camera>
+	<!-- Position x=-909.5833y=500 -->
+		<!-- MOVE -->
+		<microscope>
+			<xystage axis="x">
+				<enable>ON</enable>
+				<move_absolute>-909.5833 5</move_absolute>
+			</xystage>
+			<xystage axis="y">
+				<enable>ON</enable>
+				<move_absolute>500 5</move_absolute>
+			</xystage>
+			<xystage axis="x">
+				<wait_moving_end></wait_moving_end>
+			</xystage>
+			<xystage axis="y">
+				<wait_moving_end></wait_moving_end>
+			</xystage>
+		</microscope>
+		<microscope>
+			<xystage axis="x">
+				<enable>OFF</enable>
+			</xystage>
+			<xystage axis="y">
+				<enable>OFF</enable>
+			</xystage>
+		</microscope>
+<sleep>0:0:0.2</sleep>
+		<!-- SET NAME -->
+		<save>
+			<basename>/data/np451/boyko/MATLAB/xml_functions/X_-909.5833.Y_500.</basename>
+			<append>DATE</append>
+		</save>
+		<!-- Take a record -->
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>ON</record></camera>
+		<sleep>0:0:3</sleep>
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>OFF</record></camera>
+	<!-- Position x=-909.5833y=250 -->
+		<!-- MOVE -->
+		<microscope>
+			<xystage axis="x">
+				<enable>ON</enable>
+				<move_absolute>-909.5833 5</move_absolute>
+			</xystage>
+			<xystage axis="y">
+				<enable>ON</enable>
+				<move_absolute>250 5</move_absolute>
+			</xystage>
+			<xystage axis="x">
+				<wait_moving_end></wait_moving_end>
+			</xystage>
+			<xystage axis="y">
+				<wait_moving_end></wait_moving_end>
+			</xystage>
+		</microscope>
+		<microscope>
+			<xystage axis="x">
+				<enable>OFF</enable>
+			</xystage>
+			<xystage axis="y">
+				<enable>OFF</enable>
+			</xystage>
+		</microscope>
+<sleep>0:0:0.2</sleep>
+		<!-- SET NAME -->
+		<save>
+			<basename>/data/np451/boyko/MATLAB/xml_functions/X_-909.5833.Y_250.</basename>
+			<append>DATE</append>
+		</save>
+		<!-- Take a record -->
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>ON</record></camera>
+		<sleep>0:0:3</sleep>
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>OFF</record></camera>
+	<!-- Position x=-1212.7778y=250 -->
+		<!-- MOVE -->
+		<microscope>
+			<xystage axis="x">
+				<enable>ON</enable>
+				<move_absolute>-1212.7778 5</move_absolute>
+			</xystage>
+			<xystage axis="y">
+				<enable>ON</enable>
+				<move_absolute>250 5</move_absolute>
+			</xystage>
+			<xystage axis="x">
+				<wait_moving_end></wait_moving_end>
+			</xystage>
+			<xystage axis="y">
+				<wait_moving_end></wait_moving_end>
+			</xystage>
+		</microscope>
+		<microscope>
+			<xystage axis="x">
+				<enable>OFF</enable>
+			</xystage>
+			<xystage axis="y">
+				<enable>OFF</enable>
+			</xystage>
+		</microscope>
+<sleep>0:0:0.2</sleep>
+		<!-- SET NAME -->
+		<save>
+			<basename>/data/np451/boyko/MATLAB/xml_functions/X_-1212.7778.Y_250.</basename>
+			<append>DATE</append>
+		</save>
+		<!-- Take a record -->
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>ON</record></camera>
+		<sleep>0:0:3</sleep>
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>OFF</record></camera>
+	<!-- Position x=-1212.7778y=500 -->
+		<!-- MOVE -->
+		<microscope>
+			<xystage axis="x">
+				<enable>ON</enable>
+				<move_absolute>-1212.7778 5</move_absolute>
+			</xystage>
+			<xystage axis="y">
+				<enable>ON</enable>
+				<move_absolute>500 5</move_absolute>
+			</xystage>
+			<xystage axis="x">
+				<wait_moving_end></wait_moving_end>
+			</xystage>
+			<xystage axis="y">
+				<wait_moving_end></wait_moving_end>
+			</xystage>
+		</microscope>
+		<microscope>
+			<xystage axis="x">
+				<enable>OFF</enable>
+			</xystage>
+			<xystage axis="y">
+				<enable>OFF</enable>
+			</xystage>
+		</microscope>
+<sleep>0:0:0.2</sleep>
+		<!-- SET NAME -->
+		<save>
+			<basename>/data/np451/boyko/MATLAB/xml_functions/X_-1212.7778.Y_500.</basename>
+			<append>DATE</append>
+		</save>
+		<!-- Take a record -->
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>ON</record></camera>
+		<sleep>0:0:3</sleep>
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>OFF</record></camera>
+	<!-- Position x=-1212.7778y=750 -->
+		<!-- MOVE -->
+		<microscope>
+			<xystage axis="x">
+				<enable>ON</enable>
+				<move_absolute>-1212.7778 5</move_absolute>
+			</xystage>
+			<xystage axis="y">
+				<enable>ON</enable>
+				<move_absolute>750 5</move_absolute>
+			</xystage>
+			<xystage axis="x">
+				<wait_moving_end></wait_moving_end>
+			</xystage>
+			<xystage axis="y">
+				<wait_moving_end></wait_moving_end>
+			</xystage>
+		</microscope>
+		<microscope>
+			<xystage axis="x">
+				<enable>OFF</enable>
+			</xystage>
+			<xystage axis="y">
+				<enable>OFF</enable>
+			</xystage>
+		</microscope>
+<sleep>0:0:0.2</sleep>
+		<!-- SET NAME -->
+		<save>
+			<basename>/data/np451/boyko/MATLAB/xml_functions/X_-1212.7778.Y_750.</basename>
+			<append>DATE</append>
+		</save>
+		<!-- Take a record -->
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>ON</record></camera>
+		<sleep>0:0:3</sleep>
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>OFF</record></camera>
+	<!-- Position x=-1515.9722y=750 -->
+		<!-- MOVE -->
+		<microscope>
+			<xystage axis="x">
+				<enable>ON</enable>
+				<move_absolute>-1515.9722 5</move_absolute>
+			</xystage>
+			<xystage axis="y">
+				<enable>ON</enable>
+				<move_absolute>750 5</move_absolute>
+			</xystage>
+			<xystage axis="x">
+				<wait_moving_end></wait_moving_end>
+			</xystage>
+			<xystage axis="y">
+				<wait_moving_end></wait_moving_end>
+			</xystage>
+		</microscope>
+		<microscope>
+			<xystage axis="x">
+				<enable>OFF</enable>
+			</xystage>
+			<xystage axis="y">
+				<enable>OFF</enable>
+			</xystage>
+		</microscope>
+<sleep>0:0:0.2</sleep>
+		<!-- SET NAME -->
+		<save>
+			<basename>/data/np451/boyko/MATLAB/xml_functions/X_-1515.9722.Y_750.</basename>
+			<append>DATE</append>
+		</save>
+		<!-- Take a record -->
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>ON</record></camera>
+		<sleep>0:0:3</sleep>
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>OFF</record></camera>
+	<!-- Position x=-1515.9722y=500 -->
+		<!-- MOVE -->
+		<microscope>
+			<xystage axis="x">
+				<enable>ON</enable>
+				<move_absolute>-1515.9722 5</move_absolute>
+			</xystage>
+			<xystage axis="y">
+				<enable>ON</enable>
+				<move_absolute>500 5</move_absolute>
+			</xystage>
+			<xystage axis="x">
+				<wait_moving_end></wait_moving_end>
+			</xystage>
+			<xystage axis="y">
+				<wait_moving_end></wait_moving_end>
+			</xystage>
+		</microscope>
+		<microscope>
+			<xystage axis="x">
+				<enable>OFF</enable>
+			</xystage>
+			<xystage axis="y">
+				<enable>OFF</enable>
+			</xystage>
+		</microscope>
+<sleep>0:0:0.2</sleep>
+		<!-- SET NAME -->
+		<save>
+			<basename>/data/np451/boyko/MATLAB/xml_functions/X_-1515.9722.Y_500.</basename>
+			<append>DATE</append>
+		</save>
+		<!-- Take a record -->
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>ON</record></camera>
+		<sleep>0:0:3</sleep>
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>OFF</record></camera>
+	<!-- Position x=-1515.9722y=250 -->
+		<!-- MOVE -->
+		<microscope>
+			<xystage axis="x">
+				<enable>ON</enable>
+				<move_absolute>-1515.9722 5</move_absolute>
+			</xystage>
+			<xystage axis="y">
+				<enable>ON</enable>
+				<move_absolute>250 5</move_absolute>
+			</xystage>
+			<xystage axis="x">
+				<wait_moving_end></wait_moving_end>
+			</xystage>
+			<xystage axis="y">
+				<wait_moving_end></wait_moving_end>
+			</xystage>
+		</microscope>
+		<microscope>
+			<xystage axis="x">
+				<enable>OFF</enable>
+			</xystage>
+			<xystage axis="y">
+				<enable>OFF</enable>
+			</xystage>
+		</microscope>
+<sleep>0:0:0.2</sleep>
+		<!-- SET NAME -->
+		<save>
+			<basename>/data/np451/boyko/MATLAB/xml_functions/X_-1515.9722.Y_250.</basename>
+			<append>DATE</append>
+		</save>
+		<!-- Take a record -->
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>ON</record></camera>
+		<sleep>0:0:3</sleep>
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>OFF</record></camera>
+	<!-- Position x=-1819.1667y=250 -->
+		<!-- MOVE -->
+		<microscope>
+			<xystage axis="x">
+				<enable>ON</enable>
+				<move_absolute>-1819.1667 5</move_absolute>
+			</xystage>
+			<xystage axis="y">
+				<enable>ON</enable>
+				<move_absolute>250 5</move_absolute>
+			</xystage>
+			<xystage axis="x">
+				<wait_moving_end></wait_moving_end>
+			</xystage>
+			<xystage axis="y">
+				<wait_moving_end></wait_moving_end>
+			</xystage>
+		</microscope>
+		<microscope>
+			<xystage axis="x">
+				<enable>OFF</enable>
+			</xystage>
+			<xystage axis="y">
+				<enable>OFF</enable>
+			</xystage>
+		</microscope>
+<sleep>0:0:0.2</sleep>
+		<!-- SET NAME -->
+		<save>
+			<basename>/data/np451/boyko/MATLAB/xml_functions/X_-1819.1667.Y_250.</basename>
+			<append>DATE</append>
+		</save>
+		<!-- Take a record -->
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>ON</record></camera>
+		<sleep>0:0:3</sleep>
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>OFF</record></camera>
+	<!-- Position x=-1819.1667y=500 -->
+		<!-- MOVE -->
+		<microscope>
+			<xystage axis="x">
+				<enable>ON</enable>
+				<move_absolute>-1819.1667 5</move_absolute>
+			</xystage>
+			<xystage axis="y">
+				<enable>ON</enable>
+				<move_absolute>500 5</move_absolute>
+			</xystage>
+			<xystage axis="x">
+				<wait_moving_end></wait_moving_end>
+			</xystage>
+			<xystage axis="y">
+				<wait_moving_end></wait_moving_end>
+			</xystage>
+		</microscope>
+		<microscope>
+			<xystage axis="x">
+				<enable>OFF</enable>
+			</xystage>
+			<xystage axis="y">
+				<enable>OFF</enable>
+			</xystage>
+		</microscope>
+<sleep>0:0:0.2</sleep>
+		<!-- SET NAME -->
+		<save>
+			<basename>/data/np451/boyko/MATLAB/xml_functions/X_-1819.1667.Y_500.</basename>
+			<append>DATE</append>
+		</save>
+		<!-- Take a record -->
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>ON</record></camera>
+		<sleep>0:0:3</sleep>
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>OFF</record></camera>
+	<!-- Position x=-1819.1667y=750 -->
+		<!-- MOVE -->
+		<microscope>
+			<xystage axis="x">
+				<enable>ON</enable>
+				<move_absolute>-1819.1667 5</move_absolute>
+			</xystage>
+			<xystage axis="y">
+				<enable>ON</enable>
+				<move_absolute>750 5</move_absolute>
+			</xystage>
+			<xystage axis="x">
+				<wait_moving_end></wait_moving_end>
+			</xystage>
+			<xystage axis="y">
+				<wait_moving_end></wait_moving_end>
+			</xystage>
+		</microscope>
+		<microscope>
+			<xystage axis="x">
+				<enable>OFF</enable>
+			</xystage>
+			<xystage axis="y">
+				<enable>OFF</enable>
+			</xystage>
+		</microscope>
+<sleep>0:0:0.2</sleep>
+		<!-- SET NAME -->
+		<save>
+			<basename>/data/np451/boyko/MATLAB/xml_functions/X_-1819.1667.Y_750.</basename>
+			<append>DATE</append>
+		</save>
+		<!-- Take a record -->
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>ON</record></camera>
+		<sleep>0:0:3</sleep>
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>OFF</record></camera>
+	<!-- Position x=-2122.3611y=750 -->
+		<!-- MOVE -->
+		<microscope>
+			<xystage axis="x">
+				<enable>ON</enable>
+				<move_absolute>-2122.3611 5</move_absolute>
+			</xystage>
+			<xystage axis="y">
+				<enable>ON</enable>
+				<move_absolute>750 5</move_absolute>
+			</xystage>
+			<xystage axis="x">
+				<wait_moving_end></wait_moving_end>
+			</xystage>
+			<xystage axis="y">
+				<wait_moving_end></wait_moving_end>
+			</xystage>
+		</microscope>
+		<microscope>
+			<xystage axis="x">
+				<enable>OFF</enable>
+			</xystage>
+			<xystage axis="y">
+				<enable>OFF</enable>
+			</xystage>
+		</microscope>
+<sleep>0:0:0.2</sleep>
+		<!-- SET NAME -->
+		<save>
+			<basename>/data/np451/boyko/MATLAB/xml_functions/X_-2122.3611.Y_750.</basename>
+			<append>DATE</append>
+		</save>
+		<!-- Take a record -->
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>ON</record></camera>
+		<sleep>0:0:3</sleep>
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>OFF</record></camera>
+	<!-- Position x=-2122.3611y=500 -->
+		<!-- MOVE -->
+		<microscope>
+			<xystage axis="x">
+				<enable>ON</enable>
+				<move_absolute>-2122.3611 5</move_absolute>
+			</xystage>
+			<xystage axis="y">
+				<enable>ON</enable>
+				<move_absolute>500 5</move_absolute>
+			</xystage>
+			<xystage axis="x">
+				<wait_moving_end></wait_moving_end>
+			</xystage>
+			<xystage axis="y">
+				<wait_moving_end></wait_moving_end>
+			</xystage>
+		</microscope>
+		<microscope>
+			<xystage axis="x">
+				<enable>OFF</enable>
+			</xystage>
+			<xystage axis="y">
+				<enable>OFF</enable>
+			</xystage>
+		</microscope>
+<sleep>0:0:0.2</sleep>
+		<!-- SET NAME -->
+		<save>
+			<basename>/data/np451/boyko/MATLAB/xml_functions/X_-2122.3611.Y_500.</basename>
+			<append>DATE</append>
+		</save>
+		<!-- Take a record -->
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>ON</record></camera>
+		<sleep>0:0:3</sleep>
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>OFF</record></camera>
+	<!-- Position x=-2122.3611y=250 -->
+		<!-- MOVE -->
+		<microscope>
+			<xystage axis="x">
+				<enable>ON</enable>
+				<move_absolute>-2122.3611 5</move_absolute>
+			</xystage>
+			<xystage axis="y">
+				<enable>ON</enable>
+				<move_absolute>250 5</move_absolute>
+			</xystage>
+			<xystage axis="x">
+				<wait_moving_end></wait_moving_end>
+			</xystage>
+			<xystage axis="y">
+				<wait_moving_end></wait_moving_end>
+			</xystage>
+		</microscope>
+		<microscope>
+			<xystage axis="x">
+				<enable>OFF</enable>
+			</xystage>
+			<xystage axis="y">
+				<enable>OFF</enable>
+			</xystage>
+		</microscope>
+<sleep>0:0:0.2</sleep>
+		<!-- SET NAME -->
+		<save>
+			<basename>/data/np451/boyko/MATLAB/xml_functions/X_-2122.3611.Y_250.</basename>
+			<append>DATE</append>
+		</save>
+		<!-- Take a record -->
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>ON</record></camera>
+		<sleep>0:0:3</sleep>
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>OFF</record></camera>
+	<!-- Position x=-2425.5556y=250 -->
+		<!-- MOVE -->
+		<microscope>
+			<xystage axis="x">
+				<enable>ON</enable>
+				<move_absolute>-2425.5556 5</move_absolute>
+			</xystage>
+			<xystage axis="y">
+				<enable>ON</enable>
+				<move_absolute>250 5</move_absolute>
+			</xystage>
+			<xystage axis="x">
+				<wait_moving_end></wait_moving_end>
+			</xystage>
+			<xystage axis="y">
+				<wait_moving_end></wait_moving_end>
+			</xystage>
+		</microscope>
+		<microscope>
+			<xystage axis="x">
+				<enable>OFF</enable>
+			</xystage>
+			<xystage axis="y">
+				<enable>OFF</enable>
+			</xystage>
+		</microscope>
+<sleep>0:0:0.2</sleep>
+		<!-- SET NAME -->
+		<save>
+			<basename>/data/np451/boyko/MATLAB/xml_functions/X_-2425.5556.Y_250.</basename>
+			<append>DATE</append>
+		</save>
+		<!-- Take a record -->
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>ON</record></camera>
+		<sleep>0:0:3</sleep>
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>OFF</record></camera>
+	<!-- Position x=-2425.5556y=500 -->
+		<!-- MOVE -->
+		<microscope>
+			<xystage axis="x">
+				<enable>ON</enable>
+				<move_absolute>-2425.5556 5</move_absolute>
+			</xystage>
+			<xystage axis="y">
+				<enable>ON</enable>
+				<move_absolute>500 5</move_absolute>
+			</xystage>
+			<xystage axis="x">
+				<wait_moving_end></wait_moving_end>
+			</xystage>
+			<xystage axis="y">
+				<wait_moving_end></wait_moving_end>
+			</xystage>
+		</microscope>
+		<microscope>
+			<xystage axis="x">
+				<enable>OFF</enable>
+			</xystage>
+			<xystage axis="y">
+				<enable>OFF</enable>
+			</xystage>
+		</microscope>
+<sleep>0:0:0.2</sleep>
+		<!-- SET NAME -->
+		<save>
+			<basename>/data/np451/boyko/MATLAB/xml_functions/X_-2425.5556.Y_500.</basename>
+			<append>DATE</append>
+		</save>
+		<!-- Take a record -->
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>ON</record></camera>
+		<sleep>0:0:3</sleep>
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>OFF</record></camera>
+	<!-- Position x=-2425.5556y=750 -->
+		<!-- MOVE -->
+		<microscope>
+			<xystage axis="x">
+				<enable>ON</enable>
+				<move_absolute>-2425.5556 5</move_absolute>
+			</xystage>
+			<xystage axis="y">
+				<enable>ON</enable>
+				<move_absolute>750 5</move_absolute>
+			</xystage>
+			<xystage axis="x">
+				<wait_moving_end></wait_moving_end>
+			</xystage>
+			<xystage axis="y">
+				<wait_moving_end></wait_moving_end>
+			</xystage>
+		</microscope>
+		<microscope>
+			<xystage axis="x">
+				<enable>OFF</enable>
+			</xystage>
+			<xystage axis="y">
+				<enable>OFF</enable>
+			</xystage>
+		</microscope>
+<sleep>0:0:0.2</sleep>
+		<!-- SET NAME -->
+		<save>
+			<basename>/data/np451/boyko/MATLAB/xml_functions/X_-2425.5556.Y_750.</basename>
+			<append>DATE</append>
+		</save>
+		<!-- Take a record -->
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>ON</record></camera>
+		<sleep>0:0:3</sleep>
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>OFF</record></camera>
+	<!-- Position x=-2728.75y=750 -->
+		<!-- MOVE -->
+		<microscope>
+			<xystage axis="x">
+				<enable>ON</enable>
+				<move_absolute>-2728.75 5</move_absolute>
+			</xystage>
+			<xystage axis="y">
+				<enable>ON</enable>
+				<move_absolute>750 5</move_absolute>
+			</xystage>
+			<xystage axis="x">
+				<wait_moving_end></wait_moving_end>
+			</xystage>
+			<xystage axis="y">
+				<wait_moving_end></wait_moving_end>
+			</xystage>
+		</microscope>
+		<microscope>
+			<xystage axis="x">
+				<enable>OFF</enable>
+			</xystage>
+			<xystage axis="y">
+				<enable>OFF</enable>
+			</xystage>
+		</microscope>
+<sleep>0:0:0.2</sleep>
+		<!-- SET NAME -->
+		<save>
+			<basename>/data/np451/boyko/MATLAB/xml_functions/X_-2728.75.Y_750.</basename>
+			<append>DATE</append>
+		</save>
+		<!-- Take a record -->
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>ON</record></camera>
+		<sleep>0:0:3</sleep>
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>OFF</record></camera>
+	<!-- Position x=-2728.75y=500 -->
+		<!-- MOVE -->
+		<microscope>
+			<xystage axis="x">
+				<enable>ON</enable>
+				<move_absolute>-2728.75 5</move_absolute>
+			</xystage>
+			<xystage axis="y">
+				<enable>ON</enable>
+				<move_absolute>500 5</move_absolute>
+			</xystage>
+			<xystage axis="x">
+				<wait_moving_end></wait_moving_end>
+			</xystage>
+			<xystage axis="y">
+				<wait_moving_end></wait_moving_end>
+			</xystage>
+		</microscope>
+		<microscope>
+			<xystage axis="x">
+				<enable>OFF</enable>
+			</xystage>
+			<xystage axis="y">
+				<enable>OFF</enable>
+			</xystage>
+		</microscope>
+<sleep>0:0:0.2</sleep>
+		<!-- SET NAME -->
+		<save>
+			<basename>/data/np451/boyko/MATLAB/xml_functions/X_-2728.75.Y_500.</basename>
+			<append>DATE</append>
+		</save>
+		<!-- Take a record -->
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>ON</record></camera>
+		<sleep>0:0:3</sleep>
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>OFF</record></camera>
+	<!-- Position x=-2728.75y=250 -->
+		<!-- MOVE -->
+		<microscope>
+			<xystage axis="x">
+				<enable>ON</enable>
+				<move_absolute>-2728.75 5</move_absolute>
+			</xystage>
+			<xystage axis="y">
+				<enable>ON</enable>
+				<move_absolute>250 5</move_absolute>
+			</xystage>
+			<xystage axis="x">
+				<wait_moving_end></wait_moving_end>
+			</xystage>
+			<xystage axis="y">
+				<wait_moving_end></wait_moving_end>
+			</xystage>
+		</microscope>
+		<microscope>
+			<xystage axis="x">
+				<enable>OFF</enable>
+			</xystage>
+			<xystage axis="y">
+				<enable>OFF</enable>
+			</xystage>
+		</microscope>
+<sleep>0:0:0.2</sleep>
+		<!-- SET NAME -->
+		<save>
+			<basename>/data/np451/boyko/MATLAB/xml_functions/X_-2728.75.Y_250.</basename>
+			<append>DATE</append>
+		</save>
+		<!-- Take a record -->
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>ON</record></camera>
+		<sleep>0:0:3</sleep>
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>OFF</record></camera>
+	<!-- Position x=-3031.9444y=250 -->
+		<!-- MOVE -->
+		<microscope>
+			<xystage axis="x">
+				<enable>ON</enable>
+				<move_absolute>-3031.9444 5</move_absolute>
+			</xystage>
+			<xystage axis="y">
+				<enable>ON</enable>
+				<move_absolute>250 5</move_absolute>
+			</xystage>
+			<xystage axis="x">
+				<wait_moving_end></wait_moving_end>
+			</xystage>
+			<xystage axis="y">
+				<wait_moving_end></wait_moving_end>
+			</xystage>
+		</microscope>
+		<microscope>
+			<xystage axis="x">
+				<enable>OFF</enable>
+			</xystage>
+			<xystage axis="y">
+				<enable>OFF</enable>
+			</xystage>
+		</microscope>
+<sleep>0:0:0.2</sleep>
+		<!-- SET NAME -->
+		<save>
+			<basename>/data/np451/boyko/MATLAB/xml_functions/X_-3031.9444.Y_250.</basename>
+			<append>DATE</append>
+		</save>
+		<!-- Take a record -->
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>ON</record></camera>
+		<sleep>0:0:3</sleep>
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>OFF</record></camera>
+	<!-- Position x=-3031.9444y=500 -->
+		<!-- MOVE -->
+		<microscope>
+			<xystage axis="x">
+				<enable>ON</enable>
+				<move_absolute>-3031.9444 5</move_absolute>
+			</xystage>
+			<xystage axis="y">
+				<enable>ON</enable>
+				<move_absolute>500 5</move_absolute>
+			</xystage>
+			<xystage axis="x">
+				<wait_moving_end></wait_moving_end>
+			</xystage>
+			<xystage axis="y">
+				<wait_moving_end></wait_moving_end>
+			</xystage>
+		</microscope>
+		<microscope>
+			<xystage axis="x">
+				<enable>OFF</enable>
+			</xystage>
+			<xystage axis="y">
+				<enable>OFF</enable>
+			</xystage>
+		</microscope>
+<sleep>0:0:0.2</sleep>
+		<!-- SET NAME -->
+		<save>
+			<basename>/data/np451/boyko/MATLAB/xml_functions/X_-3031.9444.Y_500.</basename>
+			<append>DATE</append>
+		</save>
+		<!-- Take a record -->
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>ON</record></camera>
+		<sleep>0:0:3</sleep>
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>OFF</record></camera>
+	<!-- Position x=-3031.9444y=750 -->
+		<!-- MOVE -->
+		<microscope>
+			<xystage axis="x">
+				<enable>ON</enable>
+				<move_absolute>-3031.9444 5</move_absolute>
+			</xystage>
+			<xystage axis="y">
+				<enable>ON</enable>
+				<move_absolute>750 5</move_absolute>
+			</xystage>
+			<xystage axis="x">
+				<wait_moving_end></wait_moving_end>
+			</xystage>
+			<xystage axis="y">
+				<wait_moving_end></wait_moving_end>
+			</xystage>
+		</microscope>
+		<microscope>
+			<xystage axis="x">
+				<enable>OFF</enable>
+			</xystage>
+			<xystage axis="y">
+				<enable>OFF</enable>
+			</xystage>
+		</microscope>
+<sleep>0:0:0.2</sleep>
+		<!-- SET NAME -->
+		<save>
+			<basename>/data/np451/boyko/MATLAB/xml_functions/X_-3031.9444.Y_750.</basename>
+			<append>DATE</append>
+		</save>
+		<!-- Take a record -->
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>ON</record></camera>
+		<sleep>0:0:3</sleep>
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>OFF</record></camera>
+	<!-- Position x=-3335.1389y=750 -->
+		<!-- MOVE -->
+		<microscope>
+			<xystage axis="x">
+				<enable>ON</enable>
+				<move_absolute>-3335.1389 5</move_absolute>
+			</xystage>
+			<xystage axis="y">
+				<enable>ON</enable>
+				<move_absolute>750 5</move_absolute>
+			</xystage>
+			<xystage axis="x">
+				<wait_moving_end></wait_moving_end>
+			</xystage>
+			<xystage axis="y">
+				<wait_moving_end></wait_moving_end>
+			</xystage>
+		</microscope>
+		<microscope>
+			<xystage axis="x">
+				<enable>OFF</enable>
+			</xystage>
+			<xystage axis="y">
+				<enable>OFF</enable>
+			</xystage>
+		</microscope>
+<sleep>0:0:0.2</sleep>
+		<!-- SET NAME -->
+		<save>
+			<basename>/data/np451/boyko/MATLAB/xml_functions/X_-3335.1389.Y_750.</basename>
+			<append>DATE</append>
+		</save>
+		<!-- Take a record -->
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>ON</record></camera>
+		<sleep>0:0:3</sleep>
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>OFF</record></camera>
+	<!-- Position x=-3335.1389y=500 -->
+		<!-- MOVE -->
+		<microscope>
+			<xystage axis="x">
+				<enable>ON</enable>
+				<move_absolute>-3335.1389 5</move_absolute>
+			</xystage>
+			<xystage axis="y">
+				<enable>ON</enable>
+				<move_absolute>500 5</move_absolute>
+			</xystage>
+			<xystage axis="x">
+				<wait_moving_end></wait_moving_end>
+			</xystage>
+			<xystage axis="y">
+				<wait_moving_end></wait_moving_end>
+			</xystage>
+		</microscope>
+		<microscope>
+			<xystage axis="x">
+				<enable>OFF</enable>
+			</xystage>
+			<xystage axis="y">
+				<enable>OFF</enable>
+			</xystage>
+		</microscope>
+<sleep>0:0:0.2</sleep>
+		<!-- SET NAME -->
+		<save>
+			<basename>/data/np451/boyko/MATLAB/xml_functions/X_-3335.1389.Y_500.</basename>
+			<append>DATE</append>
+		</save>
+		<!-- Take a record -->
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>ON</record></camera>
+		<sleep>0:0:3</sleep>
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>OFF</record></camera>
+	<!-- Position x=-3335.1389y=250 -->
+		<!-- MOVE -->
+		<microscope>
+			<xystage axis="x">
+				<enable>ON</enable>
+				<move_absolute>-3335.1389 5</move_absolute>
+			</xystage>
+			<xystage axis="y">
+				<enable>ON</enable>
+				<move_absolute>250 5</move_absolute>
+			</xystage>
+			<xystage axis="x">
+				<wait_moving_end></wait_moving_end>
+			</xystage>
+			<xystage axis="y">
+				<wait_moving_end></wait_moving_end>
+			</xystage>
+		</microscope>
+		<microscope>
+			<xystage axis="x">
+				<enable>OFF</enable>
+			</xystage>
+			<xystage axis="y">
+				<enable>OFF</enable>
+			</xystage>
+		</microscope>
+<sleep>0:0:0.2</sleep>
+		<!-- SET NAME -->
+		<save>
+			<basename>/data/np451/boyko/MATLAB/xml_functions/X_-3335.1389.Y_250.</basename>
+			<append>DATE</append>
+		</save>
+		<!-- Take a record -->
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>ON</record></camera>
+		<sleep>0:0:3</sleep>
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>OFF</record></camera>
+	<!-- Position x=-3638.3333y=250 -->
+		<!-- MOVE -->
+		<microscope>
+			<xystage axis="x">
+				<enable>ON</enable>
+				<move_absolute>-3638.3333 5</move_absolute>
+			</xystage>
+			<xystage axis="y">
+				<enable>ON</enable>
+				<move_absolute>250 5</move_absolute>
+			</xystage>
+			<xystage axis="x">
+				<wait_moving_end></wait_moving_end>
+			</xystage>
+			<xystage axis="y">
+				<wait_moving_end></wait_moving_end>
+			</xystage>
+		</microscope>
+		<microscope>
+			<xystage axis="x">
+				<enable>OFF</enable>
+			</xystage>
+			<xystage axis="y">
+				<enable>OFF</enable>
+			</xystage>
+		</microscope>
+<sleep>0:0:0.2</sleep>
+		<!-- SET NAME -->
+		<save>
+			<basename>/data/np451/boyko/MATLAB/xml_functions/X_-3638.3333.Y_250.</basename>
+			<append>DATE</append>
+		</save>
+		<!-- Take a record -->
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>ON</record></camera>
+		<sleep>0:0:3</sleep>
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>OFF</record></camera>
+	<!-- Position x=-3638.3333y=500 -->
+		<!-- MOVE -->
+		<microscope>
+			<xystage axis="x">
+				<enable>ON</enable>
+				<move_absolute>-3638.3333 5</move_absolute>
+			</xystage>
+			<xystage axis="y">
+				<enable>ON</enable>
+				<move_absolute>500 5</move_absolute>
+			</xystage>
+			<xystage axis="x">
+				<wait_moving_end></wait_moving_end>
+			</xystage>
+			<xystage axis="y">
+				<wait_moving_end></wait_moving_end>
+			</xystage>
+		</microscope>
+		<microscope>
+			<xystage axis="x">
+				<enable>OFF</enable>
+			</xystage>
+			<xystage axis="y">
+				<enable>OFF</enable>
+			</xystage>
+		</microscope>
+<sleep>0:0:0.2</sleep>
+		<!-- SET NAME -->
+		<save>
+			<basename>/data/np451/boyko/MATLAB/xml_functions/X_-3638.3333.Y_500.</basename>
+			<append>DATE</append>
+		</save>
+		<!-- Take a record -->
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>ON</record></camera>
+		<sleep>0:0:3</sleep>
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>OFF</record></camera>
+	<!-- Position x=-3638.3333y=750 -->
+		<!-- MOVE -->
+		<microscope>
+			<xystage axis="x">
+				<enable>ON</enable>
+				<move_absolute>-3638.3333 5</move_absolute>
+			</xystage>
+			<xystage axis="y">
+				<enable>ON</enable>
+				<move_absolute>750 5</move_absolute>
+			</xystage>
+			<xystage axis="x">
+				<wait_moving_end></wait_moving_end>
+			</xystage>
+			<xystage axis="y">
+				<wait_moving_end></wait_moving_end>
+			</xystage>
+		</microscope>
+		<microscope>
+			<xystage axis="x">
+				<enable>OFF</enable>
+			</xystage>
+			<xystage axis="y">
+				<enable>OFF</enable>
+			</xystage>
+		</microscope>
+<sleep>0:0:0.2</sleep>
+		<!-- SET NAME -->
+		<save>
+			<basename>/data/np451/boyko/MATLAB/xml_functions/X_-3638.3333.Y_750.</basename>
+			<append>DATE</append>
+		</save>
+		<!-- Take a record -->
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>ON</record></camera>
+		<sleep>0:0:3</sleep>
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>OFF</record></camera>
+	<!-- Position x=-3941.5278y=750 -->
+		<!-- MOVE -->
+		<microscope>
+			<xystage axis="x">
+				<enable>ON</enable>
+				<move_absolute>-3941.5278 5</move_absolute>
+			</xystage>
+			<xystage axis="y">
+				<enable>ON</enable>
+				<move_absolute>750 5</move_absolute>
+			</xystage>
+			<xystage axis="x">
+				<wait_moving_end></wait_moving_end>
+			</xystage>
+			<xystage axis="y">
+				<wait_moving_end></wait_moving_end>
+			</xystage>
+		</microscope>
+		<microscope>
+			<xystage axis="x">
+				<enable>OFF</enable>
+			</xystage>
+			<xystage axis="y">
+				<enable>OFF</enable>
+			</xystage>
+		</microscope>
+<sleep>0:0:0.2</sleep>
+		<!-- SET NAME -->
+		<save>
+			<basename>/data/np451/boyko/MATLAB/xml_functions/X_-3941.5278.Y_750.</basename>
+			<append>DATE</append>
+		</save>
+		<!-- Take a record -->
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>ON</record></camera>
+		<sleep>0:0:3</sleep>
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>OFF</record></camera>
+	<!-- Position x=-3941.5278y=500 -->
+		<!-- MOVE -->
+		<microscope>
+			<xystage axis="x">
+				<enable>ON</enable>
+				<move_absolute>-3941.5278 5</move_absolute>
+			</xystage>
+			<xystage axis="y">
+				<enable>ON</enable>
+				<move_absolute>500 5</move_absolute>
+			</xystage>
+			<xystage axis="x">
+				<wait_moving_end></wait_moving_end>
+			</xystage>
+			<xystage axis="y">
+				<wait_moving_end></wait_moving_end>
+			</xystage>
+		</microscope>
+		<microscope>
+			<xystage axis="x">
+				<enable>OFF</enable>
+			</xystage>
+			<xystage axis="y">
+				<enable>OFF</enable>
+			</xystage>
+		</microscope>
+<sleep>0:0:0.2</sleep>
+		<!-- SET NAME -->
+		<save>
+			<basename>/data/np451/boyko/MATLAB/xml_functions/X_-3941.5278.Y_500.</basename>
+			<append>DATE</append>
+		</save>
+		<!-- Take a record -->
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>ON</record></camera>
+		<sleep>0:0:3</sleep>
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>OFF</record></camera>
+	<!-- Position x=-3941.5278y=250 -->
+		<!-- MOVE -->
+		<microscope>
+			<xystage axis="x">
+				<enable>ON</enable>
+				<move_absolute>-3941.5278 5</move_absolute>
+			</xystage>
+			<xystage axis="y">
+				<enable>ON</enable>
+				<move_absolute>250 5</move_absolute>
+			</xystage>
+			<xystage axis="x">
+				<wait_moving_end></wait_moving_end>
+			</xystage>
+			<xystage axis="y">
+				<wait_moving_end></wait_moving_end>
+			</xystage>
+		</microscope>
+		<microscope>
+			<xystage axis="x">
+				<enable>OFF</enable>
+			</xystage>
+			<xystage axis="y">
+				<enable>OFF</enable>
+			</xystage>
+		</microscope>
+<sleep>0:0:0.2</sleep>
+		<!-- SET NAME -->
+		<save>
+			<basename>/data/np451/boyko/MATLAB/xml_functions/X_-3941.5278.Y_250.</basename>
+			<append>DATE</append>
+		</save>
+		<!-- Take a record -->
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>ON</record></camera>
+		<sleep>0:0:3</sleep>
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>OFF</record></camera>
+	<!-- Position x=-4244.7222y=250 -->
+		<!-- MOVE -->
+		<microscope>
+			<xystage axis="x">
+				<enable>ON</enable>
+				<move_absolute>-4244.7222 5</move_absolute>
+			</xystage>
+			<xystage axis="y">
+				<enable>ON</enable>
+				<move_absolute>250 5</move_absolute>
+			</xystage>
+			<xystage axis="x">
+				<wait_moving_end></wait_moving_end>
+			</xystage>
+			<xystage axis="y">
+				<wait_moving_end></wait_moving_end>
+			</xystage>
+		</microscope>
+		<microscope>
+			<xystage axis="x">
+				<enable>OFF</enable>
+			</xystage>
+			<xystage axis="y">
+				<enable>OFF</enable>
+			</xystage>
+		</microscope>
+<sleep>0:0:0.2</sleep>
+		<!-- SET NAME -->
+		<save>
+			<basename>/data/np451/boyko/MATLAB/xml_functions/X_-4244.7222.Y_250.</basename>
+			<append>DATE</append>
+		</save>
+		<!-- Take a record -->
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>ON</record></camera>
+		<sleep>0:0:3</sleep>
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>OFF</record></camera>
+	<!-- Position x=-4244.7222y=500 -->
+		<!-- MOVE -->
+		<microscope>
+			<xystage axis="x">
+				<enable>ON</enable>
+				<move_absolute>-4244.7222 5</move_absolute>
+			</xystage>
+			<xystage axis="y">
+				<enable>ON</enable>
+				<move_absolute>500 5</move_absolute>
+			</xystage>
+			<xystage axis="x">
+				<wait_moving_end></wait_moving_end>
+			</xystage>
+			<xystage axis="y">
+				<wait_moving_end></wait_moving_end>
+			</xystage>
+		</microscope>
+		<microscope>
+			<xystage axis="x">
+				<enable>OFF</enable>
+			</xystage>
+			<xystage axis="y">
+				<enable>OFF</enable>
+			</xystage>
+		</microscope>
+<sleep>0:0:0.2</sleep>
+		<!-- SET NAME -->
+		<save>
+			<basename>/data/np451/boyko/MATLAB/xml_functions/X_-4244.7222.Y_500.</basename>
+			<append>DATE</append>
+		</save>
+		<!-- Take a record -->
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>ON</record></camera>
+		<sleep>0:0:3</sleep>
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>OFF</record></camera>
+	<!-- Position x=-4244.7222y=750 -->
+		<!-- MOVE -->
+		<microscope>
+			<xystage axis="x">
+				<enable>ON</enable>
+				<move_absolute>-4244.7222 5</move_absolute>
+			</xystage>
+			<xystage axis="y">
+				<enable>ON</enable>
+				<move_absolute>750 5</move_absolute>
+			</xystage>
+			<xystage axis="x">
+				<wait_moving_end></wait_moving_end>
+			</xystage>
+			<xystage axis="y">
+				<wait_moving_end></wait_moving_end>
+			</xystage>
+		</microscope>
+		<microscope>
+			<xystage axis="x">
+				<enable>OFF</enable>
+			</xystage>
+			<xystage axis="y">
+				<enable>OFF</enable>
+			</xystage>
+		</microscope>
+<sleep>0:0:0.2</sleep>
+		<!-- SET NAME -->
+		<save>
+			<basename>/data/np451/boyko/MATLAB/xml_functions/X_-4244.7222.Y_750.</basename>
+			<append>DATE</append>
+		</save>
+		<!-- Take a record -->
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>ON</record></camera>
+		<sleep>0:0:3</sleep>
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>OFF</record></camera>
+	<!-- Position x=-4547.9167y=750 -->
+		<!-- MOVE -->
+		<microscope>
+			<xystage axis="x">
+				<enable>ON</enable>
+				<move_absolute>-4547.9167 5</move_absolute>
+			</xystage>
+			<xystage axis="y">
+				<enable>ON</enable>
+				<move_absolute>750 5</move_absolute>
+			</xystage>
+			<xystage axis="x">
+				<wait_moving_end></wait_moving_end>
+			</xystage>
+			<xystage axis="y">
+				<wait_moving_end></wait_moving_end>
+			</xystage>
+		</microscope>
+		<microscope>
+			<xystage axis="x">
+				<enable>OFF</enable>
+			</xystage>
+			<xystage axis="y">
+				<enable>OFF</enable>
+			</xystage>
+		</microscope>
+<sleep>0:0:0.2</sleep>
+		<!-- SET NAME -->
+		<save>
+			<basename>/data/np451/boyko/MATLAB/xml_functions/X_-4547.9167.Y_750.</basename>
+			<append>DATE</append>
+		</save>
+		<!-- Take a record -->
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>ON</record></camera>
+		<sleep>0:0:3</sleep>
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>OFF</record></camera>
+	<!-- Position x=-4547.9167y=500 -->
+		<!-- MOVE -->
+		<microscope>
+			<xystage axis="x">
+				<enable>ON</enable>
+				<move_absolute>-4547.9167 5</move_absolute>
+			</xystage>
+			<xystage axis="y">
+				<enable>ON</enable>
+				<move_absolute>500 5</move_absolute>
+			</xystage>
+			<xystage axis="x">
+				<wait_moving_end></wait_moving_end>
+			</xystage>
+			<xystage axis="y">
+				<wait_moving_end></wait_moving_end>
+			</xystage>
+		</microscope>
+		<microscope>
+			<xystage axis="x">
+				<enable>OFF</enable>
+			</xystage>
+			<xystage axis="y">
+				<enable>OFF</enable>
+			</xystage>
+		</microscope>
+<sleep>0:0:0.2</sleep>
+		<!-- SET NAME -->
+		<save>
+			<basename>/data/np451/boyko/MATLAB/xml_functions/X_-4547.9167.Y_500.</basename>
+			<append>DATE</append>
+		</save>
+		<!-- Take a record -->
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>ON</record></camera>
+		<sleep>0:0:3</sleep>
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>OFF</record></camera>
+	<!-- Position x=-4547.9167y=250 -->
+		<!-- MOVE -->
+		<microscope>
+			<xystage axis="x">
+				<enable>ON</enable>
+				<move_absolute>-4547.9167 5</move_absolute>
+			</xystage>
+			<xystage axis="y">
+				<enable>ON</enable>
+				<move_absolute>250 5</move_absolute>
+			</xystage>
+			<xystage axis="x">
+				<wait_moving_end></wait_moving_end>
+			</xystage>
+			<xystage axis="y">
+				<wait_moving_end></wait_moving_end>
+			</xystage>
+		</microscope>
+		<microscope>
+			<xystage axis="x">
+				<enable>OFF</enable>
+			</xystage>
+			<xystage axis="y">
+				<enable>OFF</enable>
+			</xystage>
+		</microscope>
+<sleep>0:0:0.2</sleep>
+		<!-- SET NAME -->
+		<save>
+			<basename>/data/np451/boyko/MATLAB/xml_functions/X_-4547.9167.Y_250.</basename>
+			<append>DATE</append>
+		</save>
+		<!-- Take a record -->
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>ON</record></camera>
+		<sleep>0:0:3</sleep>
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>OFF</record></camera>
+	<!-- Position x=-4851.1111y=250 -->
+		<!-- MOVE -->
+		<microscope>
+			<xystage axis="x">
+				<enable>ON</enable>
+				<move_absolute>-4851.1111 5</move_absolute>
+			</xystage>
+			<xystage axis="y">
+				<enable>ON</enable>
+				<move_absolute>250 5</move_absolute>
+			</xystage>
+			<xystage axis="x">
+				<wait_moving_end></wait_moving_end>
+			</xystage>
+			<xystage axis="y">
+				<wait_moving_end></wait_moving_end>
+			</xystage>
+		</microscope>
+		<microscope>
+			<xystage axis="x">
+				<enable>OFF</enable>
+			</xystage>
+			<xystage axis="y">
+				<enable>OFF</enable>
+			</xystage>
+		</microscope>
+<sleep>0:0:0.2</sleep>
+		<!-- SET NAME -->
+		<save>
+			<basename>/data/np451/boyko/MATLAB/xml_functions/X_-4851.1111.Y_250.</basename>
+			<append>DATE</append>
+		</save>
+		<!-- Take a record -->
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>ON</record></camera>
+		<sleep>0:0:3</sleep>
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>OFF</record></camera>
+	<!-- Position x=-4851.1111y=500 -->
+		<!-- MOVE -->
+		<microscope>
+			<xystage axis="x">
+				<enable>ON</enable>
+				<move_absolute>-4851.1111 5</move_absolute>
+			</xystage>
+			<xystage axis="y">
+				<enable>ON</enable>
+				<move_absolute>500 5</move_absolute>
+			</xystage>
+			<xystage axis="x">
+				<wait_moving_end></wait_moving_end>
+			</xystage>
+			<xystage axis="y">
+				<wait_moving_end></wait_moving_end>
+			</xystage>
+		</microscope>
+		<microscope>
+			<xystage axis="x">
+				<enable>OFF</enable>
+			</xystage>
+			<xystage axis="y">
+				<enable>OFF</enable>
+			</xystage>
+		</microscope>
+<sleep>0:0:0.2</sleep>
+		<!-- SET NAME -->
+		<save>
+			<basename>/data/np451/boyko/MATLAB/xml_functions/X_-4851.1111.Y_500.</basename>
+			<append>DATE</append>
+		</save>
+		<!-- Take a record -->
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>ON</record></camera>
+		<sleep>0:0:3</sleep>
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>OFF</record></camera>
+	<!-- Position x=-4851.1111y=750 -->
+		<!-- MOVE -->
+		<microscope>
+			<xystage axis="x">
+				<enable>ON</enable>
+				<move_absolute>-4851.1111 5</move_absolute>
+			</xystage>
+			<xystage axis="y">
+				<enable>ON</enable>
+				<move_absolute>750 5</move_absolute>
+			</xystage>
+			<xystage axis="x">
+				<wait_moving_end></wait_moving_end>
+			</xystage>
+			<xystage axis="y">
+				<wait_moving_end></wait_moving_end>
+			</xystage>
+		</microscope>
+		<microscope>
+			<xystage axis="x">
+				<enable>OFF</enable>
+			</xystage>
+			<xystage axis="y">
+				<enable>OFF</enable>
+			</xystage>
+		</microscope>
+<sleep>0:0:0.2</sleep>
+		<!-- SET NAME -->
+		<save>
+			<basename>/data/np451/boyko/MATLAB/xml_functions/X_-4851.1111.Y_750.</basename>
+			<append>DATE</append>
+		</save>
+		<!-- Take a record -->
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>ON</record></camera>
+		<sleep>0:0:3</sleep>
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>OFF</record></camera>
+	<!-- Position x=-5154.3056y=750 -->
+		<!-- MOVE -->
+		<microscope>
+			<xystage axis="x">
+				<enable>ON</enable>
+				<move_absolute>-5154.3056 5</move_absolute>
+			</xystage>
+			<xystage axis="y">
+				<enable>ON</enable>
+				<move_absolute>750 5</move_absolute>
+			</xystage>
+			<xystage axis="x">
+				<wait_moving_end></wait_moving_end>
+			</xystage>
+			<xystage axis="y">
+				<wait_moving_end></wait_moving_end>
+			</xystage>
+		</microscope>
+		<microscope>
+			<xystage axis="x">
+				<enable>OFF</enable>
+			</xystage>
+			<xystage axis="y">
+				<enable>OFF</enable>
+			</xystage>
+		</microscope>
+<sleep>0:0:0.2</sleep>
+		<!-- SET NAME -->
+		<save>
+			<basename>/data/np451/boyko/MATLAB/xml_functions/X_-5154.3056.Y_750.</basename>
+			<append>DATE</append>
+		</save>
+		<!-- Take a record -->
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>ON</record></camera>
+		<sleep>0:0:3</sleep>
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>OFF</record></camera>
+	<!-- Position x=-5154.3056y=500 -->
+		<!-- MOVE -->
+		<microscope>
+			<xystage axis="x">
+				<enable>ON</enable>
+				<move_absolute>-5154.3056 5</move_absolute>
+			</xystage>
+			<xystage axis="y">
+				<enable>ON</enable>
+				<move_absolute>500 5</move_absolute>
+			</xystage>
+			<xystage axis="x">
+				<wait_moving_end></wait_moving_end>
+			</xystage>
+			<xystage axis="y">
+				<wait_moving_end></wait_moving_end>
+			</xystage>
+		</microscope>
+		<microscope>
+			<xystage axis="x">
+				<enable>OFF</enable>
+			</xystage>
+			<xystage axis="y">
+				<enable>OFF</enable>
+			</xystage>
+		</microscope>
+<sleep>0:0:0.2</sleep>
+		<!-- SET NAME -->
+		<save>
+			<basename>/data/np451/boyko/MATLAB/xml_functions/X_-5154.3056.Y_500.</basename>
+			<append>DATE</append>
+		</save>
+		<!-- Take a record -->
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>ON</record></camera>
+		<sleep>0:0:3</sleep>
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>OFF</record></camera>
+	<!-- Position x=-5154.3056y=250 -->
+		<!-- MOVE -->
+		<microscope>
+			<xystage axis="x">
+				<enable>ON</enable>
+				<move_absolute>-5154.3056 5</move_absolute>
+			</xystage>
+			<xystage axis="y">
+				<enable>ON</enable>
+				<move_absolute>250 5</move_absolute>
+			</xystage>
+			<xystage axis="x">
+				<wait_moving_end></wait_moving_end>
+			</xystage>
+			<xystage axis="y">
+				<wait_moving_end></wait_moving_end>
+			</xystage>
+		</microscope>
+		<microscope>
+			<xystage axis="x">
+				<enable>OFF</enable>
+			</xystage>
+			<xystage axis="y">
+				<enable>OFF</enable>
+			</xystage>
+		</microscope>
+<sleep>0:0:0.2</sleep>
+		<!-- SET NAME -->
+		<save>
+			<basename>/data/np451/boyko/MATLAB/xml_functions/X_-5154.3056.Y_250.</basename>
+			<append>DATE</append>
+		</save>
+		<!-- Take a record -->
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>ON</record></camera>
+		<sleep>0:0:3</sleep>
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>OFF</record></camera>
+	<!-- Position x=-5457.5y=250 -->
+		<!-- MOVE -->
+		<microscope>
+			<xystage axis="x">
+				<enable>ON</enable>
+				<move_absolute>-5457.5 5</move_absolute>
+			</xystage>
+			<xystage axis="y">
+				<enable>ON</enable>
+				<move_absolute>250 5</move_absolute>
+			</xystage>
+			<xystage axis="x">
+				<wait_moving_end></wait_moving_end>
+			</xystage>
+			<xystage axis="y">
+				<wait_moving_end></wait_moving_end>
+			</xystage>
+		</microscope>
+		<microscope>
+			<xystage axis="x">
+				<enable>OFF</enable>
+			</xystage>
+			<xystage axis="y">
+				<enable>OFF</enable>
+			</xystage>
+		</microscope>
+<sleep>0:0:0.2</sleep>
+		<!-- SET NAME -->
+		<save>
+			<basename>/data/np451/boyko/MATLAB/xml_functions/X_-5457.5.Y_250.</basename>
+			<append>DATE</append>
+		</save>
+		<!-- Take a record -->
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>ON</record></camera>
+		<sleep>0:0:3</sleep>
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>OFF</record></camera>
+	<!-- Position x=-5457.5y=500 -->
+		<!-- MOVE -->
+		<microscope>
+			<xystage axis="x">
+				<enable>ON</enable>
+				<move_absolute>-5457.5 5</move_absolute>
+			</xystage>
+			<xystage axis="y">
+				<enable>ON</enable>
+				<move_absolute>500 5</move_absolute>
+			</xystage>
+			<xystage axis="x">
+				<wait_moving_end></wait_moving_end>
+			</xystage>
+			<xystage axis="y">
+				<wait_moving_end></wait_moving_end>
+			</xystage>
+		</microscope>
+		<microscope>
+			<xystage axis="x">
+				<enable>OFF</enable>
+			</xystage>
+			<xystage axis="y">
+				<enable>OFF</enable>
+			</xystage>
+		</microscope>
+<sleep>0:0:0.2</sleep>
+		<!-- SET NAME -->
+		<save>
+			<basename>/data/np451/boyko/MATLAB/xml_functions/X_-5457.5.Y_500.</basename>
+			<append>DATE</append>
+		</save>
+		<!-- Take a record -->
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>ON</record></camera>
+		<sleep>0:0:3</sleep>
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>OFF</record></camera>
+	<!-- Position x=-5457.5y=750 -->
+		<!-- MOVE -->
+		<microscope>
+			<xystage axis="x">
+				<enable>ON</enable>
+				<move_absolute>-5457.5 5</move_absolute>
+			</xystage>
+			<xystage axis="y">
+				<enable>ON</enable>
+				<move_absolute>750 5</move_absolute>
+			</xystage>
+			<xystage axis="x">
+				<wait_moving_end></wait_moving_end>
+			</xystage>
+			<xystage axis="y">
+				<wait_moving_end></wait_moving_end>
+			</xystage>
+		</microscope>
+		<microscope>
+			<xystage axis="x">
+				<enable>OFF</enable>
+			</xystage>
+			<xystage axis="y">
+				<enable>OFF</enable>
+			</xystage>
+		</microscope>
+<sleep>0:0:0.2</sleep>
+		<!-- SET NAME -->
+		<save>
+			<basename>/data/np451/boyko/MATLAB/xml_functions/X_-5457.5.Y_750.</basename>
+			<append>DATE</append>
+		</save>
+		<!-- Take a record -->
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>ON</record></camera>
+		<sleep>0:0:3</sleep>
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>OFF</record></camera>
+	<!-- Position x=-5760.6944y=750 -->
+		<!-- MOVE -->
+		<microscope>
+			<xystage axis="x">
+				<enable>ON</enable>
+				<move_absolute>-5760.6944 5</move_absolute>
+			</xystage>
+			<xystage axis="y">
+				<enable>ON</enable>
+				<move_absolute>750 5</move_absolute>
+			</xystage>
+			<xystage axis="x">
+				<wait_moving_end></wait_moving_end>
+			</xystage>
+			<xystage axis="y">
+				<wait_moving_end></wait_moving_end>
+			</xystage>
+		</microscope>
+		<microscope>
+			<xystage axis="x">
+				<enable>OFF</enable>
+			</xystage>
+			<xystage axis="y">
+				<enable>OFF</enable>
+			</xystage>
+		</microscope>
+<sleep>0:0:0.2</sleep>
+		<!-- SET NAME -->
+		<save>
+			<basename>/data/np451/boyko/MATLAB/xml_functions/X_-5760.6944.Y_750.</basename>
+			<append>DATE</append>
+		</save>
+		<!-- Take a record -->
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>ON</record></camera>
+		<sleep>0:0:3</sleep>
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>OFF</record></camera>
+	<!-- Position x=-5760.6944y=500 -->
+		<!-- MOVE -->
+		<microscope>
+			<xystage axis="x">
+				<enable>ON</enable>
+				<move_absolute>-5760.6944 5</move_absolute>
+			</xystage>
+			<xystage axis="y">
+				<enable>ON</enable>
+				<move_absolute>500 5</move_absolute>
+			</xystage>
+			<xystage axis="x">
+				<wait_moving_end></wait_moving_end>
+			</xystage>
+			<xystage axis="y">
+				<wait_moving_end></wait_moving_end>
+			</xystage>
+		</microscope>
+		<microscope>
+			<xystage axis="x">
+				<enable>OFF</enable>
+			</xystage>
+			<xystage axis="y">
+				<enable>OFF</enable>
+			</xystage>
+		</microscope>
+<sleep>0:0:0.2</sleep>
+		<!-- SET NAME -->
+		<save>
+			<basename>/data/np451/boyko/MATLAB/xml_functions/X_-5760.6944.Y_500.</basename>
+			<append>DATE</append>
+		</save>
+		<!-- Take a record -->
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>ON</record></camera>
+		<sleep>0:0:3</sleep>
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>OFF</record></camera>
+	<!-- Position x=-5760.6944y=250 -->
+		<!-- MOVE -->
+		<microscope>
+			<xystage axis="x">
+				<enable>ON</enable>
+				<move_absolute>-5760.6944 5</move_absolute>
+			</xystage>
+			<xystage axis="y">
+				<enable>ON</enable>
+				<move_absolute>250 5</move_absolute>
+			</xystage>
+			<xystage axis="x">
+				<wait_moving_end></wait_moving_end>
+			</xystage>
+			<xystage axis="y">
+				<wait_moving_end></wait_moving_end>
+			</xystage>
+		</microscope>
+		<microscope>
+			<xystage axis="x">
+				<enable>OFF</enable>
+			</xystage>
+			<xystage axis="y">
+				<enable>OFF</enable>
+			</xystage>
+		</microscope>
+<sleep>0:0:0.2</sleep>
+		<!-- SET NAME -->
+		<save>
+			<basename>/data/np451/boyko/MATLAB/xml_functions/X_-5760.6944.Y_250.</basename>
+			<append>DATE</append>
+		</save>
+		<!-- Take a record -->
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>ON</record></camera>
+		<sleep>0:0:3</sleep>
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>OFF</record></camera>
+	<!-- Position x=-6063.8889y=250 -->
+		<!-- MOVE -->
+		<microscope>
+			<xystage axis="x">
+				<enable>ON</enable>
+				<move_absolute>-6063.8889 5</move_absolute>
+			</xystage>
+			<xystage axis="y">
+				<enable>ON</enable>
+				<move_absolute>250 5</move_absolute>
+			</xystage>
+			<xystage axis="x">
+				<wait_moving_end></wait_moving_end>
+			</xystage>
+			<xystage axis="y">
+				<wait_moving_end></wait_moving_end>
+			</xystage>
+		</microscope>
+		<microscope>
+			<xystage axis="x">
+				<enable>OFF</enable>
+			</xystage>
+			<xystage axis="y">
+				<enable>OFF</enable>
+			</xystage>
+		</microscope>
+<sleep>0:0:0.2</sleep>
+		<!-- SET NAME -->
+		<save>
+			<basename>/data/np451/boyko/MATLAB/xml_functions/X_-6063.8889.Y_250.</basename>
+			<append>DATE</append>
+		</save>
+		<!-- Take a record -->
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>ON</record></camera>
+		<sleep>0:0:3</sleep>
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>OFF</record></camera>
+	<!-- Position x=-6063.8889y=500 -->
+		<!-- MOVE -->
+		<microscope>
+			<xystage axis="x">
+				<enable>ON</enable>
+				<move_absolute>-6063.8889 5</move_absolute>
+			</xystage>
+			<xystage axis="y">
+				<enable>ON</enable>
+				<move_absolute>500 5</move_absolute>
+			</xystage>
+			<xystage axis="x">
+				<wait_moving_end></wait_moving_end>
+			</xystage>
+			<xystage axis="y">
+				<wait_moving_end></wait_moving_end>
+			</xystage>
+		</microscope>
+		<microscope>
+			<xystage axis="x">
+				<enable>OFF</enable>
+			</xystage>
+			<xystage axis="y">
+				<enable>OFF</enable>
+			</xystage>
+		</microscope>
+<sleep>0:0:0.2</sleep>
+		<!-- SET NAME -->
+		<save>
+			<basename>/data/np451/boyko/MATLAB/xml_functions/X_-6063.8889.Y_500.</basename>
+			<append>DATE</append>
+		</save>
+		<!-- Take a record -->
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>ON</record></camera>
+		<sleep>0:0:3</sleep>
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>OFF</record></camera>
+	<!-- Position x=-6063.8889y=750 -->
+		<!-- MOVE -->
+		<microscope>
+			<xystage axis="x">
+				<enable>ON</enable>
+				<move_absolute>-6063.8889 5</move_absolute>
+			</xystage>
+			<xystage axis="y">
+				<enable>ON</enable>
+				<move_absolute>750 5</move_absolute>
+			</xystage>
+			<xystage axis="x">
+				<wait_moving_end></wait_moving_end>
+			</xystage>
+			<xystage axis="y">
+				<wait_moving_end></wait_moving_end>
+			</xystage>
+		</microscope>
+		<microscope>
+			<xystage axis="x">
+				<enable>OFF</enable>
+			</xystage>
+			<xystage axis="y">
+				<enable>OFF</enable>
+			</xystage>
+		</microscope>
+<sleep>0:0:0.2</sleep>
+		<!-- SET NAME -->
+		<save>
+			<basename>/data/np451/boyko/MATLAB/xml_functions/X_-6063.8889.Y_750.</basename>
+			<append>DATE</append>
+		</save>
+		<!-- Take a record -->
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>ON</record></camera>
+		<sleep>0:0:3</sleep>
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>OFF</record></camera>
+	<!-- Position x=-6367.0833y=750 -->
+		<!-- MOVE -->
+		<microscope>
+			<xystage axis="x">
+				<enable>ON</enable>
+				<move_absolute>-6367.0833 5</move_absolute>
+			</xystage>
+			<xystage axis="y">
+				<enable>ON</enable>
+				<move_absolute>750 5</move_absolute>
+			</xystage>
+			<xystage axis="x">
+				<wait_moving_end></wait_moving_end>
+			</xystage>
+			<xystage axis="y">
+				<wait_moving_end></wait_moving_end>
+			</xystage>
+		</microscope>
+		<microscope>
+			<xystage axis="x">
+				<enable>OFF</enable>
+			</xystage>
+			<xystage axis="y">
+				<enable>OFF</enable>
+			</xystage>
+		</microscope>
+<sleep>0:0:0.2</sleep>
+		<!-- SET NAME -->
+		<save>
+			<basename>/data/np451/boyko/MATLAB/xml_functions/X_-6367.0833.Y_750.</basename>
+			<append>DATE</append>
+		</save>
+		<!-- Take a record -->
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>ON</record></camera>
+		<sleep>0:0:3</sleep>
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>OFF</record></camera>
+	<!-- Position x=-6367.0833y=500 -->
+		<!-- MOVE -->
+		<microscope>
+			<xystage axis="x">
+				<enable>ON</enable>
+				<move_absolute>-6367.0833 5</move_absolute>
+			</xystage>
+			<xystage axis="y">
+				<enable>ON</enable>
+				<move_absolute>500 5</move_absolute>
+			</xystage>
+			<xystage axis="x">
+				<wait_moving_end></wait_moving_end>
+			</xystage>
+			<xystage axis="y">
+				<wait_moving_end></wait_moving_end>
+			</xystage>
+		</microscope>
+		<microscope>
+			<xystage axis="x">
+				<enable>OFF</enable>
+			</xystage>
+			<xystage axis="y">
+				<enable>OFF</enable>
+			</xystage>
+		</microscope>
+<sleep>0:0:0.2</sleep>
+		<!-- SET NAME -->
+		<save>
+			<basename>/data/np451/boyko/MATLAB/xml_functions/X_-6367.0833.Y_500.</basename>
+			<append>DATE</append>
+		</save>
+		<!-- Take a record -->
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>ON</record></camera>
+		<sleep>0:0:3</sleep>
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>OFF</record></camera>
+	<!-- Position x=-6367.0833y=250 -->
+		<!-- MOVE -->
+		<microscope>
+			<xystage axis="x">
+				<enable>ON</enable>
+				<move_absolute>-6367.0833 5</move_absolute>
+			</xystage>
+			<xystage axis="y">
+				<enable>ON</enable>
+				<move_absolute>250 5</move_absolute>
+			</xystage>
+			<xystage axis="x">
+				<wait_moving_end></wait_moving_end>
+			</xystage>
+			<xystage axis="y">
+				<wait_moving_end></wait_moving_end>
+			</xystage>
+		</microscope>
+		<microscope>
+			<xystage axis="x">
+				<enable>OFF</enable>
+			</xystage>
+			<xystage axis="y">
+				<enable>OFF</enable>
+			</xystage>
+		</microscope>
+<sleep>0:0:0.2</sleep>
+		<!-- SET NAME -->
+		<save>
+			<basename>/data/np451/boyko/MATLAB/xml_functions/X_-6367.0833.Y_250.</basename>
+			<append>DATE</append>
+		</save>
+		<!-- Take a record -->
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>ON</record></camera>
+		<sleep>0:0:3</sleep>
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>OFF</record></camera>
+	<!-- Position x=-6670.2778y=250 -->
+		<!-- MOVE -->
+		<microscope>
+			<xystage axis="x">
+				<enable>ON</enable>
+				<move_absolute>-6670.2778 5</move_absolute>
+			</xystage>
+			<xystage axis="y">
+				<enable>ON</enable>
+				<move_absolute>250 5</move_absolute>
+			</xystage>
+			<xystage axis="x">
+				<wait_moving_end></wait_moving_end>
+			</xystage>
+			<xystage axis="y">
+				<wait_moving_end></wait_moving_end>
+			</xystage>
+		</microscope>
+		<microscope>
+			<xystage axis="x">
+				<enable>OFF</enable>
+			</xystage>
+			<xystage axis="y">
+				<enable>OFF</enable>
+			</xystage>
+		</microscope>
+<sleep>0:0:0.2</sleep>
+		<!-- SET NAME -->
+		<save>
+			<basename>/data/np451/boyko/MATLAB/xml_functions/X_-6670.2778.Y_250.</basename>
+			<append>DATE</append>
+		</save>
+		<!-- Take a record -->
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>ON</record></camera>
+		<sleep>0:0:3</sleep>
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>OFF</record></camera>
+	<!-- Position x=-6670.2778y=500 -->
+		<!-- MOVE -->
+		<microscope>
+			<xystage axis="x">
+				<enable>ON</enable>
+				<move_absolute>-6670.2778 5</move_absolute>
+			</xystage>
+			<xystage axis="y">
+				<enable>ON</enable>
+				<move_absolute>500 5</move_absolute>
+			</xystage>
+			<xystage axis="x">
+				<wait_moving_end></wait_moving_end>
+			</xystage>
+			<xystage axis="y">
+				<wait_moving_end></wait_moving_end>
+			</xystage>
+		</microscope>
+		<microscope>
+			<xystage axis="x">
+				<enable>OFF</enable>
+			</xystage>
+			<xystage axis="y">
+				<enable>OFF</enable>
+			</xystage>
+		</microscope>
+<sleep>0:0:0.2</sleep>
+		<!-- SET NAME -->
+		<save>
+			<basename>/data/np451/boyko/MATLAB/xml_functions/X_-6670.2778.Y_500.</basename>
+			<append>DATE</append>
+		</save>
+		<!-- Take a record -->
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>ON</record></camera>
+		<sleep>0:0:3</sleep>
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>OFF</record></camera>
+	<!-- Position x=-6670.2778y=750 -->
+		<!-- MOVE -->
+		<microscope>
+			<xystage axis="x">
+				<enable>ON</enable>
+				<move_absolute>-6670.2778 5</move_absolute>
+			</xystage>
+			<xystage axis="y">
+				<enable>ON</enable>
+				<move_absolute>750 5</move_absolute>
+			</xystage>
+			<xystage axis="x">
+				<wait_moving_end></wait_moving_end>
+			</xystage>
+			<xystage axis="y">
+				<wait_moving_end></wait_moving_end>
+			</xystage>
+		</microscope>
+		<microscope>
+			<xystage axis="x">
+				<enable>OFF</enable>
+			</xystage>
+			<xystage axis="y">
+				<enable>OFF</enable>
+			</xystage>
+		</microscope>
+<sleep>0:0:0.2</sleep>
+		<!-- SET NAME -->
+		<save>
+			<basename>/data/np451/boyko/MATLAB/xml_functions/X_-6670.2778.Y_750.</basename>
+			<append>DATE</append>
+		</save>
+		<!-- Take a record -->
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>ON</record></camera>
+		<sleep>0:0:3</sleep>
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>OFF</record></camera>
+	<!-- Position x=-6973.4722y=750 -->
+		<!-- MOVE -->
+		<microscope>
+			<xystage axis="x">
+				<enable>ON</enable>
+				<move_absolute>-6973.4722 5</move_absolute>
+			</xystage>
+			<xystage axis="y">
+				<enable>ON</enable>
+				<move_absolute>750 5</move_absolute>
+			</xystage>
+			<xystage axis="x">
+				<wait_moving_end></wait_moving_end>
+			</xystage>
+			<xystage axis="y">
+				<wait_moving_end></wait_moving_end>
+			</xystage>
+		</microscope>
+		<microscope>
+			<xystage axis="x">
+				<enable>OFF</enable>
+			</xystage>
+			<xystage axis="y">
+				<enable>OFF</enable>
+			</xystage>
+		</microscope>
+<sleep>0:0:0.2</sleep>
+		<!-- SET NAME -->
+		<save>
+			<basename>/data/np451/boyko/MATLAB/xml_functions/X_-6973.4722.Y_750.</basename>
+			<append>DATE</append>
+		</save>
+		<!-- Take a record -->
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>ON</record></camera>
+		<sleep>0:0:3</sleep>
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>OFF</record></camera>
+	<!-- Position x=-6973.4722y=500 -->
+		<!-- MOVE -->
+		<microscope>
+			<xystage axis="x">
+				<enable>ON</enable>
+				<move_absolute>-6973.4722 5</move_absolute>
+			</xystage>
+			<xystage axis="y">
+				<enable>ON</enable>
+				<move_absolute>500 5</move_absolute>
+			</xystage>
+			<xystage axis="x">
+				<wait_moving_end></wait_moving_end>
+			</xystage>
+			<xystage axis="y">
+				<wait_moving_end></wait_moving_end>
+			</xystage>
+		</microscope>
+		<microscope>
+			<xystage axis="x">
+				<enable>OFF</enable>
+			</xystage>
+			<xystage axis="y">
+				<enable>OFF</enable>
+			</xystage>
+		</microscope>
+<sleep>0:0:0.2</sleep>
+		<!-- SET NAME -->
+		<save>
+			<basename>/data/np451/boyko/MATLAB/xml_functions/X_-6973.4722.Y_500.</basename>
+			<append>DATE</append>
+		</save>
+		<!-- Take a record -->
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>ON</record></camera>
+		<sleep>0:0:3</sleep>
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>OFF</record></camera>
+	<!-- Position x=-6973.4722y=250 -->
+		<!-- MOVE -->
+		<microscope>
+			<xystage axis="x">
+				<enable>ON</enable>
+				<move_absolute>-6973.4722 5</move_absolute>
+			</xystage>
+			<xystage axis="y">
+				<enable>ON</enable>
+				<move_absolute>250 5</move_absolute>
+			</xystage>
+			<xystage axis="x">
+				<wait_moving_end></wait_moving_end>
+			</xystage>
+			<xystage axis="y">
+				<wait_moving_end></wait_moving_end>
+			</xystage>
+		</microscope>
+		<microscope>
+			<xystage axis="x">
+				<enable>OFF</enable>
+			</xystage>
+			<xystage axis="y">
+				<enable>OFF</enable>
+			</xystage>
+		</microscope>
+<sleep>0:0:0.2</sleep>
+		<!-- SET NAME -->
+		<save>
+			<basename>/data/np451/boyko/MATLAB/xml_functions/X_-6973.4722.Y_250.</basename>
+			<append>DATE</append>
+		</save>
+		<!-- Take a record -->
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>ON</record></camera>
+		<sleep>0:0:3</sleep>
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>OFF</record></camera>
+	<!-- Position x=-7276.6667y=250 -->
+		<!-- MOVE -->
+		<microscope>
+			<xystage axis="x">
+				<enable>ON</enable>
+				<move_absolute>-7276.6667 5</move_absolute>
+			</xystage>
+			<xystage axis="y">
+				<enable>ON</enable>
+				<move_absolute>250 5</move_absolute>
+			</xystage>
+			<xystage axis="x">
+				<wait_moving_end></wait_moving_end>
+			</xystage>
+			<xystage axis="y">
+				<wait_moving_end></wait_moving_end>
+			</xystage>
+		</microscope>
+		<microscope>
+			<xystage axis="x">
+				<enable>OFF</enable>
+			</xystage>
+			<xystage axis="y">
+				<enable>OFF</enable>
+			</xystage>
+		</microscope>
+<sleep>0:0:0.2</sleep>
+		<!-- SET NAME -->
+		<save>
+			<basename>/data/np451/boyko/MATLAB/xml_functions/X_-7276.6667.Y_250.</basename>
+			<append>DATE</append>
+		</save>
+		<!-- Take a record -->
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>ON</record></camera>
+		<sleep>0:0:3</sleep>
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>OFF</record></camera>
+	<!-- Position x=-7276.6667y=500 -->
+		<!-- MOVE -->
+		<microscope>
+			<xystage axis="x">
+				<enable>ON</enable>
+				<move_absolute>-7276.6667 5</move_absolute>
+			</xystage>
+			<xystage axis="y">
+				<enable>ON</enable>
+				<move_absolute>500 5</move_absolute>
+			</xystage>
+			<xystage axis="x">
+				<wait_moving_end></wait_moving_end>
+			</xystage>
+			<xystage axis="y">
+				<wait_moving_end></wait_moving_end>
+			</xystage>
+		</microscope>
+		<microscope>
+			<xystage axis="x">
+				<enable>OFF</enable>
+			</xystage>
+			<xystage axis="y">
+				<enable>OFF</enable>
+			</xystage>
+		</microscope>
+<sleep>0:0:0.2</sleep>
+		<!-- SET NAME -->
+		<save>
+			<basename>/data/np451/boyko/MATLAB/xml_functions/X_-7276.6667.Y_500.</basename>
+			<append>DATE</append>
+		</save>
+		<!-- Take a record -->
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>ON</record></camera>
+		<sleep>0:0:3</sleep>
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>OFF</record></camera>
+	<!-- Position x=-7276.6667y=750 -->
+		<!-- MOVE -->
+		<microscope>
+			<xystage axis="x">
+				<enable>ON</enable>
+				<move_absolute>-7276.6667 5</move_absolute>
+			</xystage>
+			<xystage axis="y">
+				<enable>ON</enable>
+				<move_absolute>750 5</move_absolute>
+			</xystage>
+			<xystage axis="x">
+				<wait_moving_end></wait_moving_end>
+			</xystage>
+			<xystage axis="y">
+				<wait_moving_end></wait_moving_end>
+			</xystage>
+		</microscope>
+		<microscope>
+			<xystage axis="x">
+				<enable>OFF</enable>
+			</xystage>
+			<xystage axis="y">
+				<enable>OFF</enable>
+			</xystage>
+		</microscope>
+<sleep>0:0:0.2</sleep>
+		<!-- SET NAME -->
+		<save>
+			<basename>/data/np451/boyko/MATLAB/xml_functions/X_-7276.6667.Y_750.</basename>
+			<append>DATE</append>
+		</save>
+		<!-- Take a record -->
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>ON</record></camera>
+		<sleep>0:0:3</sleep>
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>OFF</record></camera>
+	<!-- Position x=-7579.8611y=750 -->
+		<!-- MOVE -->
+		<microscope>
+			<xystage axis="x">
+				<enable>ON</enable>
+				<move_absolute>-7579.8611 5</move_absolute>
+			</xystage>
+			<xystage axis="y">
+				<enable>ON</enable>
+				<move_absolute>750 5</move_absolute>
+			</xystage>
+			<xystage axis="x">
+				<wait_moving_end></wait_moving_end>
+			</xystage>
+			<xystage axis="y">
+				<wait_moving_end></wait_moving_end>
+			</xystage>
+		</microscope>
+		<microscope>
+			<xystage axis="x">
+				<enable>OFF</enable>
+			</xystage>
+			<xystage axis="y">
+				<enable>OFF</enable>
+			</xystage>
+		</microscope>
+<sleep>0:0:0.2</sleep>
+		<!-- SET NAME -->
+		<save>
+			<basename>/data/np451/boyko/MATLAB/xml_functions/X_-7579.8611.Y_750.</basename>
+			<append>DATE</append>
+		</save>
+		<!-- Take a record -->
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>ON</record></camera>
+		<sleep>0:0:3</sleep>
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>OFF</record></camera>
+	<!-- Position x=-7579.8611y=500 -->
+		<!-- MOVE -->
+		<microscope>
+			<xystage axis="x">
+				<enable>ON</enable>
+				<move_absolute>-7579.8611 5</move_absolute>
+			</xystage>
+			<xystage axis="y">
+				<enable>ON</enable>
+				<move_absolute>500 5</move_absolute>
+			</xystage>
+			<xystage axis="x">
+				<wait_moving_end></wait_moving_end>
+			</xystage>
+			<xystage axis="y">
+				<wait_moving_end></wait_moving_end>
+			</xystage>
+		</microscope>
+		<microscope>
+			<xystage axis="x">
+				<enable>OFF</enable>
+			</xystage>
+			<xystage axis="y">
+				<enable>OFF</enable>
+			</xystage>
+		</microscope>
+<sleep>0:0:0.2</sleep>
+		<!-- SET NAME -->
+		<save>
+			<basename>/data/np451/boyko/MATLAB/xml_functions/X_-7579.8611.Y_500.</basename>
+			<append>DATE</append>
+		</save>
+		<!-- Take a record -->
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>ON</record></camera>
+		<sleep>0:0:3</sleep>
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>OFF</record></camera>
+	<!-- Position x=-7579.8611y=250 -->
+		<!-- MOVE -->
+		<microscope>
+			<xystage axis="x">
+				<enable>ON</enable>
+				<move_absolute>-7579.8611 5</move_absolute>
+			</xystage>
+			<xystage axis="y">
+				<enable>ON</enable>
+				<move_absolute>250 5</move_absolute>
+			</xystage>
+			<xystage axis="x">
+				<wait_moving_end></wait_moving_end>
+			</xystage>
+			<xystage axis="y">
+				<wait_moving_end></wait_moving_end>
+			</xystage>
+		</microscope>
+		<microscope>
+			<xystage axis="x">
+				<enable>OFF</enable>
+			</xystage>
+			<xystage axis="y">
+				<enable>OFF</enable>
+			</xystage>
+		</microscope>
+<sleep>0:0:0.2</sleep>
+		<!-- SET NAME -->
+		<save>
+			<basename>/data/np451/boyko/MATLAB/xml_functions/X_-7579.8611.Y_250.</basename>
+			<append>DATE</append>
+		</save>
+		<!-- Take a record -->
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>ON</record></camera>
+		<sleep>0:0:3</sleep>
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>OFF</record></camera>
+	<!-- Position x=-7883.0556y=250 -->
+		<!-- MOVE -->
+		<microscope>
+			<xystage axis="x">
+				<enable>ON</enable>
+				<move_absolute>-7883.0556 5</move_absolute>
+			</xystage>
+			<xystage axis="y">
+				<enable>ON</enable>
+				<move_absolute>250 5</move_absolute>
+			</xystage>
+			<xystage axis="x">
+				<wait_moving_end></wait_moving_end>
+			</xystage>
+			<xystage axis="y">
+				<wait_moving_end></wait_moving_end>
+			</xystage>
+		</microscope>
+		<microscope>
+			<xystage axis="x">
+				<enable>OFF</enable>
+			</xystage>
+			<xystage axis="y">
+				<enable>OFF</enable>
+			</xystage>
+		</microscope>
+<sleep>0:0:0.2</sleep>
+		<!-- SET NAME -->
+		<save>
+			<basename>/data/np451/boyko/MATLAB/xml_functions/X_-7883.0556.Y_250.</basename>
+			<append>DATE</append>
+		</save>
+		<!-- Take a record -->
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>ON</record></camera>
+		<sleep>0:0:3</sleep>
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>OFF</record></camera>
+	<!-- Position x=-7883.0556y=500 -->
+		<!-- MOVE -->
+		<microscope>
+			<xystage axis="x">
+				<enable>ON</enable>
+				<move_absolute>-7883.0556 5</move_absolute>
+			</xystage>
+			<xystage axis="y">
+				<enable>ON</enable>
+				<move_absolute>500 5</move_absolute>
+			</xystage>
+			<xystage axis="x">
+				<wait_moving_end></wait_moving_end>
+			</xystage>
+			<xystage axis="y">
+				<wait_moving_end></wait_moving_end>
+			</xystage>
+		</microscope>
+		<microscope>
+			<xystage axis="x">
+				<enable>OFF</enable>
+			</xystage>
+			<xystage axis="y">
+				<enable>OFF</enable>
+			</xystage>
+		</microscope>
+<sleep>0:0:0.2</sleep>
+		<!-- SET NAME -->
+		<save>
+			<basename>/data/np451/boyko/MATLAB/xml_functions/X_-7883.0556.Y_500.</basename>
+			<append>DATE</append>
+		</save>
+		<!-- Take a record -->
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>ON</record></camera>
+		<sleep>0:0:3</sleep>
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>OFF</record></camera>
+	<!-- Position x=-7883.0556y=750 -->
+		<!-- MOVE -->
+		<microscope>
+			<xystage axis="x">
+				<enable>ON</enable>
+				<move_absolute>-7883.0556 5</move_absolute>
+			</xystage>
+			<xystage axis="y">
+				<enable>ON</enable>
+				<move_absolute>750 5</move_absolute>
+			</xystage>
+			<xystage axis="x">
+				<wait_moving_end></wait_moving_end>
+			</xystage>
+			<xystage axis="y">
+				<wait_moving_end></wait_moving_end>
+			</xystage>
+		</microscope>
+		<microscope>
+			<xystage axis="x">
+				<enable>OFF</enable>
+			</xystage>
+			<xystage axis="y">
+				<enable>OFF</enable>
+			</xystage>
+		</microscope>
+<sleep>0:0:0.2</sleep>
+		<!-- SET NAME -->
+		<save>
+			<basename>/data/np451/boyko/MATLAB/xml_functions/X_-7883.0556.Y_750.</basename>
+			<append>DATE</append>
+		</save>
+		<!-- Take a record -->
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>ON</record></camera>
+		<sleep>0:0:3</sleep>
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>OFF</record></camera>
+	<!-- Position x=-8186.25y=750 -->
+		<!-- MOVE -->
+		<microscope>
+			<xystage axis="x">
+				<enable>ON</enable>
+				<move_absolute>-8186.25 5</move_absolute>
+			</xystage>
+			<xystage axis="y">
+				<enable>ON</enable>
+				<move_absolute>750 5</move_absolute>
+			</xystage>
+			<xystage axis="x">
+				<wait_moving_end></wait_moving_end>
+			</xystage>
+			<xystage axis="y">
+				<wait_moving_end></wait_moving_end>
+			</xystage>
+		</microscope>
+		<microscope>
+			<xystage axis="x">
+				<enable>OFF</enable>
+			</xystage>
+			<xystage axis="y">
+				<enable>OFF</enable>
+			</xystage>
+		</microscope>
+<sleep>0:0:0.2</sleep>
+		<!-- SET NAME -->
+		<save>
+			<basename>/data/np451/boyko/MATLAB/xml_functions/X_-8186.25.Y_750.</basename>
+			<append>DATE</append>
+		</save>
+		<!-- Take a record -->
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>ON</record></camera>
+		<sleep>0:0:3</sleep>
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>OFF</record></camera>
+	<!-- Position x=-8186.25y=500 -->
+		<!-- MOVE -->
+		<microscope>
+			<xystage axis="x">
+				<enable>ON</enable>
+				<move_absolute>-8186.25 5</move_absolute>
+			</xystage>
+			<xystage axis="y">
+				<enable>ON</enable>
+				<move_absolute>500 5</move_absolute>
+			</xystage>
+			<xystage axis="x">
+				<wait_moving_end></wait_moving_end>
+			</xystage>
+			<xystage axis="y">
+				<wait_moving_end></wait_moving_end>
+			</xystage>
+		</microscope>
+		<microscope>
+			<xystage axis="x">
+				<enable>OFF</enable>
+			</xystage>
+			<xystage axis="y">
+				<enable>OFF</enable>
+			</xystage>
+		</microscope>
+<sleep>0:0:0.2</sleep>
+		<!-- SET NAME -->
+		<save>
+			<basename>/data/np451/boyko/MATLAB/xml_functions/X_-8186.25.Y_500.</basename>
+			<append>DATE</append>
+		</save>
+		<!-- Take a record -->
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>ON</record></camera>
+		<sleep>0:0:3</sleep>
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>OFF</record></camera>
+	<!-- Position x=-8186.25y=250 -->
+		<!-- MOVE -->
+		<microscope>
+			<xystage axis="x">
+				<enable>ON</enable>
+				<move_absolute>-8186.25 5</move_absolute>
+			</xystage>
+			<xystage axis="y">
+				<enable>ON</enable>
+				<move_absolute>250 5</move_absolute>
+			</xystage>
+			<xystage axis="x">
+				<wait_moving_end></wait_moving_end>
+			</xystage>
+			<xystage axis="y">
+				<wait_moving_end></wait_moving_end>
+			</xystage>
+		</microscope>
+		<microscope>
+			<xystage axis="x">
+				<enable>OFF</enable>
+			</xystage>
+			<xystage axis="y">
+				<enable>OFF</enable>
+			</xystage>
+		</microscope>
+<sleep>0:0:0.2</sleep>
+		<!-- SET NAME -->
+		<save>
+			<basename>/data/np451/boyko/MATLAB/xml_functions/X_-8186.25.Y_250.</basename>
+			<append>DATE</append>
+		</save>
+		<!-- Take a record -->
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>ON</record></camera>
+		<sleep>0:0:3</sleep>
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>OFF</record></camera>
+	<!-- Position x=-8489.4444y=250 -->
+		<!-- MOVE -->
+		<microscope>
+			<xystage axis="x">
+				<enable>ON</enable>
+				<move_absolute>-8489.4444 5</move_absolute>
+			</xystage>
+			<xystage axis="y">
+				<enable>ON</enable>
+				<move_absolute>250 5</move_absolute>
+			</xystage>
+			<xystage axis="x">
+				<wait_moving_end></wait_moving_end>
+			</xystage>
+			<xystage axis="y">
+				<wait_moving_end></wait_moving_end>
+			</xystage>
+		</microscope>
+		<microscope>
+			<xystage axis="x">
+				<enable>OFF</enable>
+			</xystage>
+			<xystage axis="y">
+				<enable>OFF</enable>
+			</xystage>
+		</microscope>
+<sleep>0:0:0.2</sleep>
+		<!-- SET NAME -->
+		<save>
+			<basename>/data/np451/boyko/MATLAB/xml_functions/X_-8489.4444.Y_250.</basename>
+			<append>DATE</append>
+		</save>
+		<!-- Take a record -->
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>ON</record></camera>
+		<sleep>0:0:3</sleep>
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>OFF</record></camera>
+	<!-- Position x=-8489.4444y=500 -->
+		<!-- MOVE -->
+		<microscope>
+			<xystage axis="x">
+				<enable>ON</enable>
+				<move_absolute>-8489.4444 5</move_absolute>
+			</xystage>
+			<xystage axis="y">
+				<enable>ON</enable>
+				<move_absolute>500 5</move_absolute>
+			</xystage>
+			<xystage axis="x">
+				<wait_moving_end></wait_moving_end>
+			</xystage>
+			<xystage axis="y">
+				<wait_moving_end></wait_moving_end>
+			</xystage>
+		</microscope>
+		<microscope>
+			<xystage axis="x">
+				<enable>OFF</enable>
+			</xystage>
+			<xystage axis="y">
+				<enable>OFF</enable>
+			</xystage>
+		</microscope>
+<sleep>0:0:0.2</sleep>
+		<!-- SET NAME -->
+		<save>
+			<basename>/data/np451/boyko/MATLAB/xml_functions/X_-8489.4444.Y_500.</basename>
+			<append>DATE</append>
+		</save>
+		<!-- Take a record -->
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>ON</record></camera>
+		<sleep>0:0:3</sleep>
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>OFF</record></camera>
+	<!-- Position x=-8489.4444y=750 -->
+		<!-- MOVE -->
+		<microscope>
+			<xystage axis="x">
+				<enable>ON</enable>
+				<move_absolute>-8489.4444 5</move_absolute>
+			</xystage>
+			<xystage axis="y">
+				<enable>ON</enable>
+				<move_absolute>750 5</move_absolute>
+			</xystage>
+			<xystage axis="x">
+				<wait_moving_end></wait_moving_end>
+			</xystage>
+			<xystage axis="y">
+				<wait_moving_end></wait_moving_end>
+			</xystage>
+		</microscope>
+		<microscope>
+			<xystage axis="x">
+				<enable>OFF</enable>
+			</xystage>
+			<xystage axis="y">
+				<enable>OFF</enable>
+			</xystage>
+		</microscope>
+<sleep>0:0:0.2</sleep>
+		<!-- SET NAME -->
+		<save>
+			<basename>/data/np451/boyko/MATLAB/xml_functions/X_-8489.4444.Y_750.</basename>
+			<append>DATE</append>
+		</save>
+		<!-- Take a record -->
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>ON</record></camera>
+		<sleep>0:0:3</sleep>
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>OFF</record></camera>
+	<!-- Position x=-8792.6389y=750 -->
+		<!-- MOVE -->
+		<microscope>
+			<xystage axis="x">
+				<enable>ON</enable>
+				<move_absolute>-8792.6389 5</move_absolute>
+			</xystage>
+			<xystage axis="y">
+				<enable>ON</enable>
+				<move_absolute>750 5</move_absolute>
+			</xystage>
+			<xystage axis="x">
+				<wait_moving_end></wait_moving_end>
+			</xystage>
+			<xystage axis="y">
+				<wait_moving_end></wait_moving_end>
+			</xystage>
+		</microscope>
+		<microscope>
+			<xystage axis="x">
+				<enable>OFF</enable>
+			</xystage>
+			<xystage axis="y">
+				<enable>OFF</enable>
+			</xystage>
+		</microscope>
+<sleep>0:0:0.2</sleep>
+		<!-- SET NAME -->
+		<save>
+			<basename>/data/np451/boyko/MATLAB/xml_functions/X_-8792.6389.Y_750.</basename>
+			<append>DATE</append>
+		</save>
+		<!-- Take a record -->
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>ON</record></camera>
+		<sleep>0:0:3</sleep>
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>OFF</record></camera>
+	<!-- Position x=-8792.6389y=500 -->
+		<!-- MOVE -->
+		<microscope>
+			<xystage axis="x">
+				<enable>ON</enable>
+				<move_absolute>-8792.6389 5</move_absolute>
+			</xystage>
+			<xystage axis="y">
+				<enable>ON</enable>
+				<move_absolute>500 5</move_absolute>
+			</xystage>
+			<xystage axis="x">
+				<wait_moving_end></wait_moving_end>
+			</xystage>
+			<xystage axis="y">
+				<wait_moving_end></wait_moving_end>
+			</xystage>
+		</microscope>
+		<microscope>
+			<xystage axis="x">
+				<enable>OFF</enable>
+			</xystage>
+			<xystage axis="y">
+				<enable>OFF</enable>
+			</xystage>
+		</microscope>
+<sleep>0:0:0.2</sleep>
+		<!-- SET NAME -->
+		<save>
+			<basename>/data/np451/boyko/MATLAB/xml_functions/X_-8792.6389.Y_500.</basename>
+			<append>DATE</append>
+		</save>
+		<!-- Take a record -->
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>ON</record></camera>
+		<sleep>0:0:3</sleep>
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>OFF</record></camera>
+	<!-- Position x=-8792.6389y=250 -->
+		<!-- MOVE -->
+		<microscope>
+			<xystage axis="x">
+				<enable>ON</enable>
+				<move_absolute>-8792.6389 5</move_absolute>
+			</xystage>
+			<xystage axis="y">
+				<enable>ON</enable>
+				<move_absolute>250 5</move_absolute>
+			</xystage>
+			<xystage axis="x">
+				<wait_moving_end></wait_moving_end>
+			</xystage>
+			<xystage axis="y">
+				<wait_moving_end></wait_moving_end>
+			</xystage>
+		</microscope>
+		<microscope>
+			<xystage axis="x">
+				<enable>OFF</enable>
+			</xystage>
+			<xystage axis="y">
+				<enable>OFF</enable>
+			</xystage>
+		</microscope>
+<sleep>0:0:0.2</sleep>
+		<!-- SET NAME -->
+		<save>
+			<basename>/data/np451/boyko/MATLAB/xml_functions/X_-8792.6389.Y_250.</basename>
+			<append>DATE</append>
+		</save>
+		<!-- Take a record -->
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>ON</record></camera>
+		<sleep>0:0:3</sleep>
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>OFF</record></camera>
+	<!-- Position x=-9095.8333y=250 -->
+		<!-- MOVE -->
+		<microscope>
+			<xystage axis="x">
+				<enable>ON</enable>
+				<move_absolute>-9095.8333 5</move_absolute>
+			</xystage>
+			<xystage axis="y">
+				<enable>ON</enable>
+				<move_absolute>250 5</move_absolute>
+			</xystage>
+			<xystage axis="x">
+				<wait_moving_end></wait_moving_end>
+			</xystage>
+			<xystage axis="y">
+				<wait_moving_end></wait_moving_end>
+			</xystage>
+		</microscope>
+		<microscope>
+			<xystage axis="x">
+				<enable>OFF</enable>
+			</xystage>
+			<xystage axis="y">
+				<enable>OFF</enable>
+			</xystage>
+		</microscope>
+<sleep>0:0:0.2</sleep>
+		<!-- SET NAME -->
+		<save>
+			<basename>/data/np451/boyko/MATLAB/xml_functions/X_-9095.8333.Y_250.</basename>
+			<append>DATE</append>
+		</save>
+		<!-- Take a record -->
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>ON</record></camera>
+		<sleep>0:0:3</sleep>
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>OFF</record></camera>
+	<!-- Position x=-9095.8333y=500 -->
+		<!-- MOVE -->
+		<microscope>
+			<xystage axis="x">
+				<enable>ON</enable>
+				<move_absolute>-9095.8333 5</move_absolute>
+			</xystage>
+			<xystage axis="y">
+				<enable>ON</enable>
+				<move_absolute>500 5</move_absolute>
+			</xystage>
+			<xystage axis="x">
+				<wait_moving_end></wait_moving_end>
+			</xystage>
+			<xystage axis="y">
+				<wait_moving_end></wait_moving_end>
+			</xystage>
+		</microscope>
+		<microscope>
+			<xystage axis="x">
+				<enable>OFF</enable>
+			</xystage>
+			<xystage axis="y">
+				<enable>OFF</enable>
+			</xystage>
+		</microscope>
+<sleep>0:0:0.2</sleep>
+		<!-- SET NAME -->
+		<save>
+			<basename>/data/np451/boyko/MATLAB/xml_functions/X_-9095.8333.Y_500.</basename>
+			<append>DATE</append>
+		</save>
+		<!-- Take a record -->
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>ON</record></camera>
+		<sleep>0:0:3</sleep>
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>OFF</record></camera>
+	<!-- Position x=-9095.8333y=750 -->
+		<!-- MOVE -->
+		<microscope>
+			<xystage axis="x">
+				<enable>ON</enable>
+				<move_absolute>-9095.8333 5</move_absolute>
+			</xystage>
+			<xystage axis="y">
+				<enable>ON</enable>
+				<move_absolute>750 5</move_absolute>
+			</xystage>
+			<xystage axis="x">
+				<wait_moving_end></wait_moving_end>
+			</xystage>
+			<xystage axis="y">
+				<wait_moving_end></wait_moving_end>
+			</xystage>
+		</microscope>
+		<microscope>
+			<xystage axis="x">
+				<enable>OFF</enable>
+			</xystage>
+			<xystage axis="y">
+				<enable>OFF</enable>
+			</xystage>
+		</microscope>
+<sleep>0:0:0.2</sleep>
+		<!-- SET NAME -->
+		<save>
+			<basename>/data/np451/boyko/MATLAB/xml_functions/X_-9095.8333.Y_750.</basename>
+			<append>DATE</append>
+		</save>
+		<!-- Take a record -->
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>ON</record></camera>
+		<sleep>0:0:3</sleep>
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>OFF</record></camera>
+	<!-- Position x=-9399.0278y=750 -->
+		<!-- MOVE -->
+		<microscope>
+			<xystage axis="x">
+				<enable>ON</enable>
+				<move_absolute>-9399.0278 5</move_absolute>
+			</xystage>
+			<xystage axis="y">
+				<enable>ON</enable>
+				<move_absolute>750 5</move_absolute>
+			</xystage>
+			<xystage axis="x">
+				<wait_moving_end></wait_moving_end>
+			</xystage>
+			<xystage axis="y">
+				<wait_moving_end></wait_moving_end>
+			</xystage>
+		</microscope>
+		<microscope>
+			<xystage axis="x">
+				<enable>OFF</enable>
+			</xystage>
+			<xystage axis="y">
+				<enable>OFF</enable>
+			</xystage>
+		</microscope>
+<sleep>0:0:0.2</sleep>
+		<!-- SET NAME -->
+		<save>
+			<basename>/data/np451/boyko/MATLAB/xml_functions/X_-9399.0278.Y_750.</basename>
+			<append>DATE</append>
+		</save>
+		<!-- Take a record -->
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>ON</record></camera>
+		<sleep>0:0:3</sleep>
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>OFF</record></camera>
+	<!-- Position x=-9399.0278y=500 -->
+		<!-- MOVE -->
+		<microscope>
+			<xystage axis="x">
+				<enable>ON</enable>
+				<move_absolute>-9399.0278 5</move_absolute>
+			</xystage>
+			<xystage axis="y">
+				<enable>ON</enable>
+				<move_absolute>500 5</move_absolute>
+			</xystage>
+			<xystage axis="x">
+				<wait_moving_end></wait_moving_end>
+			</xystage>
+			<xystage axis="y">
+				<wait_moving_end></wait_moving_end>
+			</xystage>
+		</microscope>
+		<microscope>
+			<xystage axis="x">
+				<enable>OFF</enable>
+			</xystage>
+			<xystage axis="y">
+				<enable>OFF</enable>
+			</xystage>
+		</microscope>
+<sleep>0:0:0.2</sleep>
+		<!-- SET NAME -->
+		<save>
+			<basename>/data/np451/boyko/MATLAB/xml_functions/X_-9399.0278.Y_500.</basename>
+			<append>DATE</append>
+		</save>
+		<!-- Take a record -->
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>ON</record></camera>
+		<sleep>0:0:3</sleep>
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>OFF</record></camera>
+	<!-- Position x=-9399.0278y=250 -->
+		<!-- MOVE -->
+		<microscope>
+			<xystage axis="x">
+				<enable>ON</enable>
+				<move_absolute>-9399.0278 5</move_absolute>
+			</xystage>
+			<xystage axis="y">
+				<enable>ON</enable>
+				<move_absolute>250 5</move_absolute>
+			</xystage>
+			<xystage axis="x">
+				<wait_moving_end></wait_moving_end>
+			</xystage>
+			<xystage axis="y">
+				<wait_moving_end></wait_moving_end>
+			</xystage>
+		</microscope>
+		<microscope>
+			<xystage axis="x">
+				<enable>OFF</enable>
+			</xystage>
+			<xystage axis="y">
+				<enable>OFF</enable>
+			</xystage>
+		</microscope>
+<sleep>0:0:0.2</sleep>
+		<!-- SET NAME -->
+		<save>
+			<basename>/data/np451/boyko/MATLAB/xml_functions/X_-9399.0278.Y_250.</basename>
+			<append>DATE</append>
+		</save>
+		<!-- Take a record -->
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>ON</record></camera>
+		<sleep>0:0:3</sleep>
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>OFF</record></camera>
+	<!-- Position x=-9702.2222y=250 -->
+		<!-- MOVE -->
+		<microscope>
+			<xystage axis="x">
+				<enable>ON</enable>
+				<move_absolute>-9702.2222 5</move_absolute>
+			</xystage>
+			<xystage axis="y">
+				<enable>ON</enable>
+				<move_absolute>250 5</move_absolute>
+			</xystage>
+			<xystage axis="x">
+				<wait_moving_end></wait_moving_end>
+			</xystage>
+			<xystage axis="y">
+				<wait_moving_end></wait_moving_end>
+			</xystage>
+		</microscope>
+		<microscope>
+			<xystage axis="x">
+				<enable>OFF</enable>
+			</xystage>
+			<xystage axis="y">
+				<enable>OFF</enable>
+			</xystage>
+		</microscope>
+<sleep>0:0:0.2</sleep>
+		<!-- SET NAME -->
+		<save>
+			<basename>/data/np451/boyko/MATLAB/xml_functions/X_-9702.2222.Y_250.</basename>
+			<append>DATE</append>
+		</save>
+		<!-- Take a record -->
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>ON</record></camera>
+		<sleep>0:0:3</sleep>
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>OFF</record></camera>
+	<!-- Position x=-9702.2222y=500 -->
+		<!-- MOVE -->
+		<microscope>
+			<xystage axis="x">
+				<enable>ON</enable>
+				<move_absolute>-9702.2222 5</move_absolute>
+			</xystage>
+			<xystage axis="y">
+				<enable>ON</enable>
+				<move_absolute>500 5</move_absolute>
+			</xystage>
+			<xystage axis="x">
+				<wait_moving_end></wait_moving_end>
+			</xystage>
+			<xystage axis="y">
+				<wait_moving_end></wait_moving_end>
+			</xystage>
+		</microscope>
+		<microscope>
+			<xystage axis="x">
+				<enable>OFF</enable>
+			</xystage>
+			<xystage axis="y">
+				<enable>OFF</enable>
+			</xystage>
+		</microscope>
+<sleep>0:0:0.2</sleep>
+		<!-- SET NAME -->
+		<save>
+			<basename>/data/np451/boyko/MATLAB/xml_functions/X_-9702.2222.Y_500.</basename>
+			<append>DATE</append>
+		</save>
+		<!-- Take a record -->
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>ON</record></camera>
+		<sleep>0:0:3</sleep>
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>OFF</record></camera>
+	<!-- Position x=-9702.2222y=750 -->
+		<!-- MOVE -->
+		<microscope>
+			<xystage axis="x">
+				<enable>ON</enable>
+				<move_absolute>-9702.2222 5</move_absolute>
+			</xystage>
+			<xystage axis="y">
+				<enable>ON</enable>
+				<move_absolute>750 5</move_absolute>
+			</xystage>
+			<xystage axis="x">
+				<wait_moving_end></wait_moving_end>
+			</xystage>
+			<xystage axis="y">
+				<wait_moving_end></wait_moving_end>
+			</xystage>
+		</microscope>
+		<microscope>
+			<xystage axis="x">
+				<enable>OFF</enable>
+			</xystage>
+			<xystage axis="y">
+				<enable>OFF</enable>
+			</xystage>
+		</microscope>
+<sleep>0:0:0.2</sleep>
+		<!-- SET NAME -->
+		<save>
+			<basename>/data/np451/boyko/MATLAB/xml_functions/X_-9702.2222.Y_750.</basename>
+			<append>DATE</append>
+		</save>
+		<!-- Take a record -->
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>ON</record></camera>
+		<sleep>0:0:3</sleep>
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>OFF</record></camera>
+	<!-- Position x=-10005.4167y=750 -->
+		<!-- MOVE -->
+		<microscope>
+			<xystage axis="x">
+				<enable>ON</enable>
+				<move_absolute>-10005.4167 5</move_absolute>
+			</xystage>
+			<xystage axis="y">
+				<enable>ON</enable>
+				<move_absolute>750 5</move_absolute>
+			</xystage>
+			<xystage axis="x">
+				<wait_moving_end></wait_moving_end>
+			</xystage>
+			<xystage axis="y">
+				<wait_moving_end></wait_moving_end>
+			</xystage>
+		</microscope>
+		<microscope>
+			<xystage axis="x">
+				<enable>OFF</enable>
+			</xystage>
+			<xystage axis="y">
+				<enable>OFF</enable>
+			</xystage>
+		</microscope>
+<sleep>0:0:0.2</sleep>
+		<!-- SET NAME -->
+		<save>
+			<basename>/data/np451/boyko/MATLAB/xml_functions/X_-10005.4167.Y_750.</basename>
+			<append>DATE</append>
+		</save>
+		<!-- Take a record -->
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>ON</record></camera>
+		<sleep>0:0:3</sleep>
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>OFF</record></camera>
+	<!-- Position x=-10005.4167y=500 -->
+		<!-- MOVE -->
+		<microscope>
+			<xystage axis="x">
+				<enable>ON</enable>
+				<move_absolute>-10005.4167 5</move_absolute>
+			</xystage>
+			<xystage axis="y">
+				<enable>ON</enable>
+				<move_absolute>500 5</move_absolute>
+			</xystage>
+			<xystage axis="x">
+				<wait_moving_end></wait_moving_end>
+			</xystage>
+			<xystage axis="y">
+				<wait_moving_end></wait_moving_end>
+			</xystage>
+		</microscope>
+		<microscope>
+			<xystage axis="x">
+				<enable>OFF</enable>
+			</xystage>
+			<xystage axis="y">
+				<enable>OFF</enable>
+			</xystage>
+		</microscope>
+<sleep>0:0:0.2</sleep>
+		<!-- SET NAME -->
+		<save>
+			<basename>/data/np451/boyko/MATLAB/xml_functions/X_-10005.4167.Y_500.</basename>
+			<append>DATE</append>
+		</save>
+		<!-- Take a record -->
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>ON</record></camera>
+		<sleep>0:0:3</sleep>
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>OFF</record></camera>
+	<!-- Position x=-10005.4167y=250 -->
+		<!-- MOVE -->
+		<microscope>
+			<xystage axis="x">
+				<enable>ON</enable>
+				<move_absolute>-10005.4167 5</move_absolute>
+			</xystage>
+			<xystage axis="y">
+				<enable>ON</enable>
+				<move_absolute>250 5</move_absolute>
+			</xystage>
+			<xystage axis="x">
+				<wait_moving_end></wait_moving_end>
+			</xystage>
+			<xystage axis="y">
+				<wait_moving_end></wait_moving_end>
+			</xystage>
+		</microscope>
+		<microscope>
+			<xystage axis="x">
+				<enable>OFF</enable>
+			</xystage>
+			<xystage axis="y">
+				<enable>OFF</enable>
+			</xystage>
+		</microscope>
+<sleep>0:0:0.2</sleep>
+		<!-- SET NAME -->
+		<save>
+			<basename>/data/np451/boyko/MATLAB/xml_functions/X_-10005.4167.Y_250.</basename>
+			<append>DATE</append>
+		</save>
+		<!-- Take a record -->
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>ON</record></camera>
+		<sleep>0:0:3</sleep>
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>OFF</record></camera>
+	<!-- Position x=-10308.6111y=250 -->
+		<!-- MOVE -->
+		<microscope>
+			<xystage axis="x">
+				<enable>ON</enable>
+				<move_absolute>-10308.6111 5</move_absolute>
+			</xystage>
+			<xystage axis="y">
+				<enable>ON</enable>
+				<move_absolute>250 5</move_absolute>
+			</xystage>
+			<xystage axis="x">
+				<wait_moving_end></wait_moving_end>
+			</xystage>
+			<xystage axis="y">
+				<wait_moving_end></wait_moving_end>
+			</xystage>
+		</microscope>
+		<microscope>
+			<xystage axis="x">
+				<enable>OFF</enable>
+			</xystage>
+			<xystage axis="y">
+				<enable>OFF</enable>
+			</xystage>
+		</microscope>
+<sleep>0:0:0.2</sleep>
+		<!-- SET NAME -->
+		<save>
+			<basename>/data/np451/boyko/MATLAB/xml_functions/X_-10308.6111.Y_250.</basename>
+			<append>DATE</append>
+		</save>
+		<!-- Take a record -->
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>ON</record></camera>
+		<sleep>0:0:3</sleep>
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>OFF</record></camera>
+	<!-- Position x=-10308.6111y=500 -->
+		<!-- MOVE -->
+		<microscope>
+			<xystage axis="x">
+				<enable>ON</enable>
+				<move_absolute>-10308.6111 5</move_absolute>
+			</xystage>
+			<xystage axis="y">
+				<enable>ON</enable>
+				<move_absolute>500 5</move_absolute>
+			</xystage>
+			<xystage axis="x">
+				<wait_moving_end></wait_moving_end>
+			</xystage>
+			<xystage axis="y">
+				<wait_moving_end></wait_moving_end>
+			</xystage>
+		</microscope>
+		<microscope>
+			<xystage axis="x">
+				<enable>OFF</enable>
+			</xystage>
+			<xystage axis="y">
+				<enable>OFF</enable>
+			</xystage>
+		</microscope>
+<sleep>0:0:0.2</sleep>
+		<!-- SET NAME -->
+		<save>
+			<basename>/data/np451/boyko/MATLAB/xml_functions/X_-10308.6111.Y_500.</basename>
+			<append>DATE</append>
+		</save>
+		<!-- Take a record -->
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>ON</record></camera>
+		<sleep>0:0:3</sleep>
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>OFF</record></camera>
+	<!-- Position x=-10308.6111y=750 -->
+		<!-- MOVE -->
+		<microscope>
+			<xystage axis="x">
+				<enable>ON</enable>
+				<move_absolute>-10308.6111 5</move_absolute>
+			</xystage>
+			<xystage axis="y">
+				<enable>ON</enable>
+				<move_absolute>750 5</move_absolute>
+			</xystage>
+			<xystage axis="x">
+				<wait_moving_end></wait_moving_end>
+			</xystage>
+			<xystage axis="y">
+				<wait_moving_end></wait_moving_end>
+			</xystage>
+		</microscope>
+		<microscope>
+			<xystage axis="x">
+				<enable>OFF</enable>
+			</xystage>
+			<xystage axis="y">
+				<enable>OFF</enable>
+			</xystage>
+		</microscope>
+<sleep>0:0:0.2</sleep>
+		<!-- SET NAME -->
+		<save>
+			<basename>/data/np451/boyko/MATLAB/xml_functions/X_-10308.6111.Y_750.</basename>
+			<append>DATE</append>
+		</save>
+		<!-- Take a record -->
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>ON</record></camera>
+		<sleep>0:0:3</sleep>
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>OFF</record></camera>
+	<!-- Position x=-10611.8056y=750 -->
+		<!-- MOVE -->
+		<microscope>
+			<xystage axis="x">
+				<enable>ON</enable>
+				<move_absolute>-10611.8056 5</move_absolute>
+			</xystage>
+			<xystage axis="y">
+				<enable>ON</enable>
+				<move_absolute>750 5</move_absolute>
+			</xystage>
+			<xystage axis="x">
+				<wait_moving_end></wait_moving_end>
+			</xystage>
+			<xystage axis="y">
+				<wait_moving_end></wait_moving_end>
+			</xystage>
+		</microscope>
+		<microscope>
+			<xystage axis="x">
+				<enable>OFF</enable>
+			</xystage>
+			<xystage axis="y">
+				<enable>OFF</enable>
+			</xystage>
+		</microscope>
+<sleep>0:0:0.2</sleep>
+		<!-- SET NAME -->
+		<save>
+			<basename>/data/np451/boyko/MATLAB/xml_functions/X_-10611.8056.Y_750.</basename>
+			<append>DATE</append>
+		</save>
+		<!-- Take a record -->
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>ON</record></camera>
+		<sleep>0:0:3</sleep>
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>OFF</record></camera>
+	<!-- Position x=-10611.8056y=500 -->
+		<!-- MOVE -->
+		<microscope>
+			<xystage axis="x">
+				<enable>ON</enable>
+				<move_absolute>-10611.8056 5</move_absolute>
+			</xystage>
+			<xystage axis="y">
+				<enable>ON</enable>
+				<move_absolute>500 5</move_absolute>
+			</xystage>
+			<xystage axis="x">
+				<wait_moving_end></wait_moving_end>
+			</xystage>
+			<xystage axis="y">
+				<wait_moving_end></wait_moving_end>
+			</xystage>
+		</microscope>
+		<microscope>
+			<xystage axis="x">
+				<enable>OFF</enable>
+			</xystage>
+			<xystage axis="y">
+				<enable>OFF</enable>
+			</xystage>
+		</microscope>
+<sleep>0:0:0.2</sleep>
+		<!-- SET NAME -->
+		<save>
+			<basename>/data/np451/boyko/MATLAB/xml_functions/X_-10611.8056.Y_500.</basename>
+			<append>DATE</append>
+		</save>
+		<!-- Take a record -->
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>ON</record></camera>
+		<sleep>0:0:3</sleep>
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>OFF</record></camera>
+	<!-- Position x=-10611.8056y=250 -->
+		<!-- MOVE -->
+		<microscope>
+			<xystage axis="x">
+				<enable>ON</enable>
+				<move_absolute>-10611.8056 5</move_absolute>
+			</xystage>
+			<xystage axis="y">
+				<enable>ON</enable>
+				<move_absolute>250 5</move_absolute>
+			</xystage>
+			<xystage axis="x">
+				<wait_moving_end></wait_moving_end>
+			</xystage>
+			<xystage axis="y">
+				<wait_moving_end></wait_moving_end>
+			</xystage>
+		</microscope>
+		<microscope>
+			<xystage axis="x">
+				<enable>OFF</enable>
+			</xystage>
+			<xystage axis="y">
+				<enable>OFF</enable>
+			</xystage>
+		</microscope>
+<sleep>0:0:0.2</sleep>
+		<!-- SET NAME -->
+		<save>
+			<basename>/data/np451/boyko/MATLAB/xml_functions/X_-10611.8056.Y_250.</basename>
+			<append>DATE</append>
+		</save>
+		<!-- Take a record -->
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>ON</record></camera>
+		<sleep>0:0:3</sleep>
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>OFF</record></camera>
+	<!-- Position x=-10915y=250 -->
+		<!-- MOVE -->
+		<microscope>
+			<xystage axis="x">
+				<enable>ON</enable>
+				<move_absolute>-10915 5</move_absolute>
+			</xystage>
+			<xystage axis="y">
+				<enable>ON</enable>
+				<move_absolute>250 5</move_absolute>
+			</xystage>
+			<xystage axis="x">
+				<wait_moving_end></wait_moving_end>
+			</xystage>
+			<xystage axis="y">
+				<wait_moving_end></wait_moving_end>
+			</xystage>
+		</microscope>
+		<microscope>
+			<xystage axis="x">
+				<enable>OFF</enable>
+			</xystage>
+			<xystage axis="y">
+				<enable>OFF</enable>
+			</xystage>
+		</microscope>
+<sleep>0:0:0.2</sleep>
+		<!-- SET NAME -->
+		<save>
+			<basename>/data/np451/boyko/MATLAB/xml_functions/X_-10915.Y_250.</basename>
+			<append>DATE</append>
+		</save>
+		<!-- Take a record -->
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>ON</record></camera>
+		<sleep>0:0:3</sleep>
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>OFF</record></camera>
+	<!-- Position x=-10915y=500 -->
+		<!-- MOVE -->
+		<microscope>
+			<xystage axis="x">
+				<enable>ON</enable>
+				<move_absolute>-10915 5</move_absolute>
+			</xystage>
+			<xystage axis="y">
+				<enable>ON</enable>
+				<move_absolute>500 5</move_absolute>
+			</xystage>
+			<xystage axis="x">
+				<wait_moving_end></wait_moving_end>
+			</xystage>
+			<xystage axis="y">
+				<wait_moving_end></wait_moving_end>
+			</xystage>
+		</microscope>
+		<microscope>
+			<xystage axis="x">
+				<enable>OFF</enable>
+			</xystage>
+			<xystage axis="y">
+				<enable>OFF</enable>
+			</xystage>
+		</microscope>
+<sleep>0:0:0.2</sleep>
+		<!-- SET NAME -->
+		<save>
+			<basename>/data/np451/boyko/MATLAB/xml_functions/X_-10915.Y_500.</basename>
+			<append>DATE</append>
+		</save>
+		<!-- Take a record -->
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>ON</record></camera>
+		<sleep>0:0:3</sleep>
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>OFF</record></camera>
+	<!-- Position x=-10915y=750 -->
+		<!-- MOVE -->
+		<microscope>
+			<xystage axis="x">
+				<enable>ON</enable>
+				<move_absolute>-10915 5</move_absolute>
+			</xystage>
+			<xystage axis="y">
+				<enable>ON</enable>
+				<move_absolute>750 5</move_absolute>
+			</xystage>
+			<xystage axis="x">
+				<wait_moving_end></wait_moving_end>
+			</xystage>
+			<xystage axis="y">
+				<wait_moving_end></wait_moving_end>
+			</xystage>
+		</microscope>
+		<microscope>
+			<xystage axis="x">
+				<enable>OFF</enable>
+			</xystage>
+			<xystage axis="y">
+				<enable>OFF</enable>
+			</xystage>
+		</microscope>
+<sleep>0:0:0.2</sleep>
+		<!-- SET NAME -->
+		<save>
+			<basename>/data/np451/boyko/MATLAB/xml_functions/X_-10915.Y_750.</basename>
+			<append>DATE</append>
+		</save>
+		<!-- Take a record -->
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>ON</record></camera>
+		<sleep>0:0:3</sleep>
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>OFF</record></camera>
+	<multiled device="microscope">
+		<trigger>EXTERNAL0</trigger> <!-- INTERNAL, EXTERNAL0, EXTERNAL1, EXTERNAL2 -->
+		<enable channel="1">OFF</enable> <!-- ON, OFF -->
+		<set channel="0">0.01</set> <!-- 0 -> 1 -->
+		<number channel="0">3</number> <!-- LED number, 0,1,2,3 -->
+		<enable channel="0">OFF</enable> <!-- ON, OFF -->
+	</multiled>
+</temika>

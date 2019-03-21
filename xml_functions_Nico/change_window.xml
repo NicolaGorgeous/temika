@@ -1,0 +1,94 @@
+<temika>
+<!-- move to the position P1 -->
+	<microscope>
+		<xystage axis="x">
+			<move_absolute>-488.40 5</move_absolute> <!-- position, period -->
+			<wait_moving_end></wait_moving_end> <!-- Waits while stage is moving -->
+		</xystage>
+		<xystage axis="y">
+			<move_absolute>6177.40 5</move_absolute> <!-- position, period -->
+			<wait_moving_end></wait_moving_end> <!-- Waits while stage is moving -->
+		</xystage>
+	</microscope>
+
+<sleep>0:0:4.0</sleep>
+
+<!-- set the right dimension of the roi -->
+
+	<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M">
+		<iidc>	
+			<size>672 534 0 106</size> <!--size_x, size_y, position_x, position_y-->
+		</iidc>
+	</camera>
+
+<sleep>0:0:3.0</sleep>
+
+</temika>
+
+<!-- end position P1 -->
+
+
+
+
+
+
+<temika>
+<!-- move to the position P2 -->
+	<microscope>
+		<xystage axis="x">
+			<move_absolute>-472.40 5</move_absolute> <!-- position, period -->
+			<wait_moving_end></wait_moving_end> <!-- Waits while stage is moving -->
+		</xystage>
+		<xystage axis="y">
+			<move_absolute>5843.35 5</move_absolute> <!-- position, period -->
+			<wait_moving_end></wait_moving_end> <!-- Waits while stage is moving -->
+		</xystage>
+	</microscope>
+
+<sleep>0:0:4.0</sleep>
+
+<!-- set the right dimension of the roi -->
+
+	<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M">
+		<iidc>	
+			<size>992 560 0 106</size> <!--size_x, size_y, position_x, position_y-->
+		</iidc>
+	</camera>
+
+<sleep>0:0:3.0</sleep>
+
+</temika>
+
+<!-- end position P2 -->
+
+
+
+<temika>
+<!-- move to the position P3 -->
+	<microscope>
+		<xystage axis="x">
+			<move_absolute>-489.50 5</move_absolute> <!-- position, period -->
+			<wait_moving_end></wait_moving_end> <!-- Waits while stage is moving -->
+		</xystage>
+		<xystage axis="y">
+			<move_absolute>3448.90 5</move_absolute> <!-- position, period -->
+			<wait_moving_end></wait_moving_end> <!-- Waits while stage is moving -->
+		</xystage>
+	</microscope>
+
+<sleep>0:0:4.0</sleep>
+
+<!-- set the right dimension of the roi -->
+
+	<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M">
+		<iidc>	
+			<size>1312 442 0 106</size> <!--size_x, size_y, position_x, position_y-->
+		</iidc>
+	</camera>
+
+<sleep>0:0:3.0</sleep>
+
+</temika>
+
+<!-- end position P3 -->
+
