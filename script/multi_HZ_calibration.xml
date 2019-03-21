@@ -1,0 +1,408 @@
+<temika>
+	<microscope>
+		<eclipsetie>
+			<light_path>L100</light_path>
+		</eclipsetie>
+	</microscope>
+
+		<timestamp>0</timestamp>
+
+
+
+	<!-- set smc with selected gain and voltage and period -->
+	<smc>
+		<offset>5</offset>
+		<gain>2</gain>
+		<waveform>
+			<repetitions>0</repetitions>
+		</waveform>
+	</smc>
+	<sleep>0:0:10</sleep>
+		<!-- SET NAME -->
+		<save>
+			<basename>/home/np451/data/syn/cal10X/10X_V2_O5_P0</basename>
+			<append>DATE</append>
+		</save>
+		<!-- Take a record -->
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>ON</record></camera>
+		<sleep>0:0:10</sleep>
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>OFF</record></camera>
+		<sleep>0:0:1</sleep>
+
+	<!-- set smc with selected gain and voltage and period -->
+	<smc>
+		<offset>5</offset>
+		<gain>2</gain>
+		<waveform>
+			<repetitions>-1</repetitions>
+			<period>4000</period>
+		</waveform>
+	</smc>
+	<sleep>0:0:10</sleep>
+		<!-- SET NAME -->
+		<save>
+			<basename>/home/np451/data/syn/cal10X/10X_V2_O5_P4000</basename>
+			<append>DATE</append>
+		</save>
+		<!-- Take a record -->
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>ON</record></camera>
+		<sleep>0:0:10</sleep>
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>OFF</record></camera>
+		<sleep>0:0:1.0</sleep>
+
+
+
+	<!-- set smc with selected gain and voltage and period -->
+	<smc>
+		<offset>5</offset>
+		<gain>2</gain>
+		<waveform>
+			<repetitions>-1</repetitions>
+			<period>3000</period>
+		</waveform>
+	</smc>
+	<sleep>0:0:10</sleep>
+		<!-- SET NAME -->
+		<save>
+			<basename>/home/np451/data/syn/cal10X/10X_V2_O5_P3000</basename>
+			<append>DATE</append>
+		</save>
+		<!-- Take a record -->
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>ON</record></camera>
+		<sleep>0:0:10</sleep>
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>OFF</record></camera>
+		<sleep>0:0:1.0</sleep>
+
+
+
+	<!-- set smc with selected gain and voltage and period -->
+	<smc>
+		<offset>5</offset>
+		<gain>3</gain>
+		<waveform>
+			<repetitions>0</repetitions>
+		</waveform>
+	</smc>
+	<sleep>0:0:10</sleep>
+		<!-- SET NAME -->
+		<save>
+			<basename>/home/np451/data/syn/cal10X/10X_V3_O5_P0</basename>
+			<append>DATE</append>
+		</save>
+		<!-- Take a record -->
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>ON</record></camera>
+		<sleep>0:0:10</sleep>
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>OFF</record></camera>
+		<sleep>0:0:1</sleep>
+
+	<!-- set smc with selected gain and voltage and period -->
+	<smc>
+		<offset>5</offset>
+		<gain>3</gain>
+		<waveform>
+			<repetitions>-1</repetitions>
+			<period>4000</period>
+		</waveform>
+	</smc>
+	<sleep>0:0:10</sleep>
+		<!-- SET NAME -->
+		<save>
+			<basename>/home/np451/data/syn/cal10X/10X_V3_O5_P4000</basename>
+			<append>DATE</append>
+		</save>
+		<!-- Take a record -->
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>ON</record></camera>
+		<sleep>0:0:10</sleep>
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>OFF</record></camera>
+		<sleep>0:0:1.0</sleep>
+
+
+
+	<!-- set smc with selected gain and voltage and period -->
+	<smc>
+		<offset>5</offset>
+		<gain>3</gain>
+		<waveform>
+			<repetitions>-1</repetitions>
+			<period>3000</period>
+		</waveform>
+	</smc>
+	<sleep>0:0:10</sleep>
+		<!-- SET NAME -->
+		<save>
+			<basename>/home/np451/data/syn/cal10X/10X_V3_O5_P3000</basename>
+			<append>DATE</append>
+		</save>
+		<!-- Take a record -->
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>ON</record></camera>
+		<sleep>0:0:10</sleep>
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>OFF</record></camera>
+		<sleep>0:0:1.0</sleep>
+
+
+
+	<!-- set smc with selected gain and voltage and period -->
+	<smc>
+		<offset>5</offset>
+		<gain>4</gain>
+		<waveform>
+			<repetitions>0</repetitions>
+		</waveform>
+	</smc>
+	<sleep>0:0:10</sleep>
+		<!-- SET NAME -->
+		<save>
+			<basename>/home/np451/data/syn/cal10X/10X_V4_O5_P0</basename>
+			<append>DATE</append>
+		</save>
+		<!-- Take a record -->
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>ON</record></camera>
+		<sleep>0:0:10</sleep>
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>OFF</record></camera>
+		<sleep>0:0:1</sleep>
+
+	<!-- set smc with selected gain and voltage and period -->
+	<smc>
+		<offset>5</offset>
+		<gain>4</gain>
+		<waveform>
+			<repetitions>-1</repetitions>
+			<period>4000</period>
+		</waveform>
+	</smc>
+	<sleep>0:0:10</sleep>
+		<!-- SET NAME -->
+		<save>
+			<basename>/home/np451/data/syn/cal10X/10X_V4_O5_P4000</basename>
+			<append>DATE</append>
+		</save>
+		<!-- Take a record -->
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>ON</record></camera>
+		<sleep>0:0:10</sleep>
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>OFF</record></camera>
+		<sleep>0:0:1.0</sleep>
+
+
+
+	<!-- set smc with selected gain and voltage and period -->
+	<smc>
+		<offset>5</offset>
+		<gain>4</gain>
+		<waveform>
+			<repetitions>-1</repetitions>
+			<period>3000</period>
+		</waveform>
+	</smc>
+	<sleep>0:0:10</sleep>
+		<!-- SET NAME -->
+		<save>
+			<basename>/home/np451/data/syn/cal10X/10X_V4_O5_P3000</basename>
+			<append>DATE</append>
+		</save>
+		<!-- Take a record -->
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>ON</record></camera>
+		<sleep>0:0:10</sleep>
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>OFF</record></camera>
+		<sleep>0:0:1.0</sleep>
+
+
+
+	<!-- set smc with selected gain and voltage and period -->
+	<smc>
+		<offset>6</offset>
+		<gain>5</gain>
+		<waveform>
+			<repetitions>0</repetitions>
+		</waveform>
+	</smc>
+	<sleep>0:0:10</sleep>
+		<!-- SET NAME -->
+		<save>
+			<basename>/home/np451/data/syn/cal10X/10X_V5_O6_P0</basename>
+			<append>DATE</append>
+		</save>
+		<!-- Take a record -->
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>ON</record></camera>
+		<sleep>0:0:10</sleep>
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>OFF</record></camera>
+		<sleep>0:0:1</sleep>
+
+	<!-- set smc with selected gain and voltage and period -->
+	<smc>
+		<offset>6</offset>
+		<gain>5</gain>
+		<waveform>
+			<repetitions>-1</repetitions>
+			<period>4000</period>
+		</waveform>
+	</smc>
+	<sleep>0:0:10</sleep>
+		<!-- SET NAME -->
+		<save>
+			<basename>/home/np451/data/syn/cal10X/10X_V5_O6_P4000</basename>
+			<append>DATE</append>
+		</save>
+		<!-- Take a record -->
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>ON</record></camera>
+		<sleep>0:0:10</sleep>
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>OFF</record></camera>
+		<sleep>0:0:1.0</sleep>
+
+
+
+	<!-- set smc with selected gain and voltage and period -->
+	<smc>
+		<offset>6</offset>
+		<gain>5</gain>
+		<waveform>
+			<repetitions>-1</repetitions>
+			<period>3000</period>
+		</waveform>
+	</smc>
+	<sleep>0:0:10</sleep>
+		<!-- SET NAME -->
+		<save>
+			<basename>/home/np451/data/syn/cal10X/10X_V5_O6_P3000</basename>
+			<append>DATE</append>
+		</save>
+		<!-- Take a record -->
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>ON</record></camera>
+		<sleep>0:0:10</sleep>
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>OFF</record></camera>
+		<sleep>0:0:1.0</sleep>
+
+
+
+	<!-- set smc with selected gain and voltage and period -->
+	<smc>
+		<offset>7</offset>
+		<gain>6</gain>
+		<waveform>
+			<repetitions>0</repetitions>
+		</waveform>
+	</smc>
+	<sleep>0:0:10</sleep>
+		<!-- SET NAME -->
+		<save>
+			<basename>/home/np451/data/syn/cal10X/10X_V6_O7_P0</basename>
+			<append>DATE</append>
+		</save>
+		<!-- Take a record -->
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>ON</record></camera>
+		<sleep>0:0:10</sleep>
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>OFF</record></camera>
+		<sleep>0:0:1</sleep>
+
+	<!-- set smc with selected gain and voltage and period -->
+	<smc>
+		<offset>7</offset>
+		<gain>6</gain>
+		<waveform>
+			<repetitions>-1</repetitions>
+			<period>4000</period>
+		</waveform>
+	</smc>
+	<sleep>0:0:10</sleep>
+		<!-- SET NAME -->
+		<save>
+			<basename>/home/np451/data/syn/cal10X/10X_V6_O7_P4000</basename>
+			<append>DATE</append>
+		</save>
+		<!-- Take a record -->
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>ON</record></camera>
+		<sleep>0:0:10</sleep>
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>OFF</record></camera>
+		<sleep>0:0:1.0</sleep>
+
+
+
+	<!-- set smc with selected gain and voltage and period -->
+	<smc>
+		<offset>7</offset>
+		<gain>6</gain>
+		<waveform>
+			<repetitions>-1</repetitions>
+			<period>3000</period>
+		</waveform>
+	</smc>
+	<sleep>0:0:10</sleep>
+		<!-- SET NAME -->
+		<save>
+			<basename>/home/np451/data/syn/cal10X/10X_V6_O7_P3000</basename>
+			<append>DATE</append>
+		</save>
+		<!-- Take a record -->
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>ON</record></camera>
+		<sleep>0:0:10</sleep>
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>OFF</record></camera>
+		<sleep>0:0:1.0</sleep>
+
+
+
+	<!-- set smc with selected gain and voltage and period -->
+	<smc>
+		<offset>8</offset>
+		<gain>7</gain>
+		<waveform>
+			<repetitions>0</repetitions>
+		</waveform>
+	</smc>
+	<sleep>0:0:10</sleep>
+		<!-- SET NAME -->
+		<save>
+			<basename>/home/np451/data/syn/cal10X/10X_V7_O8_P0</basename>
+			<append>DATE</append>
+		</save>
+		<!-- Take a record -->
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>ON</record></camera>
+		<sleep>0:0:10</sleep>
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>OFF</record></camera>
+		<sleep>0:0:1</sleep>
+
+	<!-- set smc with selected gain and voltage and period -->
+	<smc>
+		<offset>8</offset>
+		<gain>7</gain>
+		<waveform>
+			<repetitions>-1</repetitions>
+			<period>4000</period>
+		</waveform>
+	</smc>
+	<sleep>0:0:10</sleep>
+		<!-- SET NAME -->
+		<save>
+			<basename>/home/np451/data/syn/cal10X/10X_V7_O8_P4000</basename>
+			<append>DATE</append>
+		</save>
+		<!-- Take a record -->
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>ON</record></camera>
+		<sleep>0:0:10</sleep>
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>OFF</record></camera>
+		<sleep>0:0:1.0</sleep>
+
+
+
+	<!-- set smc with selected gain and voltage and period -->
+	<smc>
+		<offset>8</offset>
+		<gain>7</gain>
+		<waveform>
+			<repetitions>-1</repetitions>
+			<period>3000</period>
+		</waveform>
+	</smc>
+	<sleep>0:0:10</sleep>
+		<!-- SET NAME -->
+		<save>
+			<basename>/home/np451/data/syn/cal10X/10X_V7_O8_P3000</basename>
+			<append>DATE</append>
+		</save>
+		<!-- Take a record -->
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>ON</record></camera>
+		<sleep>0:0:10</sleep>
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>OFF</record></camera>
+		<sleep>0:0:1.0</sleep>
+
+
+
+</temika>

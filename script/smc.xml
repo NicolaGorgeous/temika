@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<!--*- mode: xml -*-->
+<temika>
+
+	<smc>
+		<!--<clock>4294727297</clock> --> <!-- frequency = 24MHz / ( 2^32 - period + 1 ), 100Hz -->
+		<offset>-0.2</offset>
+		<gain>2.3</gain>
+		<amplifier>ON</amplifier>
+		<waveform>
+			<new>
+				0 131071
+			</new>
+			<period>2</period>
+			<repetitions>-1</repetitions>
+		</waveform>
+	</smc>
+
+</temika>

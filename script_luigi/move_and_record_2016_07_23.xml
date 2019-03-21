@@ -1,0 +1,406 @@
+<temika>
+
+<!-- I expect the user to have set temperature pfs filterblock and illumination -->
+
+	<microscope>
+			<eclipsetie>
+				<light_path>L100</light_path>
+			</eclipsetie>
+	</microscope>
+
+	
+	
+	
+	
+	<repeat repetitions="26">
+	<timestamp>0</timestamp>
+
+	<!-- Position Normal_P0 -->
+		<!-- Move -->
+		<microscope>
+			<xystage axis="x">
+				<move_absolute>0 5</move_absolute>
+			</xystage>
+			<xystage axis="y">
+				<move_absolute>0 5</move_absolute>
+				<wait_moving_end></wait_moving_end>
+			</xystage>
+			<xystage axis="x">
+				<wait_moving_end></wait_moving_end>
+			</xystage>
+			<eclipsetie>
+				<pfs_offset>20654</pfs_offset>
+			</eclipsetie>
+		</microscope>
+		<!-- Set the name -->
+		<save>
+			<basename>40X_BF_Normal_P0</basename>
+			<append>DATE</append>
+		</save>
+		<!-- Turn on the light -->
+		<multiled><enable channel="0">ON</enable></multiled>
+		<sleep>0:0:5.0</sleep>
+		<!-- Take a 10s video -->
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>ON</record></camera>
+		<temperature name="Peltier"><record>ON</record></temperature>
+		<sleep>0:0:10.0</sleep>
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>OFF</record></camera>
+		<temperature name="Peltier"><record>OFF</record></temperature>
+		<!-- Turn off the light -->
+		<multiled><enable channel="0">OFF</enable></multiled>
+		<sleep>0:0:1.0</sleep>
+
+		
+	<!-- Position Normal_P1 -->
+		<!-- Move -->
+		<microscope>
+			<xystage axis="x">
+				<move_absolute>-1383.75 5</move_absolute>
+			</xystage>
+			<xystage axis="y">
+				<move_absolute>1536.10 5</move_absolute>
+				<wait_moving_end></wait_moving_end>
+			</xystage>
+			<xystage axis="x">
+				<wait_moving_end></wait_moving_end>
+			</xystage>
+			<eclipsetie>
+				<pfs_offset>21554</pfs_offset>
+			</eclipsetie>
+		</microscope>
+		<!-- Set the name -->
+		<save>
+			<basename>40X_BF_Normal_P1</basename>
+			<append>DATE</append>
+		</save>
+		<!-- Turn on the light -->
+		<multiled><enable channel="0">ON</enable></multiled>
+		<sleep>0:0:5.0</sleep>
+		<!-- Take a 10s video -->
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>ON</record></camera>
+		<temperature name="Peltier"><record>ON</record></temperature>
+		<sleep>0:0:10.0</sleep>
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>OFF</record></camera>
+		<temperature name="Peltier"><record>OFF</record></temperature>
+		<!-- Turn off the light -->
+		<multiled><enable channel="0">OFF</enable></multiled>
+
+
+	<!-- Position Normal_P2 -->
+		<!-- Move -->
+		<microscope>
+			<xystage axis="x">
+				<move_absolute>-2037.15 5</move_absolute>
+			</xystage>
+			<xystage axis="y">
+				<move_absolute>2224.80 5</move_absolute>
+				<wait_moving_end></wait_moving_end>
+			</xystage>
+			<xystage axis="x">
+				<wait_moving_end></wait_moving_end>
+			</xystage>
+			<eclipsetie>
+				<pfs_offset>20894</pfs_offset>
+			</eclipsetie>
+		</microscope>
+		<!-- Set the name -->
+		<save>
+			<basename>40X_BF_Normal_P2</basename>
+			<append>DATE</append>
+		</save>
+		<!-- Turn on the light -->
+		<multiled><enable channel="0">ON</enable></multiled>
+		<sleep>0:0:5.0</sleep>
+		<!-- Take a 10s video -->
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>ON</record></camera>
+		<temperature name="Peltier"><record>ON</record></temperature>
+		<sleep>0:0:10.0</sleep>
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>OFF</record></camera>
+		<temperature name="Peltier"><record>OFF</record></temperature>
+		<!-- Turn off the light -->
+		<multiled><enable channel="0">OFF</enable></multiled>
+
+		
+	<!-- Position Normal_P3 -->
+		<!-- Move -->
+		<microscope>
+			<xystage axis="x">
+				<move_absolute>-233.30 5</move_absolute>
+			</xystage>
+			<xystage axis="y">
+				<move_absolute>2099.70 5</move_absolute>
+				<wait_moving_end></wait_moving_end>
+			</xystage>
+			<xystage axis="x">
+				<wait_moving_end></wait_moving_end>
+			</xystage>
+			<eclipsetie>
+				<pfs_offset>20966</pfs_offset>
+			</eclipsetie>
+		</microscope>
+		<!-- Set the name -->
+		<save>
+			<basename>40X_BF_Normal_P3</basename>
+			<append>DATE</append>
+		</save>
+		<!-- Turn on the light -->
+		<multiled><enable channel="0">ON</enable></multiled>
+		<sleep>0:0:5.0</sleep>
+		<!-- Take a 10s video -->
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>ON</record></camera>
+		<temperature name="Peltier"><record>ON</record></temperature>
+		<sleep>0:0:10.0</sleep>
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>OFF</record></camera>
+		<temperature name="Peltier"><record>OFF</record></temperature>
+		<!-- Turn off the light -->
+		<multiled><enable channel="0">OFF</enable></multiled>	
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+	<!-- Now move to second Petri Dish -->
+		<microscope>
+			<!-- escape objective -->
+			<eclipsetie>
+				<zdrive_escape>ON</zdrive_escape>
+			</eclipsetie>
+		</microscope>
+		<sleep>0:0:10.0</sleep>
+		<microscope>
+			<!-- Move -->
+			<xystage axis="x">
+				<move_absolute>49717.45 8</move_absolute>
+			</xystage>
+			<xystage axis="y">
+				<move_absolute>2179.45 8</move_absolute>
+				<wait_moving_end></wait_moving_end>
+			</xystage>
+			<xystage axis="x">
+				<wait_moving_end></wait_moving_end>
+			</xystage>
+			<!-- unescape objective -->
+			<eclipsetie>
+				<zdrive_escape>OFF</zdrive_escape>
+			</eclipsetie>
+		</microscope>
+		<sleep>0:0:10.0</sleep>
+		<microscope>
+			<!-- re-enable PFS -->
+			<eclipsetie>
+				<pfs_enable>ON</pfs_enable>
+			</eclipsetie>
+		</microscope>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<!-- Position CF_P0 -->
+		<!-- Move -->
+		<microscope>
+			<xystage axis="x">
+				<move_absolute>49717.45 5</move_absolute>
+			</xystage>
+			<xystage axis="y">
+				<move_absolute>2179.45 5</move_absolute>
+				<wait_moving_end></wait_moving_end>
+			</xystage>
+			<xystage axis="x">
+				<wait_moving_end></wait_moving_end>
+			</xystage>
+			<eclipsetie>
+				<pfs_offset>5898</pfs_offset>
+			</eclipsetie>
+		</microscope>
+		<!-- Set the name -->
+		<save>
+			<basename>40X_BF_CF_P0</basename>
+			<append>DATE</append>
+		</save>
+		<!-- Turn on the light -->
+		<multiled><enable channel="0">ON</enable></multiled>
+		<sleep>0:0:5.0</sleep>
+		<!-- Take a 10s video -->
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>ON</record></camera>
+		<temperature name="Peltier"><record>ON</record></temperature>
+		<sleep>0:0:10.0</sleep>
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>OFF</record></camera>
+		<temperature name="Peltier"><record>OFF</record></temperature>
+		<!-- Turn off the light -->
+		<multiled><enable channel="0">OFF</enable></multiled>
+		<sleep>0:0:1.0</sleep>
+
+		
+	<!-- Position CF_P1 -->
+		<!-- Move -->
+		<microscope>
+			<xystage axis="x">
+				<move_absolute>49717.20 5</move_absolute>
+			</xystage>
+			<xystage axis="y">
+				<move_absolute>2870.30 5</move_absolute>
+				<wait_moving_end></wait_moving_end>
+			</xystage>
+			<xystage axis="x">
+				<wait_moving_end></wait_moving_end>
+			</xystage>
+			<eclipsetie>
+				<pfs_offset>5996</pfs_offset>
+			</eclipsetie>
+		</microscope>
+		<!-- Set the name -->
+		<save>
+			<basename>40X_BF_CF_P1</basename>
+			<append>DATE</append>
+		</save>
+		<!-- Turn on the light -->
+		<multiled><enable channel="0">ON</enable></multiled>
+		<sleep>0:0:5.0</sleep>
+		<!-- Take a 10s video -->
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>ON</record></camera>
+		<temperature name="Peltier"><record>ON</record></temperature>
+		<sleep>0:0:10.0</sleep>
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>OFF</record></camera>
+		<temperature name="Peltier"><record>OFF</record></temperature>
+		<!-- Turn off the light -->
+		<multiled><enable channel="0">OFF</enable></multiled>
+
+
+	<!-- Position CF_P2 -->
+		<!-- Move -->
+		<microscope>
+			<xystage axis="x">
+				<move_absolute>49657.55 5</move_absolute>
+			</xystage>
+			<xystage axis="y">
+				<move_absolute>4669.95 5</move_absolute>
+				<wait_moving_end></wait_moving_end>
+			</xystage>
+			<xystage axis="x">
+				<wait_moving_end></wait_moving_end>
+			</xystage>
+			<eclipsetie>
+				<pfs_offset>5478</pfs_offset>
+			</eclipsetie>
+		</microscope>
+		<!-- Set the name -->
+		<save>
+			<basename>40X_BF_CF_P2</basename>
+			<append>DATE</append>
+		</save>
+		<!-- Turn on the light -->
+		<multiled><enable channel="0">ON</enable></multiled>
+		<sleep>0:0:5.0</sleep>
+		<!-- Take a 10s video -->
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>ON</record></camera>
+		<temperature name="Peltier"><record>ON</record></temperature>
+		<sleep>0:0:10.0</sleep>
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>OFF</record></camera>
+		<temperature name="Peltier"><record>OFF</record></temperature>
+		<!-- Turn off the light -->
+		<multiled><enable channel="0">OFF</enable></multiled>
+		
+		
+	<!-- Position CF_P3 -->
+		<!-- Move -->
+		<microscope>
+			<xystage axis="x">
+				<move_absolute>50599.65 5</move_absolute>
+			</xystage>
+			<xystage axis="y">
+				<move_absolute>4470.90 5</move_absolute>
+				<wait_moving_end></wait_moving_end>
+			</xystage>
+			<xystage axis="x">
+				<wait_moving_end></wait_moving_end>
+			</xystage>
+			<eclipsetie>
+				<pfs_offset>5478</pfs_offset>
+			</eclipsetie>
+		</microscope>
+		<!-- Set the name -->
+		<save>
+			<basename>40X_BF_CF_P3</basename>
+			<append>DATE</append>
+		</save>
+		<!-- Turn on the light -->
+		<multiled><enable channel="0">ON</enable></multiled>
+		<sleep>0:0:5.0</sleep>
+		<!-- Take a 10s video -->
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>ON</record></camera>
+		<temperature name="Peltier"><record>ON</record></temperature>
+		<sleep>0:0:10.0</sleep>
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>OFF</record></camera>
+		<temperature name="Peltier"><record>OFF</record></temperature>
+		<!-- Turn off the light -->
+		<multiled><enable channel="0">OFF</enable></multiled>	
+		
+		
+		
+		
+		
+		
+		
+		
+	<!-- Now move back to first Petri Dish -->	
+		<microscope>
+			<!-- escape objective -->
+			<eclipsetie>
+				<zdrive_escape>ON</zdrive_escape>
+			</eclipsetie>
+		</microscope>
+		<sleep>0:0:10.0</sleep>
+		<microscope>
+			<!-- Move -->
+			<xystage axis="x">
+				<move_absolute>0 8</move_absolute>
+			</xystage>
+			<xystage axis="y">
+				<move_absolute>0 8</move_absolute>
+				<wait_moving_end></wait_moving_end>
+			</xystage>
+			<xystage axis="x">
+				<wait_moving_end></wait_moving_end>
+			</xystage>
+			<!-- unescape objective -->
+			<eclipsetie>
+				<zdrive_escape>OFF</zdrive_escape>
+			</eclipsetie>
+		</microscope>
+		<sleep>0:0:10.0</sleep>
+		<microscope>
+			<!-- re-enable PFS -->
+			<eclipsetie>
+				<pfs_enable>ON</pfs_enable>
+			</eclipsetie>
+		</microscope>
+		
+		
+		
+		
+		
+		
+		
+		
+
+	<!-- Now wait -->
+		<sleep timestamp="0">1:0:0.0</sleep>
+
+	</repeat>
+
+
+
+
+</temika>

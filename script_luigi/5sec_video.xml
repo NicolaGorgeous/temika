@@ -1,0 +1,15 @@
+<temika>
+
+<!-- I expect the user to have set temperature pfs filterblock and illumination -->
+
+
+		<!-- Take a 10s video -->
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>ON</record></camera>
+		<sleep>0:0:5.0</sleep>
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>OFF</record></camera>
+		<!-- Turn off the light -->
+
+		
+
+
+</temika>

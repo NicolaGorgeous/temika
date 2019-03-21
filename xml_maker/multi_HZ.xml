@@ -1,0 +1,3977 @@
+<temika>
+	<microscope>
+		<eclipsetie>
+			<light_path>L100</light_path>
+		</eclipsetie>
+	</microscope>
+
+		<timestamp>0</timestamp>
+
+
+
+	<!-- set smc with selected gain and voltage and period -->
+	<smc>
+		<offset>4</offset>
+		<gain>3</gain>
+		<waveform>
+			<repetitions>0</repetitions>
+		</waveform>
+	</smc>
+	<sleep>0:0:2</sleep>
+		<!-- SET NAME -->
+		<save>
+			<basename>/home/np451/data/22.10.18/P1_5h/60X_V3_O4_P0</basename>
+			<append>DATE</append>
+		</save>
+		<!-- Turn on light -->
+		<multiled device="microscope">
+			<enable channel="0">ON</enable>
+		</multiled>
+		<!-- Take a record -->
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>ON</record></camera>
+		<sleep>0:0:5</sleep>
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>OFF</record></camera>
+		<sleep>0:0:1</sleep>
+
+		<!-- Turn off light -->
+		<multiled device="microscope">
+			<enable channel="0">OFF</enable>
+		</multiled>
+	<!-- set smc with selected gain and voltage and period -->
+	<smc>
+		<offset>4</offset>
+		<gain>3</gain>
+		<waveform>
+			<repetitions>-1</repetitions>
+			<period>27</period>
+		</waveform>
+	</smc>
+	<sleep>0:0:2</sleep>
+		<!-- SET NAME -->
+		<save>
+			<basename>/home/np451/data/22.10.18/P1_5h/60X_V3_O4_P27</basename>
+			<append>DATE</append>
+		</save>
+		<!-- Turn on light -->
+		<multiled device="microscope">
+			<enable channel="0">ON</enable>
+		</multiled>
+		<!-- Take a record -->
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>ON</record></camera>
+		<sleep>0:0:5</sleep>
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>OFF</record></camera>
+		<sleep>0:0:1.0</sleep>		<!-- Turn off light -->
+		<multiled device="microscope">
+			<enable channel="0">OFF</enable>
+		</multiled>
+
+
+
+
+	<!-- set smc with selected gain and voltage and period -->
+	<smc>
+		<offset>4</offset>
+		<gain>3</gain>
+		<waveform>
+			<repetitions>-1</repetitions>
+			<period>28</period>
+		</waveform>
+	</smc>
+	<sleep>0:0:2</sleep>
+		<!-- SET NAME -->
+		<save>
+			<basename>/home/np451/data/22.10.18/P1_5h/60X_V3_O4_P28</basename>
+			<append>DATE</append>
+		</save>
+		<!-- Turn on light -->
+		<multiled device="microscope">
+			<enable channel="0">ON</enable>
+		</multiled>
+		<!-- Take a record -->
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>ON</record></camera>
+		<sleep>0:0:5</sleep>
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>OFF</record></camera>
+		<sleep>0:0:1.0</sleep>		<!-- Turn off light -->
+		<multiled device="microscope">
+			<enable channel="0">OFF</enable>
+		</multiled>
+
+
+
+
+	<!-- set smc with selected gain and voltage and period -->
+	<smc>
+		<offset>4</offset>
+		<gain>3</gain>
+		<waveform>
+			<repetitions>-1</repetitions>
+			<period>29</period>
+		</waveform>
+	</smc>
+	<sleep>0:0:2</sleep>
+		<!-- SET NAME -->
+		<save>
+			<basename>/home/np451/data/22.10.18/P1_5h/60X_V3_O4_P29</basename>
+			<append>DATE</append>
+		</save>
+		<!-- Turn on light -->
+		<multiled device="microscope">
+			<enable channel="0">ON</enable>
+		</multiled>
+		<!-- Take a record -->
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>ON</record></camera>
+		<sleep>0:0:5</sleep>
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>OFF</record></camera>
+		<sleep>0:0:1.0</sleep>		<!-- Turn off light -->
+		<multiled device="microscope">
+			<enable channel="0">OFF</enable>
+		</multiled>
+
+
+
+
+	<!-- set smc with selected gain and voltage and period -->
+	<smc>
+		<offset>4</offset>
+		<gain>3</gain>
+		<waveform>
+			<repetitions>-1</repetitions>
+			<period>30</period>
+		</waveform>
+	</smc>
+	<sleep>0:0:2</sleep>
+		<!-- SET NAME -->
+		<save>
+			<basename>/home/np451/data/22.10.18/P1_5h/60X_V3_O4_P30</basename>
+			<append>DATE</append>
+		</save>
+		<!-- Turn on light -->
+		<multiled device="microscope">
+			<enable channel="0">ON</enable>
+		</multiled>
+		<!-- Take a record -->
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>ON</record></camera>
+		<sleep>0:0:5</sleep>
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>OFF</record></camera>
+		<sleep>0:0:1.0</sleep>		<!-- Turn off light -->
+		<multiled device="microscope">
+			<enable channel="0">OFF</enable>
+		</multiled>
+
+
+
+
+	<!-- set smc with selected gain and voltage and period -->
+	<smc>
+		<offset>4</offset>
+		<gain>3</gain>
+		<waveform>
+			<repetitions>-1</repetitions>
+			<period>31</period>
+		</waveform>
+	</smc>
+	<sleep>0:0:2</sleep>
+		<!-- SET NAME -->
+		<save>
+			<basename>/home/np451/data/22.10.18/P1_5h/60X_V3_O4_P31</basename>
+			<append>DATE</append>
+		</save>
+		<!-- Turn on light -->
+		<multiled device="microscope">
+			<enable channel="0">ON</enable>
+		</multiled>
+		<!-- Take a record -->
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>ON</record></camera>
+		<sleep>0:0:5</sleep>
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>OFF</record></camera>
+		<sleep>0:0:1.0</sleep>		<!-- Turn off light -->
+		<multiled device="microscope">
+			<enable channel="0">OFF</enable>
+		</multiled>
+
+
+
+
+	<!-- set smc with selected gain and voltage and period -->
+	<smc>
+		<offset>4</offset>
+		<gain>3</gain>
+		<waveform>
+			<repetitions>-1</repetitions>
+			<period>32</period>
+		</waveform>
+	</smc>
+	<sleep>0:0:2</sleep>
+		<!-- SET NAME -->
+		<save>
+			<basename>/home/np451/data/22.10.18/P1_5h/60X_V3_O4_P32</basename>
+			<append>DATE</append>
+		</save>
+		<!-- Turn on light -->
+		<multiled device="microscope">
+			<enable channel="0">ON</enable>
+		</multiled>
+		<!-- Take a record -->
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>ON</record></camera>
+		<sleep>0:0:5</sleep>
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>OFF</record></camera>
+		<sleep>0:0:1.0</sleep>		<!-- Turn off light -->
+		<multiled device="microscope">
+			<enable channel="0">OFF</enable>
+		</multiled>
+
+
+
+
+	<!-- set smc with selected gain and voltage and period -->
+	<smc>
+		<offset>4</offset>
+		<gain>3</gain>
+		<waveform>
+			<repetitions>-1</repetitions>
+			<period>33</period>
+		</waveform>
+	</smc>
+	<sleep>0:0:2</sleep>
+		<!-- SET NAME -->
+		<save>
+			<basename>/home/np451/data/22.10.18/P1_5h/60X_V3_O4_P33</basename>
+			<append>DATE</append>
+		</save>
+		<!-- Turn on light -->
+		<multiled device="microscope">
+			<enable channel="0">ON</enable>
+		</multiled>
+		<!-- Take a record -->
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>ON</record></camera>
+		<sleep>0:0:5</sleep>
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>OFF</record></camera>
+		<sleep>0:0:1.0</sleep>		<!-- Turn off light -->
+		<multiled device="microscope">
+			<enable channel="0">OFF</enable>
+		</multiled>
+
+
+
+
+	<!-- set smc with selected gain and voltage and period -->
+	<smc>
+		<offset>4</offset>
+		<gain>3</gain>
+		<waveform>
+			<repetitions>-1</repetitions>
+			<period>34</period>
+		</waveform>
+	</smc>
+	<sleep>0:0:2</sleep>
+		<!-- SET NAME -->
+		<save>
+			<basename>/home/np451/data/22.10.18/P1_5h/60X_V3_O4_P34</basename>
+			<append>DATE</append>
+		</save>
+		<!-- Turn on light -->
+		<multiled device="microscope">
+			<enable channel="0">ON</enable>
+		</multiled>
+		<!-- Take a record -->
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>ON</record></camera>
+		<sleep>0:0:5</sleep>
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>OFF</record></camera>
+		<sleep>0:0:1.0</sleep>		<!-- Turn off light -->
+		<multiled device="microscope">
+			<enable channel="0">OFF</enable>
+		</multiled>
+
+
+
+
+	<!-- set smc with selected gain and voltage and period -->
+	<smc>
+		<offset>4</offset>
+		<gain>3</gain>
+		<waveform>
+			<repetitions>-1</repetitions>
+			<period>35</period>
+		</waveform>
+	</smc>
+	<sleep>0:0:2</sleep>
+		<!-- SET NAME -->
+		<save>
+			<basename>/home/np451/data/22.10.18/P1_5h/60X_V3_O4_P35</basename>
+			<append>DATE</append>
+		</save>
+		<!-- Turn on light -->
+		<multiled device="microscope">
+			<enable channel="0">ON</enable>
+		</multiled>
+		<!-- Take a record -->
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>ON</record></camera>
+		<sleep>0:0:5</sleep>
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>OFF</record></camera>
+		<sleep>0:0:1.0</sleep>		<!-- Turn off light -->
+		<multiled device="microscope">
+			<enable channel="0">OFF</enable>
+		</multiled>
+
+
+
+
+	<!-- set smc with selected gain and voltage and period -->
+	<smc>
+		<offset>4</offset>
+		<gain>3</gain>
+		<waveform>
+			<repetitions>-1</repetitions>
+			<period>36</period>
+		</waveform>
+	</smc>
+	<sleep>0:0:2</sleep>
+		<!-- SET NAME -->
+		<save>
+			<basename>/home/np451/data/22.10.18/P1_5h/60X_V3_O4_P36</basename>
+			<append>DATE</append>
+		</save>
+		<!-- Turn on light -->
+		<multiled device="microscope">
+			<enable channel="0">ON</enable>
+		</multiled>
+		<!-- Take a record -->
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>ON</record></camera>
+		<sleep>0:0:5</sleep>
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>OFF</record></camera>
+		<sleep>0:0:1.0</sleep>		<!-- Turn off light -->
+		<multiled device="microscope">
+			<enable channel="0">OFF</enable>
+		</multiled>
+
+
+
+
+	<!-- set smc with selected gain and voltage and period -->
+	<smc>
+		<offset>4</offset>
+		<gain>3</gain>
+		<waveform>
+			<repetitions>-1</repetitions>
+			<period>37</period>
+		</waveform>
+	</smc>
+	<sleep>0:0:2</sleep>
+		<!-- SET NAME -->
+		<save>
+			<basename>/home/np451/data/22.10.18/P1_5h/60X_V3_O4_P37</basename>
+			<append>DATE</append>
+		</save>
+		<!-- Turn on light -->
+		<multiled device="microscope">
+			<enable channel="0">ON</enable>
+		</multiled>
+		<!-- Take a record -->
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>ON</record></camera>
+		<sleep>0:0:5</sleep>
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>OFF</record></camera>
+		<sleep>0:0:1.0</sleep>		<!-- Turn off light -->
+		<multiled device="microscope">
+			<enable channel="0">OFF</enable>
+		</multiled>
+
+
+
+
+	<!-- set smc with selected gain and voltage and period -->
+	<smc>
+		<offset>4</offset>
+		<gain>3</gain>
+		<waveform>
+			<repetitions>-1</repetitions>
+			<period>38</period>
+		</waveform>
+	</smc>
+	<sleep>0:0:2</sleep>
+		<!-- SET NAME -->
+		<save>
+			<basename>/home/np451/data/22.10.18/P1_5h/60X_V3_O4_P38</basename>
+			<append>DATE</append>
+		</save>
+		<!-- Turn on light -->
+		<multiled device="microscope">
+			<enable channel="0">ON</enable>
+		</multiled>
+		<!-- Take a record -->
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>ON</record></camera>
+		<sleep>0:0:5</sleep>
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>OFF</record></camera>
+		<sleep>0:0:1.0</sleep>		<!-- Turn off light -->
+		<multiled device="microscope">
+			<enable channel="0">OFF</enable>
+		</multiled>
+
+
+
+
+	<!-- set smc with selected gain and voltage and period -->
+	<smc>
+		<offset>4</offset>
+		<gain>3</gain>
+		<waveform>
+			<repetitions>-1</repetitions>
+			<period>39</period>
+		</waveform>
+	</smc>
+	<sleep>0:0:2</sleep>
+		<!-- SET NAME -->
+		<save>
+			<basename>/home/np451/data/22.10.18/P1_5h/60X_V3_O4_P39</basename>
+			<append>DATE</append>
+		</save>
+		<!-- Turn on light -->
+		<multiled device="microscope">
+			<enable channel="0">ON</enable>
+		</multiled>
+		<!-- Take a record -->
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>ON</record></camera>
+		<sleep>0:0:5</sleep>
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>OFF</record></camera>
+		<sleep>0:0:1.0</sleep>		<!-- Turn off light -->
+		<multiled device="microscope">
+			<enable channel="0">OFF</enable>
+		</multiled>
+
+
+
+
+	<!-- set smc with selected gain and voltage and period -->
+	<smc>
+		<offset>4</offset>
+		<gain>3</gain>
+		<waveform>
+			<repetitions>-1</repetitions>
+			<period>40</period>
+		</waveform>
+	</smc>
+	<sleep>0:0:2</sleep>
+		<!-- SET NAME -->
+		<save>
+			<basename>/home/np451/data/22.10.18/P1_5h/60X_V3_O4_P40</basename>
+			<append>DATE</append>
+		</save>
+		<!-- Turn on light -->
+		<multiled device="microscope">
+			<enable channel="0">ON</enable>
+		</multiled>
+		<!-- Take a record -->
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>ON</record></camera>
+		<sleep>0:0:5</sleep>
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>OFF</record></camera>
+		<sleep>0:0:1.0</sleep>		<!-- Turn off light -->
+		<multiled device="microscope">
+			<enable channel="0">OFF</enable>
+		</multiled>
+
+
+
+
+	<!-- set smc with selected gain and voltage and period -->
+	<smc>
+		<offset>4</offset>
+		<gain>3</gain>
+		<waveform>
+			<repetitions>-1</repetitions>
+			<period>41</period>
+		</waveform>
+	</smc>
+	<sleep>0:0:2</sleep>
+		<!-- SET NAME -->
+		<save>
+			<basename>/home/np451/data/22.10.18/P1_5h/60X_V3_O4_P41</basename>
+			<append>DATE</append>
+		</save>
+		<!-- Turn on light -->
+		<multiled device="microscope">
+			<enable channel="0">ON</enable>
+		</multiled>
+		<!-- Take a record -->
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>ON</record></camera>
+		<sleep>0:0:5</sleep>
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>OFF</record></camera>
+		<sleep>0:0:1.0</sleep>		<!-- Turn off light -->
+		<multiled device="microscope">
+			<enable channel="0">OFF</enable>
+		</multiled>
+
+
+
+
+	<!-- set smc with selected gain and voltage and period -->
+	<smc>
+		<offset>4</offset>
+		<gain>3</gain>
+		<waveform>
+			<repetitions>-1</repetitions>
+			<period>42</period>
+		</waveform>
+	</smc>
+	<sleep>0:0:2</sleep>
+		<!-- SET NAME -->
+		<save>
+			<basename>/home/np451/data/22.10.18/P1_5h/60X_V3_O4_P42</basename>
+			<append>DATE</append>
+		</save>
+		<!-- Turn on light -->
+		<multiled device="microscope">
+			<enable channel="0">ON</enable>
+		</multiled>
+		<!-- Take a record -->
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>ON</record></camera>
+		<sleep>0:0:5</sleep>
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>OFF</record></camera>
+		<sleep>0:0:1.0</sleep>		<!-- Turn off light -->
+		<multiled device="microscope">
+			<enable channel="0">OFF</enable>
+		</multiled>
+
+
+
+
+	<!-- set smc with selected gain and voltage and period -->
+	<smc>
+		<offset>4</offset>
+		<gain>3</gain>
+		<waveform>
+			<repetitions>-1</repetitions>
+			<period>43</period>
+		</waveform>
+	</smc>
+	<sleep>0:0:2</sleep>
+		<!-- SET NAME -->
+		<save>
+			<basename>/home/np451/data/22.10.18/P1_5h/60X_V3_O4_P43</basename>
+			<append>DATE</append>
+		</save>
+		<!-- Turn on light -->
+		<multiled device="microscope">
+			<enable channel="0">ON</enable>
+		</multiled>
+		<!-- Take a record -->
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>ON</record></camera>
+		<sleep>0:0:5</sleep>
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>OFF</record></camera>
+		<sleep>0:0:1.0</sleep>		<!-- Turn off light -->
+		<multiled device="microscope">
+			<enable channel="0">OFF</enable>
+		</multiled>
+
+
+
+
+	<!-- set smc with selected gain and voltage and period -->
+	<smc>
+		<offset>4</offset>
+		<gain>3</gain>
+		<waveform>
+			<repetitions>-1</repetitions>
+			<period>44</period>
+		</waveform>
+	</smc>
+	<sleep>0:0:2</sleep>
+		<!-- SET NAME -->
+		<save>
+			<basename>/home/np451/data/22.10.18/P1_5h/60X_V3_O4_P44</basename>
+			<append>DATE</append>
+		</save>
+		<!-- Turn on light -->
+		<multiled device="microscope">
+			<enable channel="0">ON</enable>
+		</multiled>
+		<!-- Take a record -->
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>ON</record></camera>
+		<sleep>0:0:5</sleep>
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>OFF</record></camera>
+		<sleep>0:0:1.0</sleep>		<!-- Turn off light -->
+		<multiled device="microscope">
+			<enable channel="0">OFF</enable>
+		</multiled>
+
+
+
+
+	<!-- set smc with selected gain and voltage and period -->
+	<smc>
+		<offset>4</offset>
+		<gain>3</gain>
+		<waveform>
+			<repetitions>-1</repetitions>
+			<period>45</period>
+		</waveform>
+	</smc>
+	<sleep>0:0:2</sleep>
+		<!-- SET NAME -->
+		<save>
+			<basename>/home/np451/data/22.10.18/P1_5h/60X_V3_O4_P45</basename>
+			<append>DATE</append>
+		</save>
+		<!-- Turn on light -->
+		<multiled device="microscope">
+			<enable channel="0">ON</enable>
+		</multiled>
+		<!-- Take a record -->
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>ON</record></camera>
+		<sleep>0:0:5</sleep>
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>OFF</record></camera>
+		<sleep>0:0:1.0</sleep>		<!-- Turn off light -->
+		<multiled device="microscope">
+			<enable channel="0">OFF</enable>
+		</multiled>
+
+
+
+
+	<!-- set smc with selected gain and voltage and period -->
+	<smc>
+		<offset>4</offset>
+		<gain>3</gain>
+		<waveform>
+			<repetitions>-1</repetitions>
+			<period>46</period>
+		</waveform>
+	</smc>
+	<sleep>0:0:2</sleep>
+		<!-- SET NAME -->
+		<save>
+			<basename>/home/np451/data/22.10.18/P1_5h/60X_V3_O4_P46</basename>
+			<append>DATE</append>
+		</save>
+		<!-- Turn on light -->
+		<multiled device="microscope">
+			<enable channel="0">ON</enable>
+		</multiled>
+		<!-- Take a record -->
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>ON</record></camera>
+		<sleep>0:0:5</sleep>
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>OFF</record></camera>
+		<sleep>0:0:1.0</sleep>		<!-- Turn off light -->
+		<multiled device="microscope">
+			<enable channel="0">OFF</enable>
+		</multiled>
+
+
+
+
+	<!-- set smc with selected gain and voltage and period -->
+	<smc>
+		<offset>4</offset>
+		<gain>3</gain>
+		<waveform>
+			<repetitions>-1</repetitions>
+			<period>47</period>
+		</waveform>
+	</smc>
+	<sleep>0:0:2</sleep>
+		<!-- SET NAME -->
+		<save>
+			<basename>/home/np451/data/22.10.18/P1_5h/60X_V3_O4_P47</basename>
+			<append>DATE</append>
+		</save>
+		<!-- Turn on light -->
+		<multiled device="microscope">
+			<enable channel="0">ON</enable>
+		</multiled>
+		<!-- Take a record -->
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>ON</record></camera>
+		<sleep>0:0:5</sleep>
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>OFF</record></camera>
+		<sleep>0:0:1.0</sleep>		<!-- Turn off light -->
+		<multiled device="microscope">
+			<enable channel="0">OFF</enable>
+		</multiled>
+
+
+
+
+	<!-- set smc with selected gain and voltage and period -->
+	<smc>
+		<offset>4</offset>
+		<gain>3</gain>
+		<waveform>
+			<repetitions>-1</repetitions>
+			<period>48</period>
+		</waveform>
+	</smc>
+	<sleep>0:0:2</sleep>
+		<!-- SET NAME -->
+		<save>
+			<basename>/home/np451/data/22.10.18/P1_5h/60X_V3_O4_P48</basename>
+			<append>DATE</append>
+		</save>
+		<!-- Turn on light -->
+		<multiled device="microscope">
+			<enable channel="0">ON</enable>
+		</multiled>
+		<!-- Take a record -->
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>ON</record></camera>
+		<sleep>0:0:5</sleep>
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>OFF</record></camera>
+		<sleep>0:0:1.0</sleep>		<!-- Turn off light -->
+		<multiled device="microscope">
+			<enable channel="0">OFF</enable>
+		</multiled>
+
+
+
+
+	<!-- set smc with selected gain and voltage and period -->
+	<smc>
+		<offset>4</offset>
+		<gain>3</gain>
+		<waveform>
+			<repetitions>-1</repetitions>
+			<period>50</period>
+		</waveform>
+	</smc>
+	<sleep>0:0:2</sleep>
+		<!-- SET NAME -->
+		<save>
+			<basename>/home/np451/data/22.10.18/P1_5h/60X_V3_O4_P50</basename>
+			<append>DATE</append>
+		</save>
+		<!-- Turn on light -->
+		<multiled device="microscope">
+			<enable channel="0">ON</enable>
+		</multiled>
+		<!-- Take a record -->
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>ON</record></camera>
+		<sleep>0:0:5</sleep>
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>OFF</record></camera>
+		<sleep>0:0:1.0</sleep>		<!-- Turn off light -->
+		<multiled device="microscope">
+			<enable channel="0">OFF</enable>
+		</multiled>
+
+
+
+
+	<!-- set smc with selected gain and voltage and period -->
+	<smc>
+		<offset>4</offset>
+		<gain>3</gain>
+		<waveform>
+			<repetitions>-1</repetitions>
+			<period>51</period>
+		</waveform>
+	</smc>
+	<sleep>0:0:2</sleep>
+		<!-- SET NAME -->
+		<save>
+			<basename>/home/np451/data/22.10.18/P1_5h/60X_V3_O4_P51</basename>
+			<append>DATE</append>
+		</save>
+		<!-- Turn on light -->
+		<multiled device="microscope">
+			<enable channel="0">ON</enable>
+		</multiled>
+		<!-- Take a record -->
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>ON</record></camera>
+		<sleep>0:0:5</sleep>
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>OFF</record></camera>
+		<sleep>0:0:1.0</sleep>		<!-- Turn off light -->
+		<multiled device="microscope">
+			<enable channel="0">OFF</enable>
+		</multiled>
+
+
+
+
+	<!-- set smc with selected gain and voltage and period -->
+	<smc>
+		<offset>4</offset>
+		<gain>3</gain>
+		<waveform>
+			<repetitions>-1</repetitions>
+			<period>52</period>
+		</waveform>
+	</smc>
+	<sleep>0:0:2</sleep>
+		<!-- SET NAME -->
+		<save>
+			<basename>/home/np451/data/22.10.18/P1_5h/60X_V3_O4_P52</basename>
+			<append>DATE</append>
+		</save>
+		<!-- Turn on light -->
+		<multiled device="microscope">
+			<enable channel="0">ON</enable>
+		</multiled>
+		<!-- Take a record -->
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>ON</record></camera>
+		<sleep>0:0:5</sleep>
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>OFF</record></camera>
+		<sleep>0:0:1.0</sleep>		<!-- Turn off light -->
+		<multiled device="microscope">
+			<enable channel="0">OFF</enable>
+		</multiled>
+
+
+
+
+	<!-- set smc with selected gain and voltage and period -->
+	<smc>
+		<offset>4</offset>
+		<gain>3</gain>
+		<waveform>
+			<repetitions>-1</repetitions>
+			<period>54</period>
+		</waveform>
+	</smc>
+	<sleep>0:0:2</sleep>
+		<!-- SET NAME -->
+		<save>
+			<basename>/home/np451/data/22.10.18/P1_5h/60X_V3_O4_P54</basename>
+			<append>DATE</append>
+		</save>
+		<!-- Turn on light -->
+		<multiled device="microscope">
+			<enable channel="0">ON</enable>
+		</multiled>
+		<!-- Take a record -->
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>ON</record></camera>
+		<sleep>0:0:5</sleep>
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>OFF</record></camera>
+		<sleep>0:0:1.0</sleep>		<!-- Turn off light -->
+		<multiled device="microscope">
+			<enable channel="0">OFF</enable>
+		</multiled>
+
+
+
+
+	<!-- set smc with selected gain and voltage and period -->
+	<smc>
+		<offset>4</offset>
+		<gain>3</gain>
+		<waveform>
+			<repetitions>-1</repetitions>
+			<period>55</period>
+		</waveform>
+	</smc>
+	<sleep>0:0:2</sleep>
+		<!-- SET NAME -->
+		<save>
+			<basename>/home/np451/data/22.10.18/P1_5h/60X_V3_O4_P55</basename>
+			<append>DATE</append>
+		</save>
+		<!-- Turn on light -->
+		<multiled device="microscope">
+			<enable channel="0">ON</enable>
+		</multiled>
+		<!-- Take a record -->
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>ON</record></camera>
+		<sleep>0:0:5</sleep>
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>OFF</record></camera>
+		<sleep>0:0:1.0</sleep>		<!-- Turn off light -->
+		<multiled device="microscope">
+			<enable channel="0">OFF</enable>
+		</multiled>
+
+
+
+
+	<!-- set smc with selected gain and voltage and period -->
+	<smc>
+		<offset>4</offset>
+		<gain>3</gain>
+		<waveform>
+			<repetitions>-1</repetitions>
+			<period>57</period>
+		</waveform>
+	</smc>
+	<sleep>0:0:2</sleep>
+		<!-- SET NAME -->
+		<save>
+			<basename>/home/np451/data/22.10.18/P1_5h/60X_V3_O4_P57</basename>
+			<append>DATE</append>
+		</save>
+		<!-- Turn on light -->
+		<multiled device="microscope">
+			<enable channel="0">ON</enable>
+		</multiled>
+		<!-- Take a record -->
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>ON</record></camera>
+		<sleep>0:0:5</sleep>
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>OFF</record></camera>
+		<sleep>0:0:1.0</sleep>		<!-- Turn off light -->
+		<multiled device="microscope">
+			<enable channel="0">OFF</enable>
+		</multiled>
+
+
+
+
+	<!-- set smc with selected gain and voltage and period -->
+	<smc>
+		<offset>4</offset>
+		<gain>3</gain>
+		<waveform>
+			<repetitions>-1</repetitions>
+			<period>58</period>
+		</waveform>
+	</smc>
+	<sleep>0:0:2</sleep>
+		<!-- SET NAME -->
+		<save>
+			<basename>/home/np451/data/22.10.18/P1_5h/60X_V3_O4_P58</basename>
+			<append>DATE</append>
+		</save>
+		<!-- Turn on light -->
+		<multiled device="microscope">
+			<enable channel="0">ON</enable>
+		</multiled>
+		<!-- Take a record -->
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>ON</record></camera>
+		<sleep>0:0:5</sleep>
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>OFF</record></camera>
+		<sleep>0:0:1.0</sleep>		<!-- Turn off light -->
+		<multiled device="microscope">
+			<enable channel="0">OFF</enable>
+		</multiled>
+
+
+
+
+	<!-- set smc with selected gain and voltage and period -->
+	<smc>
+		<offset>4</offset>
+		<gain>3</gain>
+		<waveform>
+			<repetitions>-1</repetitions>
+			<period>60</period>
+		</waveform>
+	</smc>
+	<sleep>0:0:2</sleep>
+		<!-- SET NAME -->
+		<save>
+			<basename>/home/np451/data/22.10.18/P1_5h/60X_V3_O4_P60</basename>
+			<append>DATE</append>
+		</save>
+		<!-- Turn on light -->
+		<multiled device="microscope">
+			<enable channel="0">ON</enable>
+		</multiled>
+		<!-- Take a record -->
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>ON</record></camera>
+		<sleep>0:0:5</sleep>
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>OFF</record></camera>
+		<sleep>0:0:1.0</sleep>		<!-- Turn off light -->
+		<multiled device="microscope">
+			<enable channel="0">OFF</enable>
+		</multiled>
+
+
+
+
+	<!-- set smc with selected gain and voltage and period -->
+	<smc>
+		<offset>4</offset>
+		<gain>3</gain>
+		<waveform>
+			<repetitions>-1</repetitions>
+			<period>62</period>
+		</waveform>
+	</smc>
+	<sleep>0:0:2</sleep>
+		<!-- SET NAME -->
+		<save>
+			<basename>/home/np451/data/22.10.18/P1_5h/60X_V3_O4_P62</basename>
+			<append>DATE</append>
+		</save>
+		<!-- Turn on light -->
+		<multiled device="microscope">
+			<enable channel="0">ON</enable>
+		</multiled>
+		<!-- Take a record -->
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>ON</record></camera>
+		<sleep>0:0:5</sleep>
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>OFF</record></camera>
+		<sleep>0:0:1.0</sleep>		<!-- Turn off light -->
+		<multiled device="microscope">
+			<enable channel="0">OFF</enable>
+		</multiled>
+
+
+
+
+	<!-- set smc with selected gain and voltage and period -->
+	<smc>
+		<offset>5</offset>
+		<gain>4</gain>
+		<waveform>
+			<repetitions>0</repetitions>
+		</waveform>
+	</smc>
+	<sleep>0:0:2</sleep>
+		<!-- SET NAME -->
+		<save>
+			<basename>/home/np451/data/22.10.18/P1_5h/60X_V4_O5_P0</basename>
+			<append>DATE</append>
+		</save>
+		<!-- Turn on light -->
+		<multiled device="microscope">
+			<enable channel="0">ON</enable>
+		</multiled>
+		<!-- Take a record -->
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>ON</record></camera>
+		<sleep>0:0:5</sleep>
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>OFF</record></camera>
+		<sleep>0:0:1</sleep>
+
+		<!-- Turn off light -->
+		<multiled device="microscope">
+			<enable channel="0">OFF</enable>
+		</multiled>
+	<!-- set smc with selected gain and voltage and period -->
+	<smc>
+		<offset>5</offset>
+		<gain>4</gain>
+		<waveform>
+			<repetitions>-1</repetitions>
+			<period>27</period>
+		</waveform>
+	</smc>
+	<sleep>0:0:2</sleep>
+		<!-- SET NAME -->
+		<save>
+			<basename>/home/np451/data/22.10.18/P1_5h/60X_V4_O5_P27</basename>
+			<append>DATE</append>
+		</save>
+		<!-- Turn on light -->
+		<multiled device="microscope">
+			<enable channel="0">ON</enable>
+		</multiled>
+		<!-- Take a record -->
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>ON</record></camera>
+		<sleep>0:0:5</sleep>
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>OFF</record></camera>
+		<sleep>0:0:1.0</sleep>		<!-- Turn off light -->
+		<multiled device="microscope">
+			<enable channel="0">OFF</enable>
+		</multiled>
+
+
+
+
+	<!-- set smc with selected gain and voltage and period -->
+	<smc>
+		<offset>5</offset>
+		<gain>4</gain>
+		<waveform>
+			<repetitions>-1</repetitions>
+			<period>28</period>
+		</waveform>
+	</smc>
+	<sleep>0:0:2</sleep>
+		<!-- SET NAME -->
+		<save>
+			<basename>/home/np451/data/22.10.18/P1_5h/60X_V4_O5_P28</basename>
+			<append>DATE</append>
+		</save>
+		<!-- Turn on light -->
+		<multiled device="microscope">
+			<enable channel="0">ON</enable>
+		</multiled>
+		<!-- Take a record -->
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>ON</record></camera>
+		<sleep>0:0:5</sleep>
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>OFF</record></camera>
+		<sleep>0:0:1.0</sleep>		<!-- Turn off light -->
+		<multiled device="microscope">
+			<enable channel="0">OFF</enable>
+		</multiled>
+
+
+
+
+	<!-- set smc with selected gain and voltage and period -->
+	<smc>
+		<offset>5</offset>
+		<gain>4</gain>
+		<waveform>
+			<repetitions>-1</repetitions>
+			<period>29</period>
+		</waveform>
+	</smc>
+	<sleep>0:0:2</sleep>
+		<!-- SET NAME -->
+		<save>
+			<basename>/home/np451/data/22.10.18/P1_5h/60X_V4_O5_P29</basename>
+			<append>DATE</append>
+		</save>
+		<!-- Turn on light -->
+		<multiled device="microscope">
+			<enable channel="0">ON</enable>
+		</multiled>
+		<!-- Take a record -->
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>ON</record></camera>
+		<sleep>0:0:5</sleep>
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>OFF</record></camera>
+		<sleep>0:0:1.0</sleep>		<!-- Turn off light -->
+		<multiled device="microscope">
+			<enable channel="0">OFF</enable>
+		</multiled>
+
+
+
+
+	<!-- set smc with selected gain and voltage and period -->
+	<smc>
+		<offset>5</offset>
+		<gain>4</gain>
+		<waveform>
+			<repetitions>-1</repetitions>
+			<period>30</period>
+		</waveform>
+	</smc>
+	<sleep>0:0:2</sleep>
+		<!-- SET NAME -->
+		<save>
+			<basename>/home/np451/data/22.10.18/P1_5h/60X_V4_O5_P30</basename>
+			<append>DATE</append>
+		</save>
+		<!-- Turn on light -->
+		<multiled device="microscope">
+			<enable channel="0">ON</enable>
+		</multiled>
+		<!-- Take a record -->
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>ON</record></camera>
+		<sleep>0:0:5</sleep>
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>OFF</record></camera>
+		<sleep>0:0:1.0</sleep>		<!-- Turn off light -->
+		<multiled device="microscope">
+			<enable channel="0">OFF</enable>
+		</multiled>
+
+
+
+
+	<!-- set smc with selected gain and voltage and period -->
+	<smc>
+		<offset>5</offset>
+		<gain>4</gain>
+		<waveform>
+			<repetitions>-1</repetitions>
+			<period>31</period>
+		</waveform>
+	</smc>
+	<sleep>0:0:2</sleep>
+		<!-- SET NAME -->
+		<save>
+			<basename>/home/np451/data/22.10.18/P1_5h/60X_V4_O5_P31</basename>
+			<append>DATE</append>
+		</save>
+		<!-- Turn on light -->
+		<multiled device="microscope">
+			<enable channel="0">ON</enable>
+		</multiled>
+		<!-- Take a record -->
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>ON</record></camera>
+		<sleep>0:0:5</sleep>
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>OFF</record></camera>
+		<sleep>0:0:1.0</sleep>		<!-- Turn off light -->
+		<multiled device="microscope">
+			<enable channel="0">OFF</enable>
+		</multiled>
+
+
+
+
+	<!-- set smc with selected gain and voltage and period -->
+	<smc>
+		<offset>5</offset>
+		<gain>4</gain>
+		<waveform>
+			<repetitions>-1</repetitions>
+			<period>32</period>
+		</waveform>
+	</smc>
+	<sleep>0:0:2</sleep>
+		<!-- SET NAME -->
+		<save>
+			<basename>/home/np451/data/22.10.18/P1_5h/60X_V4_O5_P32</basename>
+			<append>DATE</append>
+		</save>
+		<!-- Turn on light -->
+		<multiled device="microscope">
+			<enable channel="0">ON</enable>
+		</multiled>
+		<!-- Take a record -->
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>ON</record></camera>
+		<sleep>0:0:5</sleep>
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>OFF</record></camera>
+		<sleep>0:0:1.0</sleep>		<!-- Turn off light -->
+		<multiled device="microscope">
+			<enable channel="0">OFF</enable>
+		</multiled>
+
+
+
+
+	<!-- set smc with selected gain and voltage and period -->
+	<smc>
+		<offset>5</offset>
+		<gain>4</gain>
+		<waveform>
+			<repetitions>-1</repetitions>
+			<period>33</period>
+		</waveform>
+	</smc>
+	<sleep>0:0:2</sleep>
+		<!-- SET NAME -->
+		<save>
+			<basename>/home/np451/data/22.10.18/P1_5h/60X_V4_O5_P33</basename>
+			<append>DATE</append>
+		</save>
+		<!-- Turn on light -->
+		<multiled device="microscope">
+			<enable channel="0">ON</enable>
+		</multiled>
+		<!-- Take a record -->
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>ON</record></camera>
+		<sleep>0:0:5</sleep>
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>OFF</record></camera>
+		<sleep>0:0:1.0</sleep>		<!-- Turn off light -->
+		<multiled device="microscope">
+			<enable channel="0">OFF</enable>
+		</multiled>
+
+
+
+
+	<!-- set smc with selected gain and voltage and period -->
+	<smc>
+		<offset>5</offset>
+		<gain>4</gain>
+		<waveform>
+			<repetitions>-1</repetitions>
+			<period>34</period>
+		</waveform>
+	</smc>
+	<sleep>0:0:2</sleep>
+		<!-- SET NAME -->
+		<save>
+			<basename>/home/np451/data/22.10.18/P1_5h/60X_V4_O5_P34</basename>
+			<append>DATE</append>
+		</save>
+		<!-- Turn on light -->
+		<multiled device="microscope">
+			<enable channel="0">ON</enable>
+		</multiled>
+		<!-- Take a record -->
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>ON</record></camera>
+		<sleep>0:0:5</sleep>
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>OFF</record></camera>
+		<sleep>0:0:1.0</sleep>		<!-- Turn off light -->
+		<multiled device="microscope">
+			<enable channel="0">OFF</enable>
+		</multiled>
+
+
+
+
+	<!-- set smc with selected gain and voltage and period -->
+	<smc>
+		<offset>5</offset>
+		<gain>4</gain>
+		<waveform>
+			<repetitions>-1</repetitions>
+			<period>35</period>
+		</waveform>
+	</smc>
+	<sleep>0:0:2</sleep>
+		<!-- SET NAME -->
+		<save>
+			<basename>/home/np451/data/22.10.18/P1_5h/60X_V4_O5_P35</basename>
+			<append>DATE</append>
+		</save>
+		<!-- Turn on light -->
+		<multiled device="microscope">
+			<enable channel="0">ON</enable>
+		</multiled>
+		<!-- Take a record -->
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>ON</record></camera>
+		<sleep>0:0:5</sleep>
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>OFF</record></camera>
+		<sleep>0:0:1.0</sleep>		<!-- Turn off light -->
+		<multiled device="microscope">
+			<enable channel="0">OFF</enable>
+		</multiled>
+
+
+
+
+	<!-- set smc with selected gain and voltage and period -->
+	<smc>
+		<offset>5</offset>
+		<gain>4</gain>
+		<waveform>
+			<repetitions>-1</repetitions>
+			<period>36</period>
+		</waveform>
+	</smc>
+	<sleep>0:0:2</sleep>
+		<!-- SET NAME -->
+		<save>
+			<basename>/home/np451/data/22.10.18/P1_5h/60X_V4_O5_P36</basename>
+			<append>DATE</append>
+		</save>
+		<!-- Turn on light -->
+		<multiled device="microscope">
+			<enable channel="0">ON</enable>
+		</multiled>
+		<!-- Take a record -->
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>ON</record></camera>
+		<sleep>0:0:5</sleep>
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>OFF</record></camera>
+		<sleep>0:0:1.0</sleep>		<!-- Turn off light -->
+		<multiled device="microscope">
+			<enable channel="0">OFF</enable>
+		</multiled>
+
+
+
+
+	<!-- set smc with selected gain and voltage and period -->
+	<smc>
+		<offset>5</offset>
+		<gain>4</gain>
+		<waveform>
+			<repetitions>-1</repetitions>
+			<period>37</period>
+		</waveform>
+	</smc>
+	<sleep>0:0:2</sleep>
+		<!-- SET NAME -->
+		<save>
+			<basename>/home/np451/data/22.10.18/P1_5h/60X_V4_O5_P37</basename>
+			<append>DATE</append>
+		</save>
+		<!-- Turn on light -->
+		<multiled device="microscope">
+			<enable channel="0">ON</enable>
+		</multiled>
+		<!-- Take a record -->
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>ON</record></camera>
+		<sleep>0:0:5</sleep>
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>OFF</record></camera>
+		<sleep>0:0:1.0</sleep>		<!-- Turn off light -->
+		<multiled device="microscope">
+			<enable channel="0">OFF</enable>
+		</multiled>
+
+
+
+
+	<!-- set smc with selected gain and voltage and period -->
+	<smc>
+		<offset>5</offset>
+		<gain>4</gain>
+		<waveform>
+			<repetitions>-1</repetitions>
+			<period>38</period>
+		</waveform>
+	</smc>
+	<sleep>0:0:2</sleep>
+		<!-- SET NAME -->
+		<save>
+			<basename>/home/np451/data/22.10.18/P1_5h/60X_V4_O5_P38</basename>
+			<append>DATE</append>
+		</save>
+		<!-- Turn on light -->
+		<multiled device="microscope">
+			<enable channel="0">ON</enable>
+		</multiled>
+		<!-- Take a record -->
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>ON</record></camera>
+		<sleep>0:0:5</sleep>
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>OFF</record></camera>
+		<sleep>0:0:1.0</sleep>		<!-- Turn off light -->
+		<multiled device="microscope">
+			<enable channel="0">OFF</enable>
+		</multiled>
+
+
+
+
+	<!-- set smc with selected gain and voltage and period -->
+	<smc>
+		<offset>5</offset>
+		<gain>4</gain>
+		<waveform>
+			<repetitions>-1</repetitions>
+			<period>39</period>
+		</waveform>
+	</smc>
+	<sleep>0:0:2</sleep>
+		<!-- SET NAME -->
+		<save>
+			<basename>/home/np451/data/22.10.18/P1_5h/60X_V4_O5_P39</basename>
+			<append>DATE</append>
+		</save>
+		<!-- Turn on light -->
+		<multiled device="microscope">
+			<enable channel="0">ON</enable>
+		</multiled>
+		<!-- Take a record -->
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>ON</record></camera>
+		<sleep>0:0:5</sleep>
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>OFF</record></camera>
+		<sleep>0:0:1.0</sleep>		<!-- Turn off light -->
+		<multiled device="microscope">
+			<enable channel="0">OFF</enable>
+		</multiled>
+
+
+
+
+	<!-- set smc with selected gain and voltage and period -->
+	<smc>
+		<offset>5</offset>
+		<gain>4</gain>
+		<waveform>
+			<repetitions>-1</repetitions>
+			<period>40</period>
+		</waveform>
+	</smc>
+	<sleep>0:0:2</sleep>
+		<!-- SET NAME -->
+		<save>
+			<basename>/home/np451/data/22.10.18/P1_5h/60X_V4_O5_P40</basename>
+			<append>DATE</append>
+		</save>
+		<!-- Turn on light -->
+		<multiled device="microscope">
+			<enable channel="0">ON</enable>
+		</multiled>
+		<!-- Take a record -->
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>ON</record></camera>
+		<sleep>0:0:5</sleep>
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>OFF</record></camera>
+		<sleep>0:0:1.0</sleep>		<!-- Turn off light -->
+		<multiled device="microscope">
+			<enable channel="0">OFF</enable>
+		</multiled>
+
+
+
+
+	<!-- set smc with selected gain and voltage and period -->
+	<smc>
+		<offset>5</offset>
+		<gain>4</gain>
+		<waveform>
+			<repetitions>-1</repetitions>
+			<period>41</period>
+		</waveform>
+	</smc>
+	<sleep>0:0:2</sleep>
+		<!-- SET NAME -->
+		<save>
+			<basename>/home/np451/data/22.10.18/P1_5h/60X_V4_O5_P41</basename>
+			<append>DATE</append>
+		</save>
+		<!-- Turn on light -->
+		<multiled device="microscope">
+			<enable channel="0">ON</enable>
+		</multiled>
+		<!-- Take a record -->
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>ON</record></camera>
+		<sleep>0:0:5</sleep>
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>OFF</record></camera>
+		<sleep>0:0:1.0</sleep>		<!-- Turn off light -->
+		<multiled device="microscope">
+			<enable channel="0">OFF</enable>
+		</multiled>
+
+
+
+
+	<!-- set smc with selected gain and voltage and period -->
+	<smc>
+		<offset>5</offset>
+		<gain>4</gain>
+		<waveform>
+			<repetitions>-1</repetitions>
+			<period>42</period>
+		</waveform>
+	</smc>
+	<sleep>0:0:2</sleep>
+		<!-- SET NAME -->
+		<save>
+			<basename>/home/np451/data/22.10.18/P1_5h/60X_V4_O5_P42</basename>
+			<append>DATE</append>
+		</save>
+		<!-- Turn on light -->
+		<multiled device="microscope">
+			<enable channel="0">ON</enable>
+		</multiled>
+		<!-- Take a record -->
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>ON</record></camera>
+		<sleep>0:0:5</sleep>
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>OFF</record></camera>
+		<sleep>0:0:1.0</sleep>		<!-- Turn off light -->
+		<multiled device="microscope">
+			<enable channel="0">OFF</enable>
+		</multiled>
+
+
+
+
+	<!-- set smc with selected gain and voltage and period -->
+	<smc>
+		<offset>5</offset>
+		<gain>4</gain>
+		<waveform>
+			<repetitions>-1</repetitions>
+			<period>43</period>
+		</waveform>
+	</smc>
+	<sleep>0:0:2</sleep>
+		<!-- SET NAME -->
+		<save>
+			<basename>/home/np451/data/22.10.18/P1_5h/60X_V4_O5_P43</basename>
+			<append>DATE</append>
+		</save>
+		<!-- Turn on light -->
+		<multiled device="microscope">
+			<enable channel="0">ON</enable>
+		</multiled>
+		<!-- Take a record -->
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>ON</record></camera>
+		<sleep>0:0:5</sleep>
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>OFF</record></camera>
+		<sleep>0:0:1.0</sleep>		<!-- Turn off light -->
+		<multiled device="microscope">
+			<enable channel="0">OFF</enable>
+		</multiled>
+
+
+
+
+	<!-- set smc with selected gain and voltage and period -->
+	<smc>
+		<offset>5</offset>
+		<gain>4</gain>
+		<waveform>
+			<repetitions>-1</repetitions>
+			<period>44</period>
+		</waveform>
+	</smc>
+	<sleep>0:0:2</sleep>
+		<!-- SET NAME -->
+		<save>
+			<basename>/home/np451/data/22.10.18/P1_5h/60X_V4_O5_P44</basename>
+			<append>DATE</append>
+		</save>
+		<!-- Turn on light -->
+		<multiled device="microscope">
+			<enable channel="0">ON</enable>
+		</multiled>
+		<!-- Take a record -->
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>ON</record></camera>
+		<sleep>0:0:5</sleep>
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>OFF</record></camera>
+		<sleep>0:0:1.0</sleep>		<!-- Turn off light -->
+		<multiled device="microscope">
+			<enable channel="0">OFF</enable>
+		</multiled>
+
+
+
+
+	<!-- set smc with selected gain and voltage and period -->
+	<smc>
+		<offset>5</offset>
+		<gain>4</gain>
+		<waveform>
+			<repetitions>-1</repetitions>
+			<period>45</period>
+		</waveform>
+	</smc>
+	<sleep>0:0:2</sleep>
+		<!-- SET NAME -->
+		<save>
+			<basename>/home/np451/data/22.10.18/P1_5h/60X_V4_O5_P45</basename>
+			<append>DATE</append>
+		</save>
+		<!-- Turn on light -->
+		<multiled device="microscope">
+			<enable channel="0">ON</enable>
+		</multiled>
+		<!-- Take a record -->
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>ON</record></camera>
+		<sleep>0:0:5</sleep>
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>OFF</record></camera>
+		<sleep>0:0:1.0</sleep>		<!-- Turn off light -->
+		<multiled device="microscope">
+			<enable channel="0">OFF</enable>
+		</multiled>
+
+
+
+
+	<!-- set smc with selected gain and voltage and period -->
+	<smc>
+		<offset>5</offset>
+		<gain>4</gain>
+		<waveform>
+			<repetitions>-1</repetitions>
+			<period>46</period>
+		</waveform>
+	</smc>
+	<sleep>0:0:2</sleep>
+		<!-- SET NAME -->
+		<save>
+			<basename>/home/np451/data/22.10.18/P1_5h/60X_V4_O5_P46</basename>
+			<append>DATE</append>
+		</save>
+		<!-- Turn on light -->
+		<multiled device="microscope">
+			<enable channel="0">ON</enable>
+		</multiled>
+		<!-- Take a record -->
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>ON</record></camera>
+		<sleep>0:0:5</sleep>
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>OFF</record></camera>
+		<sleep>0:0:1.0</sleep>		<!-- Turn off light -->
+		<multiled device="microscope">
+			<enable channel="0">OFF</enable>
+		</multiled>
+
+
+
+
+	<!-- set smc with selected gain and voltage and period -->
+	<smc>
+		<offset>5</offset>
+		<gain>4</gain>
+		<waveform>
+			<repetitions>-1</repetitions>
+			<period>47</period>
+		</waveform>
+	</smc>
+	<sleep>0:0:2</sleep>
+		<!-- SET NAME -->
+		<save>
+			<basename>/home/np451/data/22.10.18/P1_5h/60X_V4_O5_P47</basename>
+			<append>DATE</append>
+		</save>
+		<!-- Turn on light -->
+		<multiled device="microscope">
+			<enable channel="0">ON</enable>
+		</multiled>
+		<!-- Take a record -->
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>ON</record></camera>
+		<sleep>0:0:5</sleep>
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>OFF</record></camera>
+		<sleep>0:0:1.0</sleep>		<!-- Turn off light -->
+		<multiled device="microscope">
+			<enable channel="0">OFF</enable>
+		</multiled>
+
+
+
+
+	<!-- set smc with selected gain and voltage and period -->
+	<smc>
+		<offset>5</offset>
+		<gain>4</gain>
+		<waveform>
+			<repetitions>-1</repetitions>
+			<period>48</period>
+		</waveform>
+	</smc>
+	<sleep>0:0:2</sleep>
+		<!-- SET NAME -->
+		<save>
+			<basename>/home/np451/data/22.10.18/P1_5h/60X_V4_O5_P48</basename>
+			<append>DATE</append>
+		</save>
+		<!-- Turn on light -->
+		<multiled device="microscope">
+			<enable channel="0">ON</enable>
+		</multiled>
+		<!-- Take a record -->
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>ON</record></camera>
+		<sleep>0:0:5</sleep>
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>OFF</record></camera>
+		<sleep>0:0:1.0</sleep>		<!-- Turn off light -->
+		<multiled device="microscope">
+			<enable channel="0">OFF</enable>
+		</multiled>
+
+
+
+
+	<!-- set smc with selected gain and voltage and period -->
+	<smc>
+		<offset>5</offset>
+		<gain>4</gain>
+		<waveform>
+			<repetitions>-1</repetitions>
+			<period>50</period>
+		</waveform>
+	</smc>
+	<sleep>0:0:2</sleep>
+		<!-- SET NAME -->
+		<save>
+			<basename>/home/np451/data/22.10.18/P1_5h/60X_V4_O5_P50</basename>
+			<append>DATE</append>
+		</save>
+		<!-- Turn on light -->
+		<multiled device="microscope">
+			<enable channel="0">ON</enable>
+		</multiled>
+		<!-- Take a record -->
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>ON</record></camera>
+		<sleep>0:0:5</sleep>
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>OFF</record></camera>
+		<sleep>0:0:1.0</sleep>		<!-- Turn off light -->
+		<multiled device="microscope">
+			<enable channel="0">OFF</enable>
+		</multiled>
+
+
+
+
+	<!-- set smc with selected gain and voltage and period -->
+	<smc>
+		<offset>5</offset>
+		<gain>4</gain>
+		<waveform>
+			<repetitions>-1</repetitions>
+			<period>51</period>
+		</waveform>
+	</smc>
+	<sleep>0:0:2</sleep>
+		<!-- SET NAME -->
+		<save>
+			<basename>/home/np451/data/22.10.18/P1_5h/60X_V4_O5_P51</basename>
+			<append>DATE</append>
+		</save>
+		<!-- Turn on light -->
+		<multiled device="microscope">
+			<enable channel="0">ON</enable>
+		</multiled>
+		<!-- Take a record -->
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>ON</record></camera>
+		<sleep>0:0:5</sleep>
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>OFF</record></camera>
+		<sleep>0:0:1.0</sleep>		<!-- Turn off light -->
+		<multiled device="microscope">
+			<enable channel="0">OFF</enable>
+		</multiled>
+
+
+
+
+	<!-- set smc with selected gain and voltage and period -->
+	<smc>
+		<offset>5</offset>
+		<gain>4</gain>
+		<waveform>
+			<repetitions>-1</repetitions>
+			<period>52</period>
+		</waveform>
+	</smc>
+	<sleep>0:0:2</sleep>
+		<!-- SET NAME -->
+		<save>
+			<basename>/home/np451/data/22.10.18/P1_5h/60X_V4_O5_P52</basename>
+			<append>DATE</append>
+		</save>
+		<!-- Turn on light -->
+		<multiled device="microscope">
+			<enable channel="0">ON</enable>
+		</multiled>
+		<!-- Take a record -->
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>ON</record></camera>
+		<sleep>0:0:5</sleep>
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>OFF</record></camera>
+		<sleep>0:0:1.0</sleep>		<!-- Turn off light -->
+		<multiled device="microscope">
+			<enable channel="0">OFF</enable>
+		</multiled>
+
+
+
+
+	<!-- set smc with selected gain and voltage and period -->
+	<smc>
+		<offset>5</offset>
+		<gain>4</gain>
+		<waveform>
+			<repetitions>-1</repetitions>
+			<period>54</period>
+		</waveform>
+	</smc>
+	<sleep>0:0:2</sleep>
+		<!-- SET NAME -->
+		<save>
+			<basename>/home/np451/data/22.10.18/P1_5h/60X_V4_O5_P54</basename>
+			<append>DATE</append>
+		</save>
+		<!-- Turn on light -->
+		<multiled device="microscope">
+			<enable channel="0">ON</enable>
+		</multiled>
+		<!-- Take a record -->
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>ON</record></camera>
+		<sleep>0:0:5</sleep>
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>OFF</record></camera>
+		<sleep>0:0:1.0</sleep>		<!-- Turn off light -->
+		<multiled device="microscope">
+			<enable channel="0">OFF</enable>
+		</multiled>
+
+
+
+
+	<!-- set smc with selected gain and voltage and period -->
+	<smc>
+		<offset>5</offset>
+		<gain>4</gain>
+		<waveform>
+			<repetitions>-1</repetitions>
+			<period>55</period>
+		</waveform>
+	</smc>
+	<sleep>0:0:2</sleep>
+		<!-- SET NAME -->
+		<save>
+			<basename>/home/np451/data/22.10.18/P1_5h/60X_V4_O5_P55</basename>
+			<append>DATE</append>
+		</save>
+		<!-- Turn on light -->
+		<multiled device="microscope">
+			<enable channel="0">ON</enable>
+		</multiled>
+		<!-- Take a record -->
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>ON</record></camera>
+		<sleep>0:0:5</sleep>
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>OFF</record></camera>
+		<sleep>0:0:1.0</sleep>		<!-- Turn off light -->
+		<multiled device="microscope">
+			<enable channel="0">OFF</enable>
+		</multiled>
+
+
+
+
+	<!-- set smc with selected gain and voltage and period -->
+	<smc>
+		<offset>5</offset>
+		<gain>4</gain>
+		<waveform>
+			<repetitions>-1</repetitions>
+			<period>57</period>
+		</waveform>
+	</smc>
+	<sleep>0:0:2</sleep>
+		<!-- SET NAME -->
+		<save>
+			<basename>/home/np451/data/22.10.18/P1_5h/60X_V4_O5_P57</basename>
+			<append>DATE</append>
+		</save>
+		<!-- Turn on light -->
+		<multiled device="microscope">
+			<enable channel="0">ON</enable>
+		</multiled>
+		<!-- Take a record -->
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>ON</record></camera>
+		<sleep>0:0:5</sleep>
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>OFF</record></camera>
+		<sleep>0:0:1.0</sleep>		<!-- Turn off light -->
+		<multiled device="microscope">
+			<enable channel="0">OFF</enable>
+		</multiled>
+
+
+
+
+	<!-- set smc with selected gain and voltage and period -->
+	<smc>
+		<offset>5</offset>
+		<gain>4</gain>
+		<waveform>
+			<repetitions>-1</repetitions>
+			<period>58</period>
+		</waveform>
+	</smc>
+	<sleep>0:0:2</sleep>
+		<!-- SET NAME -->
+		<save>
+			<basename>/home/np451/data/22.10.18/P1_5h/60X_V4_O5_P58</basename>
+			<append>DATE</append>
+		</save>
+		<!-- Turn on light -->
+		<multiled device="microscope">
+			<enable channel="0">ON</enable>
+		</multiled>
+		<!-- Take a record -->
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>ON</record></camera>
+		<sleep>0:0:5</sleep>
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>OFF</record></camera>
+		<sleep>0:0:1.0</sleep>		<!-- Turn off light -->
+		<multiled device="microscope">
+			<enable channel="0">OFF</enable>
+		</multiled>
+
+
+
+
+	<!-- set smc with selected gain and voltage and period -->
+	<smc>
+		<offset>5</offset>
+		<gain>4</gain>
+		<waveform>
+			<repetitions>-1</repetitions>
+			<period>60</period>
+		</waveform>
+	</smc>
+	<sleep>0:0:2</sleep>
+		<!-- SET NAME -->
+		<save>
+			<basename>/home/np451/data/22.10.18/P1_5h/60X_V4_O5_P60</basename>
+			<append>DATE</append>
+		</save>
+		<!-- Turn on light -->
+		<multiled device="microscope">
+			<enable channel="0">ON</enable>
+		</multiled>
+		<!-- Take a record -->
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>ON</record></camera>
+		<sleep>0:0:5</sleep>
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>OFF</record></camera>
+		<sleep>0:0:1.0</sleep>		<!-- Turn off light -->
+		<multiled device="microscope">
+			<enable channel="0">OFF</enable>
+		</multiled>
+
+
+
+
+	<!-- set smc with selected gain and voltage and period -->
+	<smc>
+		<offset>5</offset>
+		<gain>4</gain>
+		<waveform>
+			<repetitions>-1</repetitions>
+			<period>62</period>
+		</waveform>
+	</smc>
+	<sleep>0:0:2</sleep>
+		<!-- SET NAME -->
+		<save>
+			<basename>/home/np451/data/22.10.18/P1_5h/60X_V4_O5_P62</basename>
+			<append>DATE</append>
+		</save>
+		<!-- Turn on light -->
+		<multiled device="microscope">
+			<enable channel="0">ON</enable>
+		</multiled>
+		<!-- Take a record -->
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>ON</record></camera>
+		<sleep>0:0:5</sleep>
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>OFF</record></camera>
+		<sleep>0:0:1.0</sleep>		<!-- Turn off light -->
+		<multiled device="microscope">
+			<enable channel="0">OFF</enable>
+		</multiled>
+
+
+
+
+	<!-- set smc with selected gain and voltage and period -->
+	<smc>
+		<offset>6</offset>
+		<gain>5</gain>
+		<waveform>
+			<repetitions>0</repetitions>
+		</waveform>
+	</smc>
+	<sleep>0:0:2</sleep>
+		<!-- SET NAME -->
+		<save>
+			<basename>/home/np451/data/22.10.18/P1_5h/60X_V5_O6_P0</basename>
+			<append>DATE</append>
+		</save>
+		<!-- Turn on light -->
+		<multiled device="microscope">
+			<enable channel="0">ON</enable>
+		</multiled>
+		<!-- Take a record -->
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>ON</record></camera>
+		<sleep>0:0:5</sleep>
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>OFF</record></camera>
+		<sleep>0:0:1</sleep>
+
+		<!-- Turn off light -->
+		<multiled device="microscope">
+			<enable channel="0">OFF</enable>
+		</multiled>
+	<!-- set smc with selected gain and voltage and period -->
+	<smc>
+		<offset>6</offset>
+		<gain>5</gain>
+		<waveform>
+			<repetitions>-1</repetitions>
+			<period>27</period>
+		</waveform>
+	</smc>
+	<sleep>0:0:2</sleep>
+		<!-- SET NAME -->
+		<save>
+			<basename>/home/np451/data/22.10.18/P1_5h/60X_V5_O6_P27</basename>
+			<append>DATE</append>
+		</save>
+		<!-- Turn on light -->
+		<multiled device="microscope">
+			<enable channel="0">ON</enable>
+		</multiled>
+		<!-- Take a record -->
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>ON</record></camera>
+		<sleep>0:0:5</sleep>
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>OFF</record></camera>
+		<sleep>0:0:1.0</sleep>		<!-- Turn off light -->
+		<multiled device="microscope">
+			<enable channel="0">OFF</enable>
+		</multiled>
+
+
+
+
+	<!-- set smc with selected gain and voltage and period -->
+	<smc>
+		<offset>6</offset>
+		<gain>5</gain>
+		<waveform>
+			<repetitions>-1</repetitions>
+			<period>28</period>
+		</waveform>
+	</smc>
+	<sleep>0:0:2</sleep>
+		<!-- SET NAME -->
+		<save>
+			<basename>/home/np451/data/22.10.18/P1_5h/60X_V5_O6_P28</basename>
+			<append>DATE</append>
+		</save>
+		<!-- Turn on light -->
+		<multiled device="microscope">
+			<enable channel="0">ON</enable>
+		</multiled>
+		<!-- Take a record -->
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>ON</record></camera>
+		<sleep>0:0:5</sleep>
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>OFF</record></camera>
+		<sleep>0:0:1.0</sleep>		<!-- Turn off light -->
+		<multiled device="microscope">
+			<enable channel="0">OFF</enable>
+		</multiled>
+
+
+
+
+	<!-- set smc with selected gain and voltage and period -->
+	<smc>
+		<offset>6</offset>
+		<gain>5</gain>
+		<waveform>
+			<repetitions>-1</repetitions>
+			<period>29</period>
+		</waveform>
+	</smc>
+	<sleep>0:0:2</sleep>
+		<!-- SET NAME -->
+		<save>
+			<basename>/home/np451/data/22.10.18/P1_5h/60X_V5_O6_P29</basename>
+			<append>DATE</append>
+		</save>
+		<!-- Turn on light -->
+		<multiled device="microscope">
+			<enable channel="0">ON</enable>
+		</multiled>
+		<!-- Take a record -->
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>ON</record></camera>
+		<sleep>0:0:5</sleep>
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>OFF</record></camera>
+		<sleep>0:0:1.0</sleep>		<!-- Turn off light -->
+		<multiled device="microscope">
+			<enable channel="0">OFF</enable>
+		</multiled>
+
+
+
+
+	<!-- set smc with selected gain and voltage and period -->
+	<smc>
+		<offset>6</offset>
+		<gain>5</gain>
+		<waveform>
+			<repetitions>-1</repetitions>
+			<period>30</period>
+		</waveform>
+	</smc>
+	<sleep>0:0:2</sleep>
+		<!-- SET NAME -->
+		<save>
+			<basename>/home/np451/data/22.10.18/P1_5h/60X_V5_O6_P30</basename>
+			<append>DATE</append>
+		</save>
+		<!-- Turn on light -->
+		<multiled device="microscope">
+			<enable channel="0">ON</enable>
+		</multiled>
+		<!-- Take a record -->
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>ON</record></camera>
+		<sleep>0:0:5</sleep>
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>OFF</record></camera>
+		<sleep>0:0:1.0</sleep>		<!-- Turn off light -->
+		<multiled device="microscope">
+			<enable channel="0">OFF</enable>
+		</multiled>
+
+
+
+
+	<!-- set smc with selected gain and voltage and period -->
+	<smc>
+		<offset>6</offset>
+		<gain>5</gain>
+		<waveform>
+			<repetitions>-1</repetitions>
+			<period>31</period>
+		</waveform>
+	</smc>
+	<sleep>0:0:2</sleep>
+		<!-- SET NAME -->
+		<save>
+			<basename>/home/np451/data/22.10.18/P1_5h/60X_V5_O6_P31</basename>
+			<append>DATE</append>
+		</save>
+		<!-- Turn on light -->
+		<multiled device="microscope">
+			<enable channel="0">ON</enable>
+		</multiled>
+		<!-- Take a record -->
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>ON</record></camera>
+		<sleep>0:0:5</sleep>
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>OFF</record></camera>
+		<sleep>0:0:1.0</sleep>		<!-- Turn off light -->
+		<multiled device="microscope">
+			<enable channel="0">OFF</enable>
+		</multiled>
+
+
+
+
+	<!-- set smc with selected gain and voltage and period -->
+	<smc>
+		<offset>6</offset>
+		<gain>5</gain>
+		<waveform>
+			<repetitions>-1</repetitions>
+			<period>32</period>
+		</waveform>
+	</smc>
+	<sleep>0:0:2</sleep>
+		<!-- SET NAME -->
+		<save>
+			<basename>/home/np451/data/22.10.18/P1_5h/60X_V5_O6_P32</basename>
+			<append>DATE</append>
+		</save>
+		<!-- Turn on light -->
+		<multiled device="microscope">
+			<enable channel="0">ON</enable>
+		</multiled>
+		<!-- Take a record -->
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>ON</record></camera>
+		<sleep>0:0:5</sleep>
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>OFF</record></camera>
+		<sleep>0:0:1.0</sleep>		<!-- Turn off light -->
+		<multiled device="microscope">
+			<enable channel="0">OFF</enable>
+		</multiled>
+
+
+
+
+	<!-- set smc with selected gain and voltage and period -->
+	<smc>
+		<offset>6</offset>
+		<gain>5</gain>
+		<waveform>
+			<repetitions>-1</repetitions>
+			<period>33</period>
+		</waveform>
+	</smc>
+	<sleep>0:0:2</sleep>
+		<!-- SET NAME -->
+		<save>
+			<basename>/home/np451/data/22.10.18/P1_5h/60X_V5_O6_P33</basename>
+			<append>DATE</append>
+		</save>
+		<!-- Turn on light -->
+		<multiled device="microscope">
+			<enable channel="0">ON</enable>
+		</multiled>
+		<!-- Take a record -->
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>ON</record></camera>
+		<sleep>0:0:5</sleep>
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>OFF</record></camera>
+		<sleep>0:0:1.0</sleep>		<!-- Turn off light -->
+		<multiled device="microscope">
+			<enable channel="0">OFF</enable>
+		</multiled>
+
+
+
+
+	<!-- set smc with selected gain and voltage and period -->
+	<smc>
+		<offset>6</offset>
+		<gain>5</gain>
+		<waveform>
+			<repetitions>-1</repetitions>
+			<period>34</period>
+		</waveform>
+	</smc>
+	<sleep>0:0:2</sleep>
+		<!-- SET NAME -->
+		<save>
+			<basename>/home/np451/data/22.10.18/P1_5h/60X_V5_O6_P34</basename>
+			<append>DATE</append>
+		</save>
+		<!-- Turn on light -->
+		<multiled device="microscope">
+			<enable channel="0">ON</enable>
+		</multiled>
+		<!-- Take a record -->
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>ON</record></camera>
+		<sleep>0:0:5</sleep>
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>OFF</record></camera>
+		<sleep>0:0:1.0</sleep>		<!-- Turn off light -->
+		<multiled device="microscope">
+			<enable channel="0">OFF</enable>
+		</multiled>
+
+
+
+
+	<!-- set smc with selected gain and voltage and period -->
+	<smc>
+		<offset>6</offset>
+		<gain>5</gain>
+		<waveform>
+			<repetitions>-1</repetitions>
+			<period>35</period>
+		</waveform>
+	</smc>
+	<sleep>0:0:2</sleep>
+		<!-- SET NAME -->
+		<save>
+			<basename>/home/np451/data/22.10.18/P1_5h/60X_V5_O6_P35</basename>
+			<append>DATE</append>
+		</save>
+		<!-- Turn on light -->
+		<multiled device="microscope">
+			<enable channel="0">ON</enable>
+		</multiled>
+		<!-- Take a record -->
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>ON</record></camera>
+		<sleep>0:0:5</sleep>
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>OFF</record></camera>
+		<sleep>0:0:1.0</sleep>		<!-- Turn off light -->
+		<multiled device="microscope">
+			<enable channel="0">OFF</enable>
+		</multiled>
+
+
+
+
+	<!-- set smc with selected gain and voltage and period -->
+	<smc>
+		<offset>6</offset>
+		<gain>5</gain>
+		<waveform>
+			<repetitions>-1</repetitions>
+			<period>36</period>
+		</waveform>
+	</smc>
+	<sleep>0:0:2</sleep>
+		<!-- SET NAME -->
+		<save>
+			<basename>/home/np451/data/22.10.18/P1_5h/60X_V5_O6_P36</basename>
+			<append>DATE</append>
+		</save>
+		<!-- Turn on light -->
+		<multiled device="microscope">
+			<enable channel="0">ON</enable>
+		</multiled>
+		<!-- Take a record -->
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>ON</record></camera>
+		<sleep>0:0:5</sleep>
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>OFF</record></camera>
+		<sleep>0:0:1.0</sleep>		<!-- Turn off light -->
+		<multiled device="microscope">
+			<enable channel="0">OFF</enable>
+		</multiled>
+
+
+
+
+	<!-- set smc with selected gain and voltage and period -->
+	<smc>
+		<offset>6</offset>
+		<gain>5</gain>
+		<waveform>
+			<repetitions>-1</repetitions>
+			<period>37</period>
+		</waveform>
+	</smc>
+	<sleep>0:0:2</sleep>
+		<!-- SET NAME -->
+		<save>
+			<basename>/home/np451/data/22.10.18/P1_5h/60X_V5_O6_P37</basename>
+			<append>DATE</append>
+		</save>
+		<!-- Turn on light -->
+		<multiled device="microscope">
+			<enable channel="0">ON</enable>
+		</multiled>
+		<!-- Take a record -->
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>ON</record></camera>
+		<sleep>0:0:5</sleep>
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>OFF</record></camera>
+		<sleep>0:0:1.0</sleep>		<!-- Turn off light -->
+		<multiled device="microscope">
+			<enable channel="0">OFF</enable>
+		</multiled>
+
+
+
+
+	<!-- set smc with selected gain and voltage and period -->
+	<smc>
+		<offset>6</offset>
+		<gain>5</gain>
+		<waveform>
+			<repetitions>-1</repetitions>
+			<period>38</period>
+		</waveform>
+	</smc>
+	<sleep>0:0:2</sleep>
+		<!-- SET NAME -->
+		<save>
+			<basename>/home/np451/data/22.10.18/P1_5h/60X_V5_O6_P38</basename>
+			<append>DATE</append>
+		</save>
+		<!-- Turn on light -->
+		<multiled device="microscope">
+			<enable channel="0">ON</enable>
+		</multiled>
+		<!-- Take a record -->
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>ON</record></camera>
+		<sleep>0:0:5</sleep>
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>OFF</record></camera>
+		<sleep>0:0:1.0</sleep>		<!-- Turn off light -->
+		<multiled device="microscope">
+			<enable channel="0">OFF</enable>
+		</multiled>
+
+
+
+
+	<!-- set smc with selected gain and voltage and period -->
+	<smc>
+		<offset>6</offset>
+		<gain>5</gain>
+		<waveform>
+			<repetitions>-1</repetitions>
+			<period>39</period>
+		</waveform>
+	</smc>
+	<sleep>0:0:2</sleep>
+		<!-- SET NAME -->
+		<save>
+			<basename>/home/np451/data/22.10.18/P1_5h/60X_V5_O6_P39</basename>
+			<append>DATE</append>
+		</save>
+		<!-- Turn on light -->
+		<multiled device="microscope">
+			<enable channel="0">ON</enable>
+		</multiled>
+		<!-- Take a record -->
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>ON</record></camera>
+		<sleep>0:0:5</sleep>
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>OFF</record></camera>
+		<sleep>0:0:1.0</sleep>		<!-- Turn off light -->
+		<multiled device="microscope">
+			<enable channel="0">OFF</enable>
+		</multiled>
+
+
+
+
+	<!-- set smc with selected gain and voltage and period -->
+	<smc>
+		<offset>6</offset>
+		<gain>5</gain>
+		<waveform>
+			<repetitions>-1</repetitions>
+			<period>40</period>
+		</waveform>
+	</smc>
+	<sleep>0:0:2</sleep>
+		<!-- SET NAME -->
+		<save>
+			<basename>/home/np451/data/22.10.18/P1_5h/60X_V5_O6_P40</basename>
+			<append>DATE</append>
+		</save>
+		<!-- Turn on light -->
+		<multiled device="microscope">
+			<enable channel="0">ON</enable>
+		</multiled>
+		<!-- Take a record -->
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>ON</record></camera>
+		<sleep>0:0:5</sleep>
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>OFF</record></camera>
+		<sleep>0:0:1.0</sleep>		<!-- Turn off light -->
+		<multiled device="microscope">
+			<enable channel="0">OFF</enable>
+		</multiled>
+
+
+
+
+	<!-- set smc with selected gain and voltage and period -->
+	<smc>
+		<offset>6</offset>
+		<gain>5</gain>
+		<waveform>
+			<repetitions>-1</repetitions>
+			<period>41</period>
+		</waveform>
+	</smc>
+	<sleep>0:0:2</sleep>
+		<!-- SET NAME -->
+		<save>
+			<basename>/home/np451/data/22.10.18/P1_5h/60X_V5_O6_P41</basename>
+			<append>DATE</append>
+		</save>
+		<!-- Turn on light -->
+		<multiled device="microscope">
+			<enable channel="0">ON</enable>
+		</multiled>
+		<!-- Take a record -->
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>ON</record></camera>
+		<sleep>0:0:5</sleep>
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>OFF</record></camera>
+		<sleep>0:0:1.0</sleep>		<!-- Turn off light -->
+		<multiled device="microscope">
+			<enable channel="0">OFF</enable>
+		</multiled>
+
+
+
+
+	<!-- set smc with selected gain and voltage and period -->
+	<smc>
+		<offset>6</offset>
+		<gain>5</gain>
+		<waveform>
+			<repetitions>-1</repetitions>
+			<period>42</period>
+		</waveform>
+	</smc>
+	<sleep>0:0:2</sleep>
+		<!-- SET NAME -->
+		<save>
+			<basename>/home/np451/data/22.10.18/P1_5h/60X_V5_O6_P42</basename>
+			<append>DATE</append>
+		</save>
+		<!-- Turn on light -->
+		<multiled device="microscope">
+			<enable channel="0">ON</enable>
+		</multiled>
+		<!-- Take a record -->
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>ON</record></camera>
+		<sleep>0:0:5</sleep>
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>OFF</record></camera>
+		<sleep>0:0:1.0</sleep>		<!-- Turn off light -->
+		<multiled device="microscope">
+			<enable channel="0">OFF</enable>
+		</multiled>
+
+
+
+
+	<!-- set smc with selected gain and voltage and period -->
+	<smc>
+		<offset>6</offset>
+		<gain>5</gain>
+		<waveform>
+			<repetitions>-1</repetitions>
+			<period>43</period>
+		</waveform>
+	</smc>
+	<sleep>0:0:2</sleep>
+		<!-- SET NAME -->
+		<save>
+			<basename>/home/np451/data/22.10.18/P1_5h/60X_V5_O6_P43</basename>
+			<append>DATE</append>
+		</save>
+		<!-- Turn on light -->
+		<multiled device="microscope">
+			<enable channel="0">ON</enable>
+		</multiled>
+		<!-- Take a record -->
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>ON</record></camera>
+		<sleep>0:0:5</sleep>
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>OFF</record></camera>
+		<sleep>0:0:1.0</sleep>		<!-- Turn off light -->
+		<multiled device="microscope">
+			<enable channel="0">OFF</enable>
+		</multiled>
+
+
+
+
+	<!-- set smc with selected gain and voltage and period -->
+	<smc>
+		<offset>6</offset>
+		<gain>5</gain>
+		<waveform>
+			<repetitions>-1</repetitions>
+			<period>44</period>
+		</waveform>
+	</smc>
+	<sleep>0:0:2</sleep>
+		<!-- SET NAME -->
+		<save>
+			<basename>/home/np451/data/22.10.18/P1_5h/60X_V5_O6_P44</basename>
+			<append>DATE</append>
+		</save>
+		<!-- Turn on light -->
+		<multiled device="microscope">
+			<enable channel="0">ON</enable>
+		</multiled>
+		<!-- Take a record -->
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>ON</record></camera>
+		<sleep>0:0:5</sleep>
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>OFF</record></camera>
+		<sleep>0:0:1.0</sleep>		<!-- Turn off light -->
+		<multiled device="microscope">
+			<enable channel="0">OFF</enable>
+		</multiled>
+
+
+
+
+	<!-- set smc with selected gain and voltage and period -->
+	<smc>
+		<offset>6</offset>
+		<gain>5</gain>
+		<waveform>
+			<repetitions>-1</repetitions>
+			<period>45</period>
+		</waveform>
+	</smc>
+	<sleep>0:0:2</sleep>
+		<!-- SET NAME -->
+		<save>
+			<basename>/home/np451/data/22.10.18/P1_5h/60X_V5_O6_P45</basename>
+			<append>DATE</append>
+		</save>
+		<!-- Turn on light -->
+		<multiled device="microscope">
+			<enable channel="0">ON</enable>
+		</multiled>
+		<!-- Take a record -->
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>ON</record></camera>
+		<sleep>0:0:5</sleep>
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>OFF</record></camera>
+		<sleep>0:0:1.0</sleep>		<!-- Turn off light -->
+		<multiled device="microscope">
+			<enable channel="0">OFF</enable>
+		</multiled>
+
+
+
+
+	<!-- set smc with selected gain and voltage and period -->
+	<smc>
+		<offset>6</offset>
+		<gain>5</gain>
+		<waveform>
+			<repetitions>-1</repetitions>
+			<period>46</period>
+		</waveform>
+	</smc>
+	<sleep>0:0:2</sleep>
+		<!-- SET NAME -->
+		<save>
+			<basename>/home/np451/data/22.10.18/P1_5h/60X_V5_O6_P46</basename>
+			<append>DATE</append>
+		</save>
+		<!-- Turn on light -->
+		<multiled device="microscope">
+			<enable channel="0">ON</enable>
+		</multiled>
+		<!-- Take a record -->
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>ON</record></camera>
+		<sleep>0:0:5</sleep>
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>OFF</record></camera>
+		<sleep>0:0:1.0</sleep>		<!-- Turn off light -->
+		<multiled device="microscope">
+			<enable channel="0">OFF</enable>
+		</multiled>
+
+
+
+
+	<!-- set smc with selected gain and voltage and period -->
+	<smc>
+		<offset>6</offset>
+		<gain>5</gain>
+		<waveform>
+			<repetitions>-1</repetitions>
+			<period>47</period>
+		</waveform>
+	</smc>
+	<sleep>0:0:2</sleep>
+		<!-- SET NAME -->
+		<save>
+			<basename>/home/np451/data/22.10.18/P1_5h/60X_V5_O6_P47</basename>
+			<append>DATE</append>
+		</save>
+		<!-- Turn on light -->
+		<multiled device="microscope">
+			<enable channel="0">ON</enable>
+		</multiled>
+		<!-- Take a record -->
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>ON</record></camera>
+		<sleep>0:0:5</sleep>
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>OFF</record></camera>
+		<sleep>0:0:1.0</sleep>		<!-- Turn off light -->
+		<multiled device="microscope">
+			<enable channel="0">OFF</enable>
+		</multiled>
+
+
+
+
+	<!-- set smc with selected gain and voltage and period -->
+	<smc>
+		<offset>6</offset>
+		<gain>5</gain>
+		<waveform>
+			<repetitions>-1</repetitions>
+			<period>48</period>
+		</waveform>
+	</smc>
+	<sleep>0:0:2</sleep>
+		<!-- SET NAME -->
+		<save>
+			<basename>/home/np451/data/22.10.18/P1_5h/60X_V5_O6_P48</basename>
+			<append>DATE</append>
+		</save>
+		<!-- Turn on light -->
+		<multiled device="microscope">
+			<enable channel="0">ON</enable>
+		</multiled>
+		<!-- Take a record -->
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>ON</record></camera>
+		<sleep>0:0:5</sleep>
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>OFF</record></camera>
+		<sleep>0:0:1.0</sleep>		<!-- Turn off light -->
+		<multiled device="microscope">
+			<enable channel="0">OFF</enable>
+		</multiled>
+
+
+
+
+	<!-- set smc with selected gain and voltage and period -->
+	<smc>
+		<offset>6</offset>
+		<gain>5</gain>
+		<waveform>
+			<repetitions>-1</repetitions>
+			<period>50</period>
+		</waveform>
+	</smc>
+	<sleep>0:0:2</sleep>
+		<!-- SET NAME -->
+		<save>
+			<basename>/home/np451/data/22.10.18/P1_5h/60X_V5_O6_P50</basename>
+			<append>DATE</append>
+		</save>
+		<!-- Turn on light -->
+		<multiled device="microscope">
+			<enable channel="0">ON</enable>
+		</multiled>
+		<!-- Take a record -->
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>ON</record></camera>
+		<sleep>0:0:5</sleep>
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>OFF</record></camera>
+		<sleep>0:0:1.0</sleep>		<!-- Turn off light -->
+		<multiled device="microscope">
+			<enable channel="0">OFF</enable>
+		</multiled>
+
+
+
+
+	<!-- set smc with selected gain and voltage and period -->
+	<smc>
+		<offset>6</offset>
+		<gain>5</gain>
+		<waveform>
+			<repetitions>-1</repetitions>
+			<period>51</period>
+		</waveform>
+	</smc>
+	<sleep>0:0:2</sleep>
+		<!-- SET NAME -->
+		<save>
+			<basename>/home/np451/data/22.10.18/P1_5h/60X_V5_O6_P51</basename>
+			<append>DATE</append>
+		</save>
+		<!-- Turn on light -->
+		<multiled device="microscope">
+			<enable channel="0">ON</enable>
+		</multiled>
+		<!-- Take a record -->
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>ON</record></camera>
+		<sleep>0:0:5</sleep>
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>OFF</record></camera>
+		<sleep>0:0:1.0</sleep>		<!-- Turn off light -->
+		<multiled device="microscope">
+			<enable channel="0">OFF</enable>
+		</multiled>
+
+
+
+
+	<!-- set smc with selected gain and voltage and period -->
+	<smc>
+		<offset>6</offset>
+		<gain>5</gain>
+		<waveform>
+			<repetitions>-1</repetitions>
+			<period>52</period>
+		</waveform>
+	</smc>
+	<sleep>0:0:2</sleep>
+		<!-- SET NAME -->
+		<save>
+			<basename>/home/np451/data/22.10.18/P1_5h/60X_V5_O6_P52</basename>
+			<append>DATE</append>
+		</save>
+		<!-- Turn on light -->
+		<multiled device="microscope">
+			<enable channel="0">ON</enable>
+		</multiled>
+		<!-- Take a record -->
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>ON</record></camera>
+		<sleep>0:0:5</sleep>
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>OFF</record></camera>
+		<sleep>0:0:1.0</sleep>		<!-- Turn off light -->
+		<multiled device="microscope">
+			<enable channel="0">OFF</enable>
+		</multiled>
+
+
+
+
+	<!-- set smc with selected gain and voltage and period -->
+	<smc>
+		<offset>6</offset>
+		<gain>5</gain>
+		<waveform>
+			<repetitions>-1</repetitions>
+			<period>54</period>
+		</waveform>
+	</smc>
+	<sleep>0:0:2</sleep>
+		<!-- SET NAME -->
+		<save>
+			<basename>/home/np451/data/22.10.18/P1_5h/60X_V5_O6_P54</basename>
+			<append>DATE</append>
+		</save>
+		<!-- Turn on light -->
+		<multiled device="microscope">
+			<enable channel="0">ON</enable>
+		</multiled>
+		<!-- Take a record -->
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>ON</record></camera>
+		<sleep>0:0:5</sleep>
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>OFF</record></camera>
+		<sleep>0:0:1.0</sleep>		<!-- Turn off light -->
+		<multiled device="microscope">
+			<enable channel="0">OFF</enable>
+		</multiled>
+
+
+
+
+	<!-- set smc with selected gain and voltage and period -->
+	<smc>
+		<offset>6</offset>
+		<gain>5</gain>
+		<waveform>
+			<repetitions>-1</repetitions>
+			<period>55</period>
+		</waveform>
+	</smc>
+	<sleep>0:0:2</sleep>
+		<!-- SET NAME -->
+		<save>
+			<basename>/home/np451/data/22.10.18/P1_5h/60X_V5_O6_P55</basename>
+			<append>DATE</append>
+		</save>
+		<!-- Turn on light -->
+		<multiled device="microscope">
+			<enable channel="0">ON</enable>
+		</multiled>
+		<!-- Take a record -->
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>ON</record></camera>
+		<sleep>0:0:5</sleep>
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>OFF</record></camera>
+		<sleep>0:0:1.0</sleep>		<!-- Turn off light -->
+		<multiled device="microscope">
+			<enable channel="0">OFF</enable>
+		</multiled>
+
+
+
+
+	<!-- set smc with selected gain and voltage and period -->
+	<smc>
+		<offset>6</offset>
+		<gain>5</gain>
+		<waveform>
+			<repetitions>-1</repetitions>
+			<period>57</period>
+		</waveform>
+	</smc>
+	<sleep>0:0:2</sleep>
+		<!-- SET NAME -->
+		<save>
+			<basename>/home/np451/data/22.10.18/P1_5h/60X_V5_O6_P57</basename>
+			<append>DATE</append>
+		</save>
+		<!-- Turn on light -->
+		<multiled device="microscope">
+			<enable channel="0">ON</enable>
+		</multiled>
+		<!-- Take a record -->
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>ON</record></camera>
+		<sleep>0:0:5</sleep>
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>OFF</record></camera>
+		<sleep>0:0:1.0</sleep>		<!-- Turn off light -->
+		<multiled device="microscope">
+			<enable channel="0">OFF</enable>
+		</multiled>
+
+
+
+
+	<!-- set smc with selected gain and voltage and period -->
+	<smc>
+		<offset>6</offset>
+		<gain>5</gain>
+		<waveform>
+			<repetitions>-1</repetitions>
+			<period>58</period>
+		</waveform>
+	</smc>
+	<sleep>0:0:2</sleep>
+		<!-- SET NAME -->
+		<save>
+			<basename>/home/np451/data/22.10.18/P1_5h/60X_V5_O6_P58</basename>
+			<append>DATE</append>
+		</save>
+		<!-- Turn on light -->
+		<multiled device="microscope">
+			<enable channel="0">ON</enable>
+		</multiled>
+		<!-- Take a record -->
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>ON</record></camera>
+		<sleep>0:0:5</sleep>
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>OFF</record></camera>
+		<sleep>0:0:1.0</sleep>		<!-- Turn off light -->
+		<multiled device="microscope">
+			<enable channel="0">OFF</enable>
+		</multiled>
+
+
+
+
+	<!-- set smc with selected gain and voltage and period -->
+	<smc>
+		<offset>6</offset>
+		<gain>5</gain>
+		<waveform>
+			<repetitions>-1</repetitions>
+			<period>60</period>
+		</waveform>
+	</smc>
+	<sleep>0:0:2</sleep>
+		<!-- SET NAME -->
+		<save>
+			<basename>/home/np451/data/22.10.18/P1_5h/60X_V5_O6_P60</basename>
+			<append>DATE</append>
+		</save>
+		<!-- Turn on light -->
+		<multiled device="microscope">
+			<enable channel="0">ON</enable>
+		</multiled>
+		<!-- Take a record -->
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>ON</record></camera>
+		<sleep>0:0:5</sleep>
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>OFF</record></camera>
+		<sleep>0:0:1.0</sleep>		<!-- Turn off light -->
+		<multiled device="microscope">
+			<enable channel="0">OFF</enable>
+		</multiled>
+
+
+
+
+	<!-- set smc with selected gain and voltage and period -->
+	<smc>
+		<offset>6</offset>
+		<gain>5</gain>
+		<waveform>
+			<repetitions>-1</repetitions>
+			<period>62</period>
+		</waveform>
+	</smc>
+	<sleep>0:0:2</sleep>
+		<!-- SET NAME -->
+		<save>
+			<basename>/home/np451/data/22.10.18/P1_5h/60X_V5_O6_P62</basename>
+			<append>DATE</append>
+		</save>
+		<!-- Turn on light -->
+		<multiled device="microscope">
+			<enable channel="0">ON</enable>
+		</multiled>
+		<!-- Take a record -->
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>ON</record></camera>
+		<sleep>0:0:5</sleep>
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>OFF</record></camera>
+		<sleep>0:0:1.0</sleep>		<!-- Turn off light -->
+		<multiled device="microscope">
+			<enable channel="0">OFF</enable>
+		</multiled>
+
+
+
+
+	<!-- set smc with selected gain and voltage and period -->
+	<smc>
+		<offset>7</offset>
+		<gain>6</gain>
+		<waveform>
+			<repetitions>0</repetitions>
+		</waveform>
+	</smc>
+	<sleep>0:0:2</sleep>
+		<!-- SET NAME -->
+		<save>
+			<basename>/home/np451/data/22.10.18/P1_5h/60X_V6_O7_P0</basename>
+			<append>DATE</append>
+		</save>
+		<!-- Turn on light -->
+		<multiled device="microscope">
+			<enable channel="0">ON</enable>
+		</multiled>
+		<!-- Take a record -->
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>ON</record></camera>
+		<sleep>0:0:5</sleep>
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>OFF</record></camera>
+		<sleep>0:0:1</sleep>
+
+		<!-- Turn off light -->
+		<multiled device="microscope">
+			<enable channel="0">OFF</enable>
+		</multiled>
+	<!-- set smc with selected gain and voltage and period -->
+	<smc>
+		<offset>7</offset>
+		<gain>6</gain>
+		<waveform>
+			<repetitions>-1</repetitions>
+			<period>27</period>
+		</waveform>
+	</smc>
+	<sleep>0:0:2</sleep>
+		<!-- SET NAME -->
+		<save>
+			<basename>/home/np451/data/22.10.18/P1_5h/60X_V6_O7_P27</basename>
+			<append>DATE</append>
+		</save>
+		<!-- Turn on light -->
+		<multiled device="microscope">
+			<enable channel="0">ON</enable>
+		</multiled>
+		<!-- Take a record -->
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>ON</record></camera>
+		<sleep>0:0:5</sleep>
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>OFF</record></camera>
+		<sleep>0:0:1.0</sleep>		<!-- Turn off light -->
+		<multiled device="microscope">
+			<enable channel="0">OFF</enable>
+		</multiled>
+
+
+
+
+	<!-- set smc with selected gain and voltage and period -->
+	<smc>
+		<offset>7</offset>
+		<gain>6</gain>
+		<waveform>
+			<repetitions>-1</repetitions>
+			<period>28</period>
+		</waveform>
+	</smc>
+	<sleep>0:0:2</sleep>
+		<!-- SET NAME -->
+		<save>
+			<basename>/home/np451/data/22.10.18/P1_5h/60X_V6_O7_P28</basename>
+			<append>DATE</append>
+		</save>
+		<!-- Turn on light -->
+		<multiled device="microscope">
+			<enable channel="0">ON</enable>
+		</multiled>
+		<!-- Take a record -->
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>ON</record></camera>
+		<sleep>0:0:5</sleep>
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>OFF</record></camera>
+		<sleep>0:0:1.0</sleep>		<!-- Turn off light -->
+		<multiled device="microscope">
+			<enable channel="0">OFF</enable>
+		</multiled>
+
+
+
+
+	<!-- set smc with selected gain and voltage and period -->
+	<smc>
+		<offset>7</offset>
+		<gain>6</gain>
+		<waveform>
+			<repetitions>-1</repetitions>
+			<period>29</period>
+		</waveform>
+	</smc>
+	<sleep>0:0:2</sleep>
+		<!-- SET NAME -->
+		<save>
+			<basename>/home/np451/data/22.10.18/P1_5h/60X_V6_O7_P29</basename>
+			<append>DATE</append>
+		</save>
+		<!-- Turn on light -->
+		<multiled device="microscope">
+			<enable channel="0">ON</enable>
+		</multiled>
+		<!-- Take a record -->
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>ON</record></camera>
+		<sleep>0:0:5</sleep>
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>OFF</record></camera>
+		<sleep>0:0:1.0</sleep>		<!-- Turn off light -->
+		<multiled device="microscope">
+			<enable channel="0">OFF</enable>
+		</multiled>
+
+
+
+
+	<!-- set smc with selected gain and voltage and period -->
+	<smc>
+		<offset>7</offset>
+		<gain>6</gain>
+		<waveform>
+			<repetitions>-1</repetitions>
+			<period>30</period>
+		</waveform>
+	</smc>
+	<sleep>0:0:2</sleep>
+		<!-- SET NAME -->
+		<save>
+			<basename>/home/np451/data/22.10.18/P1_5h/60X_V6_O7_P30</basename>
+			<append>DATE</append>
+		</save>
+		<!-- Turn on light -->
+		<multiled device="microscope">
+			<enable channel="0">ON</enable>
+		</multiled>
+		<!-- Take a record -->
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>ON</record></camera>
+		<sleep>0:0:5</sleep>
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>OFF</record></camera>
+		<sleep>0:0:1.0</sleep>		<!-- Turn off light -->
+		<multiled device="microscope">
+			<enable channel="0">OFF</enable>
+		</multiled>
+
+
+
+
+	<!-- set smc with selected gain and voltage and period -->
+	<smc>
+		<offset>7</offset>
+		<gain>6</gain>
+		<waveform>
+			<repetitions>-1</repetitions>
+			<period>31</period>
+		</waveform>
+	</smc>
+	<sleep>0:0:2</sleep>
+		<!-- SET NAME -->
+		<save>
+			<basename>/home/np451/data/22.10.18/P1_5h/60X_V6_O7_P31</basename>
+			<append>DATE</append>
+		</save>
+		<!-- Turn on light -->
+		<multiled device="microscope">
+			<enable channel="0">ON</enable>
+		</multiled>
+		<!-- Take a record -->
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>ON</record></camera>
+		<sleep>0:0:5</sleep>
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>OFF</record></camera>
+		<sleep>0:0:1.0</sleep>		<!-- Turn off light -->
+		<multiled device="microscope">
+			<enable channel="0">OFF</enable>
+		</multiled>
+
+
+
+
+	<!-- set smc with selected gain and voltage and period -->
+	<smc>
+		<offset>7</offset>
+		<gain>6</gain>
+		<waveform>
+			<repetitions>-1</repetitions>
+			<period>32</period>
+		</waveform>
+	</smc>
+	<sleep>0:0:2</sleep>
+		<!-- SET NAME -->
+		<save>
+			<basename>/home/np451/data/22.10.18/P1_5h/60X_V6_O7_P32</basename>
+			<append>DATE</append>
+		</save>
+		<!-- Turn on light -->
+		<multiled device="microscope">
+			<enable channel="0">ON</enable>
+		</multiled>
+		<!-- Take a record -->
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>ON</record></camera>
+		<sleep>0:0:5</sleep>
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>OFF</record></camera>
+		<sleep>0:0:1.0</sleep>		<!-- Turn off light -->
+		<multiled device="microscope">
+			<enable channel="0">OFF</enable>
+		</multiled>
+
+
+
+
+	<!-- set smc with selected gain and voltage and period -->
+	<smc>
+		<offset>7</offset>
+		<gain>6</gain>
+		<waveform>
+			<repetitions>-1</repetitions>
+			<period>33</period>
+		</waveform>
+	</smc>
+	<sleep>0:0:2</sleep>
+		<!-- SET NAME -->
+		<save>
+			<basename>/home/np451/data/22.10.18/P1_5h/60X_V6_O7_P33</basename>
+			<append>DATE</append>
+		</save>
+		<!-- Turn on light -->
+		<multiled device="microscope">
+			<enable channel="0">ON</enable>
+		</multiled>
+		<!-- Take a record -->
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>ON</record></camera>
+		<sleep>0:0:5</sleep>
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>OFF</record></camera>
+		<sleep>0:0:1.0</sleep>		<!-- Turn off light -->
+		<multiled device="microscope">
+			<enable channel="0">OFF</enable>
+		</multiled>
+
+
+
+
+	<!-- set smc with selected gain and voltage and period -->
+	<smc>
+		<offset>7</offset>
+		<gain>6</gain>
+		<waveform>
+			<repetitions>-1</repetitions>
+			<period>34</period>
+		</waveform>
+	</smc>
+	<sleep>0:0:2</sleep>
+		<!-- SET NAME -->
+		<save>
+			<basename>/home/np451/data/22.10.18/P1_5h/60X_V6_O7_P34</basename>
+			<append>DATE</append>
+		</save>
+		<!-- Turn on light -->
+		<multiled device="microscope">
+			<enable channel="0">ON</enable>
+		</multiled>
+		<!-- Take a record -->
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>ON</record></camera>
+		<sleep>0:0:5</sleep>
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>OFF</record></camera>
+		<sleep>0:0:1.0</sleep>		<!-- Turn off light -->
+		<multiled device="microscope">
+			<enable channel="0">OFF</enable>
+		</multiled>
+
+
+
+
+	<!-- set smc with selected gain and voltage and period -->
+	<smc>
+		<offset>7</offset>
+		<gain>6</gain>
+		<waveform>
+			<repetitions>-1</repetitions>
+			<period>35</period>
+		</waveform>
+	</smc>
+	<sleep>0:0:2</sleep>
+		<!-- SET NAME -->
+		<save>
+			<basename>/home/np451/data/22.10.18/P1_5h/60X_V6_O7_P35</basename>
+			<append>DATE</append>
+		</save>
+		<!-- Turn on light -->
+		<multiled device="microscope">
+			<enable channel="0">ON</enable>
+		</multiled>
+		<!-- Take a record -->
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>ON</record></camera>
+		<sleep>0:0:5</sleep>
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>OFF</record></camera>
+		<sleep>0:0:1.0</sleep>		<!-- Turn off light -->
+		<multiled device="microscope">
+			<enable channel="0">OFF</enable>
+		</multiled>
+
+
+
+
+	<!-- set smc with selected gain and voltage and period -->
+	<smc>
+		<offset>7</offset>
+		<gain>6</gain>
+		<waveform>
+			<repetitions>-1</repetitions>
+			<period>36</period>
+		</waveform>
+	</smc>
+	<sleep>0:0:2</sleep>
+		<!-- SET NAME -->
+		<save>
+			<basename>/home/np451/data/22.10.18/P1_5h/60X_V6_O7_P36</basename>
+			<append>DATE</append>
+		</save>
+		<!-- Turn on light -->
+		<multiled device="microscope">
+			<enable channel="0">ON</enable>
+		</multiled>
+		<!-- Take a record -->
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>ON</record></camera>
+		<sleep>0:0:5</sleep>
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>OFF</record></camera>
+		<sleep>0:0:1.0</sleep>		<!-- Turn off light -->
+		<multiled device="microscope">
+			<enable channel="0">OFF</enable>
+		</multiled>
+
+
+
+
+	<!-- set smc with selected gain and voltage and period -->
+	<smc>
+		<offset>7</offset>
+		<gain>6</gain>
+		<waveform>
+			<repetitions>-1</repetitions>
+			<period>37</period>
+		</waveform>
+	</smc>
+	<sleep>0:0:2</sleep>
+		<!-- SET NAME -->
+		<save>
+			<basename>/home/np451/data/22.10.18/P1_5h/60X_V6_O7_P37</basename>
+			<append>DATE</append>
+		</save>
+		<!-- Turn on light -->
+		<multiled device="microscope">
+			<enable channel="0">ON</enable>
+		</multiled>
+		<!-- Take a record -->
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>ON</record></camera>
+		<sleep>0:0:5</sleep>
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>OFF</record></camera>
+		<sleep>0:0:1.0</sleep>		<!-- Turn off light -->
+		<multiled device="microscope">
+			<enable channel="0">OFF</enable>
+		</multiled>
+
+
+
+
+	<!-- set smc with selected gain and voltage and period -->
+	<smc>
+		<offset>7</offset>
+		<gain>6</gain>
+		<waveform>
+			<repetitions>-1</repetitions>
+			<period>38</period>
+		</waveform>
+	</smc>
+	<sleep>0:0:2</sleep>
+		<!-- SET NAME -->
+		<save>
+			<basename>/home/np451/data/22.10.18/P1_5h/60X_V6_O7_P38</basename>
+			<append>DATE</append>
+		</save>
+		<!-- Turn on light -->
+		<multiled device="microscope">
+			<enable channel="0">ON</enable>
+		</multiled>
+		<!-- Take a record -->
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>ON</record></camera>
+		<sleep>0:0:5</sleep>
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>OFF</record></camera>
+		<sleep>0:0:1.0</sleep>		<!-- Turn off light -->
+		<multiled device="microscope">
+			<enable channel="0">OFF</enable>
+		</multiled>
+
+
+
+
+	<!-- set smc with selected gain and voltage and period -->
+	<smc>
+		<offset>7</offset>
+		<gain>6</gain>
+		<waveform>
+			<repetitions>-1</repetitions>
+			<period>39</period>
+		</waveform>
+	</smc>
+	<sleep>0:0:2</sleep>
+		<!-- SET NAME -->
+		<save>
+			<basename>/home/np451/data/22.10.18/P1_5h/60X_V6_O7_P39</basename>
+			<append>DATE</append>
+		</save>
+		<!-- Turn on light -->
+		<multiled device="microscope">
+			<enable channel="0">ON</enable>
+		</multiled>
+		<!-- Take a record -->
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>ON</record></camera>
+		<sleep>0:0:5</sleep>
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>OFF</record></camera>
+		<sleep>0:0:1.0</sleep>		<!-- Turn off light -->
+		<multiled device="microscope">
+			<enable channel="0">OFF</enable>
+		</multiled>
+
+
+
+
+	<!-- set smc with selected gain and voltage and period -->
+	<smc>
+		<offset>7</offset>
+		<gain>6</gain>
+		<waveform>
+			<repetitions>-1</repetitions>
+			<period>40</period>
+		</waveform>
+	</smc>
+	<sleep>0:0:2</sleep>
+		<!-- SET NAME -->
+		<save>
+			<basename>/home/np451/data/22.10.18/P1_5h/60X_V6_O7_P40</basename>
+			<append>DATE</append>
+		</save>
+		<!-- Turn on light -->
+		<multiled device="microscope">
+			<enable channel="0">ON</enable>
+		</multiled>
+		<!-- Take a record -->
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>ON</record></camera>
+		<sleep>0:0:5</sleep>
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>OFF</record></camera>
+		<sleep>0:0:1.0</sleep>		<!-- Turn off light -->
+		<multiled device="microscope">
+			<enable channel="0">OFF</enable>
+		</multiled>
+
+
+
+
+	<!-- set smc with selected gain and voltage and period -->
+	<smc>
+		<offset>7</offset>
+		<gain>6</gain>
+		<waveform>
+			<repetitions>-1</repetitions>
+			<period>41</period>
+		</waveform>
+	</smc>
+	<sleep>0:0:2</sleep>
+		<!-- SET NAME -->
+		<save>
+			<basename>/home/np451/data/22.10.18/P1_5h/60X_V6_O7_P41</basename>
+			<append>DATE</append>
+		</save>
+		<!-- Turn on light -->
+		<multiled device="microscope">
+			<enable channel="0">ON</enable>
+		</multiled>
+		<!-- Take a record -->
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>ON</record></camera>
+		<sleep>0:0:5</sleep>
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>OFF</record></camera>
+		<sleep>0:0:1.0</sleep>		<!-- Turn off light -->
+		<multiled device="microscope">
+			<enable channel="0">OFF</enable>
+		</multiled>
+
+
+
+
+	<!-- set smc with selected gain and voltage and period -->
+	<smc>
+		<offset>7</offset>
+		<gain>6</gain>
+		<waveform>
+			<repetitions>-1</repetitions>
+			<period>42</period>
+		</waveform>
+	</smc>
+	<sleep>0:0:2</sleep>
+		<!-- SET NAME -->
+		<save>
+			<basename>/home/np451/data/22.10.18/P1_5h/60X_V6_O7_P42</basename>
+			<append>DATE</append>
+		</save>
+		<!-- Turn on light -->
+		<multiled device="microscope">
+			<enable channel="0">ON</enable>
+		</multiled>
+		<!-- Take a record -->
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>ON</record></camera>
+		<sleep>0:0:5</sleep>
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>OFF</record></camera>
+		<sleep>0:0:1.0</sleep>		<!-- Turn off light -->
+		<multiled device="microscope">
+			<enable channel="0">OFF</enable>
+		</multiled>
+
+
+
+
+	<!-- set smc with selected gain and voltage and period -->
+	<smc>
+		<offset>7</offset>
+		<gain>6</gain>
+		<waveform>
+			<repetitions>-1</repetitions>
+			<period>43</period>
+		</waveform>
+	</smc>
+	<sleep>0:0:2</sleep>
+		<!-- SET NAME -->
+		<save>
+			<basename>/home/np451/data/22.10.18/P1_5h/60X_V6_O7_P43</basename>
+			<append>DATE</append>
+		</save>
+		<!-- Turn on light -->
+		<multiled device="microscope">
+			<enable channel="0">ON</enable>
+		</multiled>
+		<!-- Take a record -->
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>ON</record></camera>
+		<sleep>0:0:5</sleep>
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>OFF</record></camera>
+		<sleep>0:0:1.0</sleep>		<!-- Turn off light -->
+		<multiled device="microscope">
+			<enable channel="0">OFF</enable>
+		</multiled>
+
+
+
+
+	<!-- set smc with selected gain and voltage and period -->
+	<smc>
+		<offset>7</offset>
+		<gain>6</gain>
+		<waveform>
+			<repetitions>-1</repetitions>
+			<period>44</period>
+		</waveform>
+	</smc>
+	<sleep>0:0:2</sleep>
+		<!-- SET NAME -->
+		<save>
+			<basename>/home/np451/data/22.10.18/P1_5h/60X_V6_O7_P44</basename>
+			<append>DATE</append>
+		</save>
+		<!-- Turn on light -->
+		<multiled device="microscope">
+			<enable channel="0">ON</enable>
+		</multiled>
+		<!-- Take a record -->
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>ON</record></camera>
+		<sleep>0:0:5</sleep>
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>OFF</record></camera>
+		<sleep>0:0:1.0</sleep>		<!-- Turn off light -->
+		<multiled device="microscope">
+			<enable channel="0">OFF</enable>
+		</multiled>
+
+
+
+
+	<!-- set smc with selected gain and voltage and period -->
+	<smc>
+		<offset>7</offset>
+		<gain>6</gain>
+		<waveform>
+			<repetitions>-1</repetitions>
+			<period>45</period>
+		</waveform>
+	</smc>
+	<sleep>0:0:2</sleep>
+		<!-- SET NAME -->
+		<save>
+			<basename>/home/np451/data/22.10.18/P1_5h/60X_V6_O7_P45</basename>
+			<append>DATE</append>
+		</save>
+		<!-- Turn on light -->
+		<multiled device="microscope">
+			<enable channel="0">ON</enable>
+		</multiled>
+		<!-- Take a record -->
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>ON</record></camera>
+		<sleep>0:0:5</sleep>
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>OFF</record></camera>
+		<sleep>0:0:1.0</sleep>		<!-- Turn off light -->
+		<multiled device="microscope">
+			<enable channel="0">OFF</enable>
+		</multiled>
+
+
+
+
+	<!-- set smc with selected gain and voltage and period -->
+	<smc>
+		<offset>7</offset>
+		<gain>6</gain>
+		<waveform>
+			<repetitions>-1</repetitions>
+			<period>46</period>
+		</waveform>
+	</smc>
+	<sleep>0:0:2</sleep>
+		<!-- SET NAME -->
+		<save>
+			<basename>/home/np451/data/22.10.18/P1_5h/60X_V6_O7_P46</basename>
+			<append>DATE</append>
+		</save>
+		<!-- Turn on light -->
+		<multiled device="microscope">
+			<enable channel="0">ON</enable>
+		</multiled>
+		<!-- Take a record -->
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>ON</record></camera>
+		<sleep>0:0:5</sleep>
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>OFF</record></camera>
+		<sleep>0:0:1.0</sleep>		<!-- Turn off light -->
+		<multiled device="microscope">
+			<enable channel="0">OFF</enable>
+		</multiled>
+
+
+
+
+	<!-- set smc with selected gain and voltage and period -->
+	<smc>
+		<offset>7</offset>
+		<gain>6</gain>
+		<waveform>
+			<repetitions>-1</repetitions>
+			<period>47</period>
+		</waveform>
+	</smc>
+	<sleep>0:0:2</sleep>
+		<!-- SET NAME -->
+		<save>
+			<basename>/home/np451/data/22.10.18/P1_5h/60X_V6_O7_P47</basename>
+			<append>DATE</append>
+		</save>
+		<!-- Turn on light -->
+		<multiled device="microscope">
+			<enable channel="0">ON</enable>
+		</multiled>
+		<!-- Take a record -->
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>ON</record></camera>
+		<sleep>0:0:5</sleep>
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>OFF</record></camera>
+		<sleep>0:0:1.0</sleep>		<!-- Turn off light -->
+		<multiled device="microscope">
+			<enable channel="0">OFF</enable>
+		</multiled>
+
+
+
+
+	<!-- set smc with selected gain and voltage and period -->
+	<smc>
+		<offset>7</offset>
+		<gain>6</gain>
+		<waveform>
+			<repetitions>-1</repetitions>
+			<period>48</period>
+		</waveform>
+	</smc>
+	<sleep>0:0:2</sleep>
+		<!-- SET NAME -->
+		<save>
+			<basename>/home/np451/data/22.10.18/P1_5h/60X_V6_O7_P48</basename>
+			<append>DATE</append>
+		</save>
+		<!-- Turn on light -->
+		<multiled device="microscope">
+			<enable channel="0">ON</enable>
+		</multiled>
+		<!-- Take a record -->
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>ON</record></camera>
+		<sleep>0:0:5</sleep>
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>OFF</record></camera>
+		<sleep>0:0:1.0</sleep>		<!-- Turn off light -->
+		<multiled device="microscope">
+			<enable channel="0">OFF</enable>
+		</multiled>
+
+
+
+
+	<!-- set smc with selected gain and voltage and period -->
+	<smc>
+		<offset>7</offset>
+		<gain>6</gain>
+		<waveform>
+			<repetitions>-1</repetitions>
+			<period>50</period>
+		</waveform>
+	</smc>
+	<sleep>0:0:2</sleep>
+		<!-- SET NAME -->
+		<save>
+			<basename>/home/np451/data/22.10.18/P1_5h/60X_V6_O7_P50</basename>
+			<append>DATE</append>
+		</save>
+		<!-- Turn on light -->
+		<multiled device="microscope">
+			<enable channel="0">ON</enable>
+		</multiled>
+		<!-- Take a record -->
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>ON</record></camera>
+		<sleep>0:0:5</sleep>
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>OFF</record></camera>
+		<sleep>0:0:1.0</sleep>		<!-- Turn off light -->
+		<multiled device="microscope">
+			<enable channel="0">OFF</enable>
+		</multiled>
+
+
+
+
+	<!-- set smc with selected gain and voltage and period -->
+	<smc>
+		<offset>7</offset>
+		<gain>6</gain>
+		<waveform>
+			<repetitions>-1</repetitions>
+			<period>51</period>
+		</waveform>
+	</smc>
+	<sleep>0:0:2</sleep>
+		<!-- SET NAME -->
+		<save>
+			<basename>/home/np451/data/22.10.18/P1_5h/60X_V6_O7_P51</basename>
+			<append>DATE</append>
+		</save>
+		<!-- Turn on light -->
+		<multiled device="microscope">
+			<enable channel="0">ON</enable>
+		</multiled>
+		<!-- Take a record -->
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>ON</record></camera>
+		<sleep>0:0:5</sleep>
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>OFF</record></camera>
+		<sleep>0:0:1.0</sleep>		<!-- Turn off light -->
+		<multiled device="microscope">
+			<enable channel="0">OFF</enable>
+		</multiled>
+
+
+
+
+	<!-- set smc with selected gain and voltage and period -->
+	<smc>
+		<offset>7</offset>
+		<gain>6</gain>
+		<waveform>
+			<repetitions>-1</repetitions>
+			<period>52</period>
+		</waveform>
+	</smc>
+	<sleep>0:0:2</sleep>
+		<!-- SET NAME -->
+		<save>
+			<basename>/home/np451/data/22.10.18/P1_5h/60X_V6_O7_P52</basename>
+			<append>DATE</append>
+		</save>
+		<!-- Turn on light -->
+		<multiled device="microscope">
+			<enable channel="0">ON</enable>
+		</multiled>
+		<!-- Take a record -->
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>ON</record></camera>
+		<sleep>0:0:5</sleep>
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>OFF</record></camera>
+		<sleep>0:0:1.0</sleep>		<!-- Turn off light -->
+		<multiled device="microscope">
+			<enable channel="0">OFF</enable>
+		</multiled>
+
+
+
+
+	<!-- set smc with selected gain and voltage and period -->
+	<smc>
+		<offset>7</offset>
+		<gain>6</gain>
+		<waveform>
+			<repetitions>-1</repetitions>
+			<period>54</period>
+		</waveform>
+	</smc>
+	<sleep>0:0:2</sleep>
+		<!-- SET NAME -->
+		<save>
+			<basename>/home/np451/data/22.10.18/P1_5h/60X_V6_O7_P54</basename>
+			<append>DATE</append>
+		</save>
+		<!-- Turn on light -->
+		<multiled device="microscope">
+			<enable channel="0">ON</enable>
+		</multiled>
+		<!-- Take a record -->
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>ON</record></camera>
+		<sleep>0:0:5</sleep>
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>OFF</record></camera>
+		<sleep>0:0:1.0</sleep>		<!-- Turn off light -->
+		<multiled device="microscope">
+			<enable channel="0">OFF</enable>
+		</multiled>
+
+
+
+
+	<!-- set smc with selected gain and voltage and period -->
+	<smc>
+		<offset>7</offset>
+		<gain>6</gain>
+		<waveform>
+			<repetitions>-1</repetitions>
+			<period>55</period>
+		</waveform>
+	</smc>
+	<sleep>0:0:2</sleep>
+		<!-- SET NAME -->
+		<save>
+			<basename>/home/np451/data/22.10.18/P1_5h/60X_V6_O7_P55</basename>
+			<append>DATE</append>
+		</save>
+		<!-- Turn on light -->
+		<multiled device="microscope">
+			<enable channel="0">ON</enable>
+		</multiled>
+		<!-- Take a record -->
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>ON</record></camera>
+		<sleep>0:0:5</sleep>
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>OFF</record></camera>
+		<sleep>0:0:1.0</sleep>		<!-- Turn off light -->
+		<multiled device="microscope">
+			<enable channel="0">OFF</enable>
+		</multiled>
+
+
+
+
+	<!-- set smc with selected gain and voltage and period -->
+	<smc>
+		<offset>7</offset>
+		<gain>6</gain>
+		<waveform>
+			<repetitions>-1</repetitions>
+			<period>57</period>
+		</waveform>
+	</smc>
+	<sleep>0:0:2</sleep>
+		<!-- SET NAME -->
+		<save>
+			<basename>/home/np451/data/22.10.18/P1_5h/60X_V6_O7_P57</basename>
+			<append>DATE</append>
+		</save>
+		<!-- Turn on light -->
+		<multiled device="microscope">
+			<enable channel="0">ON</enable>
+		</multiled>
+		<!-- Take a record -->
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>ON</record></camera>
+		<sleep>0:0:5</sleep>
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>OFF</record></camera>
+		<sleep>0:0:1.0</sleep>		<!-- Turn off light -->
+		<multiled device="microscope">
+			<enable channel="0">OFF</enable>
+		</multiled>
+
+
+
+
+	<!-- set smc with selected gain and voltage and period -->
+	<smc>
+		<offset>7</offset>
+		<gain>6</gain>
+		<waveform>
+			<repetitions>-1</repetitions>
+			<period>58</period>
+		</waveform>
+	</smc>
+	<sleep>0:0:2</sleep>
+		<!-- SET NAME -->
+		<save>
+			<basename>/home/np451/data/22.10.18/P1_5h/60X_V6_O7_P58</basename>
+			<append>DATE</append>
+		</save>
+		<!-- Turn on light -->
+		<multiled device="microscope">
+			<enable channel="0">ON</enable>
+		</multiled>
+		<!-- Take a record -->
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>ON</record></camera>
+		<sleep>0:0:5</sleep>
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>OFF</record></camera>
+		<sleep>0:0:1.0</sleep>		<!-- Turn off light -->
+		<multiled device="microscope">
+			<enable channel="0">OFF</enable>
+		</multiled>
+
+
+
+
+	<!-- set smc with selected gain and voltage and period -->
+	<smc>
+		<offset>7</offset>
+		<gain>6</gain>
+		<waveform>
+			<repetitions>-1</repetitions>
+			<period>60</period>
+		</waveform>
+	</smc>
+	<sleep>0:0:2</sleep>
+		<!-- SET NAME -->
+		<save>
+			<basename>/home/np451/data/22.10.18/P1_5h/60X_V6_O7_P60</basename>
+			<append>DATE</append>
+		</save>
+		<!-- Turn on light -->
+		<multiled device="microscope">
+			<enable channel="0">ON</enable>
+		</multiled>
+		<!-- Take a record -->
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>ON</record></camera>
+		<sleep>0:0:5</sleep>
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>OFF</record></camera>
+		<sleep>0:0:1.0</sleep>		<!-- Turn off light -->
+		<multiled device="microscope">
+			<enable channel="0">OFF</enable>
+		</multiled>
+
+
+
+
+	<!-- set smc with selected gain and voltage and period -->
+	<smc>
+		<offset>7</offset>
+		<gain>6</gain>
+		<waveform>
+			<repetitions>-1</repetitions>
+			<period>62</period>
+		</waveform>
+	</smc>
+	<sleep>0:0:2</sleep>
+		<!-- SET NAME -->
+		<save>
+			<basename>/home/np451/data/22.10.18/P1_5h/60X_V6_O7_P62</basename>
+			<append>DATE</append>
+		</save>
+		<!-- Turn on light -->
+		<multiled device="microscope">
+			<enable channel="0">ON</enable>
+		</multiled>
+		<!-- Take a record -->
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>ON</record></camera>
+		<sleep>0:0:5</sleep>
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>OFF</record></camera>
+		<sleep>0:0:1.0</sleep>		<!-- Turn off light -->
+		<multiled device="microscope">
+			<enable channel="0">OFF</enable>
+		</multiled>
+
+
+
+
+	<!-- set smc with selected gain and voltage and period -->
+	<smc>
+		<offset>0</offset>
+		<gain>0</gain>
+		<waveform>
+			<repetitions>0</repetitions>
+			<period>0</period>
+		</waveform>
+	</smc>
+</temika>

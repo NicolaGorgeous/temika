@@ -1,0 +1,395 @@
+<temika>
+
+<!-- I expect the user to have set temperature pfs filterblock and illumination -->
+
+	<microscope>
+			<eclipsetie>
+				<light_path>L100</light_path>
+			</eclipsetie>
+	</microscope>
+
+	
+	
+	
+	
+	<timestamp>0</timestamp>
+
+	<!-- Position central CC -->
+		<!-- Move -->
+		<microscope>
+			<xystage axis="x">
+				<move_absolute>0 5</move_absolute>
+			</xystage>
+			<xystage axis="y">
+				<move_absolute>0 5</move_absolute>
+				<wait_moving_end></wait_moving_end>
+			</xystage>
+			<xystage axis="x">
+				<wait_moving_end></wait_moving_end>
+			</xystage>
+
+		</microscope>
+		<!-- Set the name -->
+		<save>
+			<basename>/home/np451/data/24.5/SECOND/10X_CC</basename>
+			<append>DATE</append>
+		</save>
+		<!-- Turn on the light -->
+<!-- 		<multiled><enable channel="1">ON</enable></multiled>    -->
+		<sleep>0:0:5.0</sleep>
+		<!-- Take a 10s video -->
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>ON</record></camera>
+		<sleep>0:0:5.0</sleep>
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>OFF</record></camera>
+		<temperature name="Peltier"><record>OFF</record></temperature>
+		<!-- Turn off the light -->
+<!-- 		<multiled><enable channel="1">OFF</enable></multiled>   -->
+		<sleep>0:0:1.0</sleep>
+
+		
+
+	<!-- Position Normal TC -->
+		<!-- Move -->
+		<microscope>
+			<xystage axis="x">
+				<move_absolute>1500 5</move_absolute>
+			</xystage>
+			<xystage axis="y">
+				<move_absolute>0000 5</move_absolute>
+				<wait_moving_end></wait_moving_end>
+			</xystage>
+			<xystage axis="x">
+				<wait_moving_end></wait_moving_end>
+			</xystage>
+
+		</microscope>
+		<!-- Set the name -->
+		<save>
+			<basename>/home/np451/data/24.5/SECOND/10X_TC</basename>
+			<append>DATE</append>
+		</save>
+		<!-- Turn on the light -->
+<!-- 		<multiled><enable channel="1">ON</enable></multiled>    -->
+		<sleep>0:0:5.0</sleep>
+		<!-- Take a 10s video -->
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>ON</record></camera>
+		<sleep>0:0:5.0</sleep>
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>OFF</record></camera>
+		<temperature name="Peltier"><record>OFF</record></temperature>
+		<!-- Turn off the light -->
+<!-- 		<multiled><enable channel="1">OFF</enable></multiled>   -->
+		<sleep>0:0:1.0</sleep>
+
+
+
+	<!-- Position central T2C -->
+		<!-- Move -->
+		<microscope>
+			<xystage axis="x">
+				<move_absolute>3000 5</move_absolute>
+			</xystage>
+			<xystage axis="y">
+				<move_absolute>0 5</move_absolute>
+				<wait_moving_end></wait_moving_end>
+			</xystage>
+			<xystage axis="x">
+				<wait_moving_end></wait_moving_end>
+			</xystage>
+
+		</microscope>
+		<!-- Set the name -->
+		<save>
+			<basename>/home/np451/data/24.5/SECOND/10X_T2C</basename>
+			<append>DATE</append>
+		</save>
+		<!-- Turn on the light -->
+<!-- 		<multiled><enable channel="1">ON</enable></multiled>    -->
+		<sleep>0:0:5.0</sleep>
+		<!-- Take a 10s video -->
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>ON</record></camera>
+		<sleep>0:0:5.0</sleep>
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>OFF</record></camera>
+		<temperature name="Peltier"><record>OFF</record></temperature>
+		<!-- Turn off the light -->
+<!-- 		<multiled><enable channel="1">OFF</enable></multiled>   -->
+		<sleep>0:0:1.0</sleep>
+
+
+
+
+	<!-- Position BC -->
+		<!-- Move -->
+		<microscope>
+			<xystage axis="x">
+				<move_absolute>-1500 5</move_absolute>
+			</xystage>
+			<xystage axis="y">
+				<move_absolute>0 5</move_absolute>
+				<wait_moving_end></wait_moving_end>
+			</xystage>
+			<xystage axis="x">
+				<wait_moving_end></wait_moving_end>
+			</xystage>
+
+		</microscope>
+		<!-- Set the name -->
+		<save>
+			<basename>/home/np451/data/24.5/SECOND/10X_BC</basename>
+			<append>DATE</append>
+		</save>
+		<!-- Turn on the light -->
+<!-- 		<multiled><enable channel="1">ON</enable></multiled>    -->
+		<sleep>0:0:5.0</sleep>
+		<!-- Take a 10s video -->
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>ON</record></camera>
+		<sleep>0:0:5.0</sleep>
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>OFF</record></camera>
+		<temperature name="Peltier"><record>OFF</record></temperature>
+		<!-- Turn off the light -->
+<!-- 		<multiled><enable channel="1">OFF</enable></multiled>   -->
+		<sleep>0:0:1.0</sleep>
+
+
+
+	<!-- Position central B2C -->
+		<!-- Move -->
+		<microscope>
+			<xystage axis="x">
+				<move_absolute>-3000 5</move_absolute>
+			</xystage>
+			<xystage axis="y">
+				<move_absolute>0 5</move_absolute>
+				<wait_moving_end></wait_moving_end>
+			</xystage>
+			<xystage axis="x">
+				<wait_moving_end></wait_moving_end>
+			</xystage>
+
+		</microscope>
+		<!-- Set the name -->
+		<save>
+			<basename>/home/np451/data/24.5/SECOND/10X_B2C</basename>
+			<append>DATE</append>
+		</save>
+		<!-- Turn on the light -->
+<!-- 		<multiled><enable channel="1">ON</enable></multiled>    -->
+		<sleep>0:0:5.0</sleep>
+		<!-- Take a 10s video -->
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>ON</record></camera>
+		<sleep>0:0:5.0</sleep>
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>OFF</record></camera>
+		<temperature name="Peltier"><record>OFF</record></temperature>
+		<!-- Turn off the light -->
+<!-- 		<multiled><enable channel="1">OFF</enable></multiled>   -->
+		<sleep>0:0:1.0</sleep>
+
+
+
+
+	<!-- Position CT -->
+		<!-- Move -->
+		<microscope>
+			<xystage axis="x">
+				<move_absolute>0 5</move_absolute>
+			</xystage>
+			<xystage axis="y">
+				<move_absolute>1500 5</move_absolute>
+				<wait_moving_end></wait_moving_end>
+			</xystage>
+			<xystage axis="x">
+				<wait_moving_end></wait_moving_end>
+			</xystage>
+
+		</microscope>
+		<!-- Set the name -->
+		<save>
+			<basename>/home/np451/data/24.5/SECOND/10X_CT</basename>
+			<append>DATE</append>
+		</save>
+		<!-- Turn on the light -->
+<!-- 		<multiled><enable channel="1">ON</enable></multiled>    -->
+		<sleep>0:0:5.0</sleep>
+		<!-- Take a 10s video -->
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>ON</record></camera>
+		<sleep>0:0:5.0</sleep>
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>OFF</record></camera>
+		<temperature name="Peltier"><record>OFF</record></temperature>
+		<!-- Turn off the light -->
+<!-- 		<multiled><enable channel="1">OFF</enable></multiled>   -->
+		<sleep>0:0:1.0</sleep>
+
+
+
+	<!-- Position CB -->
+		<!-- Move -->
+		<microscope>
+			<xystage axis="x">
+				<move_absolute>0 5</move_absolute>
+			</xystage>
+			<xystage axis="y">
+				<move_absolute>-1500 5</move_absolute>
+				<wait_moving_end></wait_moving_end>
+			</xystage>
+			<xystage axis="x">
+				<wait_moving_end></wait_moving_end>
+			</xystage>
+
+		</microscope>
+		<!-- Set the name -->
+		<save>
+			<basename>/home/np451/data/24.5/SECOND/10X_CB</basename>
+			<append>DATE</append>
+		</save>
+		<!-- Turn on the light -->
+<!-- 		<multiled><enable channel="1">ON</enable></multiled>    -->
+		<sleep>0:0:5.0</sleep>
+		<!-- Take a 10s video -->
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>ON</record></camera>
+		<sleep>0:0:5.0</sleep>
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>OFF</record></camera>
+		<temperature name="Peltier"><record>OFF</record></temperature>
+		<!-- Turn off the light -->
+<!-- 		<multiled><enable channel="1">OFF</enable></multiled>   -->
+		<sleep>0:0:1.0</sleep>
+
+
+
+	<!-- Position Normal_TT -->
+		<!-- Move -->
+		<microscope>
+			<xystage axis="x">
+				<move_absolute>1500 5</move_absolute>
+			</xystage>
+			<xystage axis="y">
+				<move_absolute>1500 5</move_absolute>
+				<wait_moving_end></wait_moving_end>
+			</xystage>
+			<xystage axis="x">
+				<wait_moving_end></wait_moving_end>
+			</xystage>
+
+		</microscope>
+		<!-- Set the name -->
+		<save>
+			<basename>/home/np451/data/24.5/SECOND/10X_TT</basename>
+			<append>DATE</append>
+		</save>
+		<!-- Turn on the light -->
+<!-- 		<multiled><enable channel="1">ON</enable></multiled>    -->
+		<sleep>0:0:5.0</sleep>
+		<!-- Take a 10s video -->
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>ON</record></camera>
+		<sleep>0:0:5.0</sleep>
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>OFF</record></camera>
+		<temperature name="Peltier"><record>OFF</record></temperature>
+		<!-- Turn off the light -->
+<!-- 		<multiled><enable channel="1">OFF</enable></multiled>   -->
+		<sleep>0:0:1.0</sleep>
+
+
+
+
+	<!-- Position Normal_BB -->
+		<!-- Move -->
+		<microscope>
+			<xystage axis="x">
+				<move_absolute>-1500 5</move_absolute>
+			</xystage>
+			<xystage axis="y">
+				<move_absolute>-1500 5</move_absolute>
+				<wait_moving_end></wait_moving_end>
+			</xystage>
+			<xystage axis="x">
+				<wait_moving_end></wait_moving_end>
+			</xystage>
+
+		</microscope>
+		<!-- Set the name -->
+		<save>
+			<basename>/home/np451/data/24.5/SECOND/10X_BB</basename>
+			<append>DATE</append>
+		</save>
+		<!-- Turn on the light -->
+<!-- 		<multiled><enable channel="1">ON</enable></multiled>    -->
+		<sleep>0:0:5.0</sleep>
+		<!-- Take a 10s video -->
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>ON</record></camera>
+		<sleep>0:0:5.0</sleep>
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>OFF</record></camera>
+		<temperature name="Peltier"><record>OFF</record></temperature>
+		<!-- Turn off the light -->
+<!-- 		<multiled><enable channel="1">OFF</enable></multiled>   -->
+		<sleep>0:0:1.0</sleep>
+
+
+
+	<!-- Position BT -->
+		<!-- Move -->
+		<microscope>
+			<xystage axis="x">
+				<move_absolute>-1500 5</move_absolute>
+			</xystage>
+			<xystage axis="y">
+				<move_absolute>1500 5</move_absolute>
+				<wait_moving_end></wait_moving_end>
+			</xystage>
+			<xystage axis="x">
+				<wait_moving_end></wait_moving_end>
+			</xystage>
+
+		</microscope>
+		<!-- Set the name -->
+		<save>
+			<basename>/home/np451/data/24.5/SECOND/10X_BT</basename>
+			<append>DATE</append>
+		</save>
+		<!-- Turn on the light -->
+<!-- 		<multiled><enable channel="1">ON</enable></multiled>    -->
+		<sleep>0:0:5.0</sleep>
+		<!-- Take a 10s video -->
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>ON</record></camera>
+		<sleep>0:0:5.0</sleep>
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>OFF</record></camera>
+		<temperature name="Peltier"><record>OFF</record></temperature>
+		<!-- Turn off the light -->
+<!-- 		<multiled><enable channel="1">OFF</enable></multiled>   -->
+		<sleep>0:0:1.0</sleep>
+
+
+
+	<!-- Position TB -->
+		<!-- Move -->
+		<microscope>
+			<xystage axis="x">
+				<move_absolute>1500 5</move_absolute>
+			</xystage>
+			<xystage axis="y">
+				<move_absolute>-1500 5</move_absolute>
+				<wait_moving_end></wait_moving_end>
+			</xystage>
+			<xystage axis="x">
+				<wait_moving_end></wait_moving_end>
+			</xystage>
+
+		</microscope>
+		<!-- Set the name -->
+		<save>
+			<basename>/home/np451/data/24.5/SECOND/10X_TB</basename>
+			<append>DATE</append>
+		</save>
+		<!-- Turn on the light -->
+<!-- 		<multiled><enable channel="1">ON</enable></multiled>    -->
+		<sleep>0:0:5.0</sleep>
+		<!-- Take a 10s video -->
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>ON</record></camera>
+		<sleep>0:0:5.0</sleep>
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>OFF</record></camera>
+		<temperature name="Peltier"><record>OFF</record></temperature>
+		<!-- Turn off the light -->
+<!-- 		<multiled><enable channel="1">OFF</enable></multiled>   -->
+		<sleep>0:0:1.0</sleep>
+
+
+
+
+</temika>

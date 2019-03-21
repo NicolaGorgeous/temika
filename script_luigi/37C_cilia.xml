@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<!--*- mode: xml -*-->
+<temika>
+	<temperature name="Peltier">
+
+		<set number="0">37</set>		
+		<set number="1">37</set>
+	
+	
+		<peltier>
+			<clock>4294964897></clock> <!-- Main clock value, period = ( 2^32 - value + 1 ) / 24MHz -->
+			<average>10000</average> <!-- Number of samples to average, defines main loop period -->
+		</peltier>	
+
+		<peltier>
+			<feedback number="0">
+				<enable>ON</enable> <!-- ON, OFF -->
+				<type>HEATER</type> <!-- PELTIER, HEATER -->
+				<sensor>0</sensor> <!-- Temperature sensor, 0->7 -->
+				<max_duty_cycle>100</max_duty_cycle>
+				<kp>270000</kp> <!-- out = kp * ( err + 1/ti * integral_err + td * derivative_err -->
+				<ti>300</ti>
+				<td>0</td>
+			</feedback>
+			<feedback number="1">
+				<enable>ON</enable> <!-- ON, OFF -->
+				<type>HEATER</type> <!-- PELTIER, HEATER -->
+				<sensor>4</sensor> <!-- Temperature sensor, 0->7 -->
+				<max_duty_cycle>100</max_duty_cycle>
+				<kp>1000000</kp> <!-- out = kp * ( err + 1/ti * integral_err + td * derivative_err -->
+				<ti>50</ti>
+				<td>0</td>
+			</feedback>	
+		</peltier>
+	</temperature>
+</temika>

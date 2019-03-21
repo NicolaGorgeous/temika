@@ -1,0 +1,3212 @@
+<temika>
+	<microscope>
+		<eclipsetie>
+			<light_path>L100</light_path>
+		</eclipsetie>
+	</microscope>
+
+		<timestamp>0</timestamp>
+
+
+
+	<!-- Position x=-3000y=-3000 -->
+		<!-- MOVE -->
+		<microscope>
+			<xystage axis="x">
+				<move_absolute>-3000 5</move_absolute>
+			</xystage>
+			<xystage axis="y">
+				<move_absolute>-3000 5</move_absolute>
+			</xystage>
+			<xystage axis="x">
+				<wait_moving_end></wait_moving_end>
+			</xystage>
+			<xystage axis="y">
+				<wait_moving_end></wait_moving_end>
+			</xystage>
+		</microscope>
+		<!-- SET NAME -->
+		<save>
+			<basename>/home/np451/data/22.6/6_BF/10X_X-3000Y-3000</basename>
+			<append>DATE</append>
+		</save>
+		<!-- Turn on the light -->
+		<sleep>0:0:3</sleep>
+		<!-- Take a record -->
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>ON</record></camera>
+		<sleep>0:0:3</sleep>
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>OFF</record></camera>
+		<sleep>0:0:1.0</sleep>
+
+
+
+
+	<!-- Position x=-3000y=-2299 -->
+		<!-- MOVE -->
+		<microscope>
+			<xystage axis="x">
+				<move_absolute>-3000 5</move_absolute>
+			</xystage>
+			<xystage axis="y">
+				<move_absolute>-2299 5</move_absolute>
+			</xystage>
+			<xystage axis="x">
+				<wait_moving_end></wait_moving_end>
+			</xystage>
+			<xystage axis="y">
+				<wait_moving_end></wait_moving_end>
+			</xystage>
+		</microscope>
+		<!-- SET NAME -->
+		<save>
+			<basename>/home/np451/data/22.6/6_BF/10X_X-3000Y-2299</basename>
+			<append>DATE</append>
+		</save>
+		<!-- Turn on the light -->
+		<sleep>0:0:3</sleep>
+		<!-- Take a record -->
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>ON</record></camera>
+		<sleep>0:0:3</sleep>
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>OFF</record></camera>
+		<sleep>0:0:1.0</sleep>
+
+
+
+
+	<!-- Position x=-3000y=-1598 -->
+		<!-- MOVE -->
+		<microscope>
+			<xystage axis="x">
+				<move_absolute>-3000 5</move_absolute>
+			</xystage>
+			<xystage axis="y">
+				<move_absolute>-1598 5</move_absolute>
+			</xystage>
+			<xystage axis="x">
+				<wait_moving_end></wait_moving_end>
+			</xystage>
+			<xystage axis="y">
+				<wait_moving_end></wait_moving_end>
+			</xystage>
+		</microscope>
+		<!-- SET NAME -->
+		<save>
+			<basename>/home/np451/data/22.6/6_BF/10X_X-3000Y-1598</basename>
+			<append>DATE</append>
+		</save>
+		<!-- Turn on the light -->
+		<sleep>0:0:3</sleep>
+		<!-- Take a record -->
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>ON</record></camera>
+		<sleep>0:0:3</sleep>
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>OFF</record></camera>
+		<sleep>0:0:1.0</sleep>
+
+
+
+
+	<!-- Position x=-3000y=-897 -->
+		<!-- MOVE -->
+		<microscope>
+			<xystage axis="x">
+				<move_absolute>-3000 5</move_absolute>
+			</xystage>
+			<xystage axis="y">
+				<move_absolute>-897 5</move_absolute>
+			</xystage>
+			<xystage axis="x">
+				<wait_moving_end></wait_moving_end>
+			</xystage>
+			<xystage axis="y">
+				<wait_moving_end></wait_moving_end>
+			</xystage>
+		</microscope>
+		<!-- SET NAME -->
+		<save>
+			<basename>/home/np451/data/22.6/6_BF/10X_X-3000Y-897</basename>
+			<append>DATE</append>
+		</save>
+		<!-- Turn on the light -->
+		<sleep>0:0:3</sleep>
+		<!-- Take a record -->
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>ON</record></camera>
+		<sleep>0:0:3</sleep>
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>OFF</record></camera>
+		<sleep>0:0:1.0</sleep>
+
+
+
+
+	<!-- Position x=-3000y=-196 -->
+		<!-- MOVE -->
+		<microscope>
+			<xystage axis="x">
+				<move_absolute>-3000 5</move_absolute>
+			</xystage>
+			<xystage axis="y">
+				<move_absolute>-196 5</move_absolute>
+			</xystage>
+			<xystage axis="x">
+				<wait_moving_end></wait_moving_end>
+			</xystage>
+			<xystage axis="y">
+				<wait_moving_end></wait_moving_end>
+			</xystage>
+		</microscope>
+		<!-- SET NAME -->
+		<save>
+			<basename>/home/np451/data/22.6/6_BF/10X_X-3000Y-196</basename>
+			<append>DATE</append>
+		</save>
+		<!-- Turn on the light -->
+		<sleep>0:0:3</sleep>
+		<!-- Take a record -->
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>ON</record></camera>
+		<sleep>0:0:3</sleep>
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>OFF</record></camera>
+		<sleep>0:0:1.0</sleep>
+
+
+
+
+	<!-- Position x=-3000y=505 -->
+		<!-- MOVE -->
+		<microscope>
+			<xystage axis="x">
+				<move_absolute>-3000 5</move_absolute>
+			</xystage>
+			<xystage axis="y">
+				<move_absolute>505 5</move_absolute>
+			</xystage>
+			<xystage axis="x">
+				<wait_moving_end></wait_moving_end>
+			</xystage>
+			<xystage axis="y">
+				<wait_moving_end></wait_moving_end>
+			</xystage>
+		</microscope>
+		<!-- SET NAME -->
+		<save>
+			<basename>/home/np451/data/22.6/6_BF/10X_X-3000Y505</basename>
+			<append>DATE</append>
+		</save>
+		<!-- Turn on the light -->
+		<sleep>0:0:3</sleep>
+		<!-- Take a record -->
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>ON</record></camera>
+		<sleep>0:0:3</sleep>
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>OFF</record></camera>
+		<sleep>0:0:1.0</sleep>
+
+
+
+
+	<!-- Position x=-3000y=1206 -->
+		<!-- MOVE -->
+		<microscope>
+			<xystage axis="x">
+				<move_absolute>-3000 5</move_absolute>
+			</xystage>
+			<xystage axis="y">
+				<move_absolute>1206 5</move_absolute>
+			</xystage>
+			<xystage axis="x">
+				<wait_moving_end></wait_moving_end>
+			</xystage>
+			<xystage axis="y">
+				<wait_moving_end></wait_moving_end>
+			</xystage>
+		</microscope>
+		<!-- SET NAME -->
+		<save>
+			<basename>/home/np451/data/22.6/6_BF/10X_X-3000Y1206</basename>
+			<append>DATE</append>
+		</save>
+		<!-- Turn on the light -->
+		<sleep>0:0:3</sleep>
+		<!-- Take a record -->
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>ON</record></camera>
+		<sleep>0:0:3</sleep>
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>OFF</record></camera>
+		<sleep>0:0:1.0</sleep>
+
+
+
+
+	<!-- Position x=-3000y=1907 -->
+		<!-- MOVE -->
+		<microscope>
+			<xystage axis="x">
+				<move_absolute>-3000 5</move_absolute>
+			</xystage>
+			<xystage axis="y">
+				<move_absolute>1907 5</move_absolute>
+			</xystage>
+			<xystage axis="x">
+				<wait_moving_end></wait_moving_end>
+			</xystage>
+			<xystage axis="y">
+				<wait_moving_end></wait_moving_end>
+			</xystage>
+		</microscope>
+		<!-- SET NAME -->
+		<save>
+			<basename>/home/np451/data/22.6/6_BF/10X_X-3000Y1907</basename>
+			<append>DATE</append>
+		</save>
+		<!-- Turn on the light -->
+		<sleep>0:0:3</sleep>
+		<!-- Take a record -->
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>ON</record></camera>
+		<sleep>0:0:3</sleep>
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>OFF</record></camera>
+		<sleep>0:0:1.0</sleep>
+
+
+
+
+	<!-- Position x=-3000y=2608 -->
+		<!-- MOVE -->
+		<microscope>
+			<xystage axis="x">
+				<move_absolute>-3000 5</move_absolute>
+			</xystage>
+			<xystage axis="y">
+				<move_absolute>2608 5</move_absolute>
+			</xystage>
+			<xystage axis="x">
+				<wait_moving_end></wait_moving_end>
+			</xystage>
+			<xystage axis="y">
+				<wait_moving_end></wait_moving_end>
+			</xystage>
+		</microscope>
+		<!-- SET NAME -->
+		<save>
+			<basename>/home/np451/data/22.6/6_BF/10X_X-3000Y2608</basename>
+			<append>DATE</append>
+		</save>
+		<!-- Turn on the light -->
+		<sleep>0:0:3</sleep>
+		<!-- Take a record -->
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>ON</record></camera>
+		<sleep>0:0:3</sleep>
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>OFF</record></camera>
+		<sleep>0:0:1.0</sleep>
+
+
+
+
+	<!-- Position x=-3000y=3309 -->
+		<!-- MOVE -->
+		<microscope>
+			<xystage axis="x">
+				<move_absolute>-3000 5</move_absolute>
+			</xystage>
+			<xystage axis="y">
+				<move_absolute>3309 5</move_absolute>
+			</xystage>
+			<xystage axis="x">
+				<wait_moving_end></wait_moving_end>
+			</xystage>
+			<xystage axis="y">
+				<wait_moving_end></wait_moving_end>
+			</xystage>
+		</microscope>
+		<!-- SET NAME -->
+		<save>
+			<basename>/home/np451/data/22.6/6_BF/10X_X-3000Y3309</basename>
+			<append>DATE</append>
+		</save>
+		<!-- Turn on the light -->
+		<sleep>0:0:3</sleep>
+		<!-- Take a record -->
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>ON</record></camera>
+		<sleep>0:0:3</sleep>
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>OFF</record></camera>
+		<sleep>0:0:1.0</sleep>
+
+
+
+
+	<!-- Position x=-2299y=-3000 -->
+		<!-- MOVE -->
+		<microscope>
+			<xystage axis="x">
+				<move_absolute>-2299 5</move_absolute>
+			</xystage>
+			<xystage axis="y">
+				<move_absolute>-3000 5</move_absolute>
+			</xystage>
+			<xystage axis="x">
+				<wait_moving_end></wait_moving_end>
+			</xystage>
+			<xystage axis="y">
+				<wait_moving_end></wait_moving_end>
+			</xystage>
+		</microscope>
+		<!-- SET NAME -->
+		<save>
+			<basename>/home/np451/data/22.6/6_BF/10X_X-2299Y-3000</basename>
+			<append>DATE</append>
+		</save>
+		<!-- Turn on the light -->
+		<sleep>0:0:3</sleep>
+		<!-- Take a record -->
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>ON</record></camera>
+		<sleep>0:0:3</sleep>
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>OFF</record></camera>
+		<sleep>0:0:1.0</sleep>
+
+
+
+
+	<!-- Position x=-2299y=-2299 -->
+		<!-- MOVE -->
+		<microscope>
+			<xystage axis="x">
+				<move_absolute>-2299 5</move_absolute>
+			</xystage>
+			<xystage axis="y">
+				<move_absolute>-2299 5</move_absolute>
+			</xystage>
+			<xystage axis="x">
+				<wait_moving_end></wait_moving_end>
+			</xystage>
+			<xystage axis="y">
+				<wait_moving_end></wait_moving_end>
+			</xystage>
+		</microscope>
+		<!-- SET NAME -->
+		<save>
+			<basename>/home/np451/data/22.6/6_BF/10X_X-2299Y-2299</basename>
+			<append>DATE</append>
+		</save>
+		<!-- Turn on the light -->
+		<sleep>0:0:3</sleep>
+		<!-- Take a record -->
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>ON</record></camera>
+		<sleep>0:0:3</sleep>
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>OFF</record></camera>
+		<sleep>0:0:1.0</sleep>
+
+
+
+
+	<!-- Position x=-2299y=-1598 -->
+		<!-- MOVE -->
+		<microscope>
+			<xystage axis="x">
+				<move_absolute>-2299 5</move_absolute>
+			</xystage>
+			<xystage axis="y">
+				<move_absolute>-1598 5</move_absolute>
+			</xystage>
+			<xystage axis="x">
+				<wait_moving_end></wait_moving_end>
+			</xystage>
+			<xystage axis="y">
+				<wait_moving_end></wait_moving_end>
+			</xystage>
+		</microscope>
+		<!-- SET NAME -->
+		<save>
+			<basename>/home/np451/data/22.6/6_BF/10X_X-2299Y-1598</basename>
+			<append>DATE</append>
+		</save>
+		<!-- Turn on the light -->
+		<sleep>0:0:3</sleep>
+		<!-- Take a record -->
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>ON</record></camera>
+		<sleep>0:0:3</sleep>
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>OFF</record></camera>
+		<sleep>0:0:1.0</sleep>
+
+
+
+
+	<!-- Position x=-2299y=-897 -->
+		<!-- MOVE -->
+		<microscope>
+			<xystage axis="x">
+				<move_absolute>-2299 5</move_absolute>
+			</xystage>
+			<xystage axis="y">
+				<move_absolute>-897 5</move_absolute>
+			</xystage>
+			<xystage axis="x">
+				<wait_moving_end></wait_moving_end>
+			</xystage>
+			<xystage axis="y">
+				<wait_moving_end></wait_moving_end>
+			</xystage>
+		</microscope>
+		<!-- SET NAME -->
+		<save>
+			<basename>/home/np451/data/22.6/6_BF/10X_X-2299Y-897</basename>
+			<append>DATE</append>
+		</save>
+		<!-- Turn on the light -->
+		<sleep>0:0:3</sleep>
+		<!-- Take a record -->
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>ON</record></camera>
+		<sleep>0:0:3</sleep>
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>OFF</record></camera>
+		<sleep>0:0:1.0</sleep>
+
+
+
+
+	<!-- Position x=-2299y=-196 -->
+		<!-- MOVE -->
+		<microscope>
+			<xystage axis="x">
+				<move_absolute>-2299 5</move_absolute>
+			</xystage>
+			<xystage axis="y">
+				<move_absolute>-196 5</move_absolute>
+			</xystage>
+			<xystage axis="x">
+				<wait_moving_end></wait_moving_end>
+			</xystage>
+			<xystage axis="y">
+				<wait_moving_end></wait_moving_end>
+			</xystage>
+		</microscope>
+		<!-- SET NAME -->
+		<save>
+			<basename>/home/np451/data/22.6/6_BF/10X_X-2299Y-196</basename>
+			<append>DATE</append>
+		</save>
+		<!-- Turn on the light -->
+		<sleep>0:0:3</sleep>
+		<!-- Take a record -->
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>ON</record></camera>
+		<sleep>0:0:3</sleep>
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>OFF</record></camera>
+		<sleep>0:0:1.0</sleep>
+
+
+
+
+	<!-- Position x=-2299y=505 -->
+		<!-- MOVE -->
+		<microscope>
+			<xystage axis="x">
+				<move_absolute>-2299 5</move_absolute>
+			</xystage>
+			<xystage axis="y">
+				<move_absolute>505 5</move_absolute>
+			</xystage>
+			<xystage axis="x">
+				<wait_moving_end></wait_moving_end>
+			</xystage>
+			<xystage axis="y">
+				<wait_moving_end></wait_moving_end>
+			</xystage>
+		</microscope>
+		<!-- SET NAME -->
+		<save>
+			<basename>/home/np451/data/22.6/6_BF/10X_X-2299Y505</basename>
+			<append>DATE</append>
+		</save>
+		<!-- Turn on the light -->
+		<sleep>0:0:3</sleep>
+		<!-- Take a record -->
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>ON</record></camera>
+		<sleep>0:0:3</sleep>
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>OFF</record></camera>
+		<sleep>0:0:1.0</sleep>
+
+
+
+
+	<!-- Position x=-2299y=1206 -->
+		<!-- MOVE -->
+		<microscope>
+			<xystage axis="x">
+				<move_absolute>-2299 5</move_absolute>
+			</xystage>
+			<xystage axis="y">
+				<move_absolute>1206 5</move_absolute>
+			</xystage>
+			<xystage axis="x">
+				<wait_moving_end></wait_moving_end>
+			</xystage>
+			<xystage axis="y">
+				<wait_moving_end></wait_moving_end>
+			</xystage>
+		</microscope>
+		<!-- SET NAME -->
+		<save>
+			<basename>/home/np451/data/22.6/6_BF/10X_X-2299Y1206</basename>
+			<append>DATE</append>
+		</save>
+		<!-- Turn on the light -->
+		<sleep>0:0:3</sleep>
+		<!-- Take a record -->
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>ON</record></camera>
+		<sleep>0:0:3</sleep>
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>OFF</record></camera>
+		<sleep>0:0:1.0</sleep>
+
+
+
+
+	<!-- Position x=-2299y=1907 -->
+		<!-- MOVE -->
+		<microscope>
+			<xystage axis="x">
+				<move_absolute>-2299 5</move_absolute>
+			</xystage>
+			<xystage axis="y">
+				<move_absolute>1907 5</move_absolute>
+			</xystage>
+			<xystage axis="x">
+				<wait_moving_end></wait_moving_end>
+			</xystage>
+			<xystage axis="y">
+				<wait_moving_end></wait_moving_end>
+			</xystage>
+		</microscope>
+		<!-- SET NAME -->
+		<save>
+			<basename>/home/np451/data/22.6/6_BF/10X_X-2299Y1907</basename>
+			<append>DATE</append>
+		</save>
+		<!-- Turn on the light -->
+		<sleep>0:0:3</sleep>
+		<!-- Take a record -->
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>ON</record></camera>
+		<sleep>0:0:3</sleep>
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>OFF</record></camera>
+		<sleep>0:0:1.0</sleep>
+
+
+
+
+	<!-- Position x=-2299y=2608 -->
+		<!-- MOVE -->
+		<microscope>
+			<xystage axis="x">
+				<move_absolute>-2299 5</move_absolute>
+			</xystage>
+			<xystage axis="y">
+				<move_absolute>2608 5</move_absolute>
+			</xystage>
+			<xystage axis="x">
+				<wait_moving_end></wait_moving_end>
+			</xystage>
+			<xystage axis="y">
+				<wait_moving_end></wait_moving_end>
+			</xystage>
+		</microscope>
+		<!-- SET NAME -->
+		<save>
+			<basename>/home/np451/data/22.6/6_BF/10X_X-2299Y2608</basename>
+			<append>DATE</append>
+		</save>
+		<!-- Turn on the light -->
+		<sleep>0:0:3</sleep>
+		<!-- Take a record -->
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>ON</record></camera>
+		<sleep>0:0:3</sleep>
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>OFF</record></camera>
+		<sleep>0:0:1.0</sleep>
+
+
+
+
+	<!-- Position x=-2299y=3309 -->
+		<!-- MOVE -->
+		<microscope>
+			<xystage axis="x">
+				<move_absolute>-2299 5</move_absolute>
+			</xystage>
+			<xystage axis="y">
+				<move_absolute>3309 5</move_absolute>
+			</xystage>
+			<xystage axis="x">
+				<wait_moving_end></wait_moving_end>
+			</xystage>
+			<xystage axis="y">
+				<wait_moving_end></wait_moving_end>
+			</xystage>
+		</microscope>
+		<!-- SET NAME -->
+		<save>
+			<basename>/home/np451/data/22.6/6_BF/10X_X-2299Y3309</basename>
+			<append>DATE</append>
+		</save>
+		<!-- Turn on the light -->
+		<sleep>0:0:3</sleep>
+		<!-- Take a record -->
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>ON</record></camera>
+		<sleep>0:0:3</sleep>
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>OFF</record></camera>
+		<sleep>0:0:1.0</sleep>
+
+
+
+
+	<!-- Position x=-1598y=-3000 -->
+		<!-- MOVE -->
+		<microscope>
+			<xystage axis="x">
+				<move_absolute>-1598 5</move_absolute>
+			</xystage>
+			<xystage axis="y">
+				<move_absolute>-3000 5</move_absolute>
+			</xystage>
+			<xystage axis="x">
+				<wait_moving_end></wait_moving_end>
+			</xystage>
+			<xystage axis="y">
+				<wait_moving_end></wait_moving_end>
+			</xystage>
+		</microscope>
+		<!-- SET NAME -->
+		<save>
+			<basename>/home/np451/data/22.6/6_BF/10X_X-1598Y-3000</basename>
+			<append>DATE</append>
+		</save>
+		<!-- Turn on the light -->
+		<sleep>0:0:3</sleep>
+		<!-- Take a record -->
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>ON</record></camera>
+		<sleep>0:0:3</sleep>
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>OFF</record></camera>
+		<sleep>0:0:1.0</sleep>
+
+
+
+
+	<!-- Position x=-1598y=-2299 -->
+		<!-- MOVE -->
+		<microscope>
+			<xystage axis="x">
+				<move_absolute>-1598 5</move_absolute>
+			</xystage>
+			<xystage axis="y">
+				<move_absolute>-2299 5</move_absolute>
+			</xystage>
+			<xystage axis="x">
+				<wait_moving_end></wait_moving_end>
+			</xystage>
+			<xystage axis="y">
+				<wait_moving_end></wait_moving_end>
+			</xystage>
+		</microscope>
+		<!-- SET NAME -->
+		<save>
+			<basename>/home/np451/data/22.6/6_BF/10X_X-1598Y-2299</basename>
+			<append>DATE</append>
+		</save>
+		<!-- Turn on the light -->
+		<sleep>0:0:3</sleep>
+		<!-- Take a record -->
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>ON</record></camera>
+		<sleep>0:0:3</sleep>
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>OFF</record></camera>
+		<sleep>0:0:1.0</sleep>
+
+
+
+
+	<!-- Position x=-1598y=-1598 -->
+		<!-- MOVE -->
+		<microscope>
+			<xystage axis="x">
+				<move_absolute>-1598 5</move_absolute>
+			</xystage>
+			<xystage axis="y">
+				<move_absolute>-1598 5</move_absolute>
+			</xystage>
+			<xystage axis="x">
+				<wait_moving_end></wait_moving_end>
+			</xystage>
+			<xystage axis="y">
+				<wait_moving_end></wait_moving_end>
+			</xystage>
+		</microscope>
+		<!-- SET NAME -->
+		<save>
+			<basename>/home/np451/data/22.6/6_BF/10X_X-1598Y-1598</basename>
+			<append>DATE</append>
+		</save>
+		<!-- Turn on the light -->
+		<sleep>0:0:3</sleep>
+		<!-- Take a record -->
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>ON</record></camera>
+		<sleep>0:0:3</sleep>
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>OFF</record></camera>
+		<sleep>0:0:1.0</sleep>
+
+
+
+
+	<!-- Position x=-1598y=-897 -->
+		<!-- MOVE -->
+		<microscope>
+			<xystage axis="x">
+				<move_absolute>-1598 5</move_absolute>
+			</xystage>
+			<xystage axis="y">
+				<move_absolute>-897 5</move_absolute>
+			</xystage>
+			<xystage axis="x">
+				<wait_moving_end></wait_moving_end>
+			</xystage>
+			<xystage axis="y">
+				<wait_moving_end></wait_moving_end>
+			</xystage>
+		</microscope>
+		<!-- SET NAME -->
+		<save>
+			<basename>/home/np451/data/22.6/6_BF/10X_X-1598Y-897</basename>
+			<append>DATE</append>
+		</save>
+		<!-- Turn on the light -->
+		<sleep>0:0:3</sleep>
+		<!-- Take a record -->
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>ON</record></camera>
+		<sleep>0:0:3</sleep>
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>OFF</record></camera>
+		<sleep>0:0:1.0</sleep>
+
+
+
+
+	<!-- Position x=-1598y=-196 -->
+		<!-- MOVE -->
+		<microscope>
+			<xystage axis="x">
+				<move_absolute>-1598 5</move_absolute>
+			</xystage>
+			<xystage axis="y">
+				<move_absolute>-196 5</move_absolute>
+			</xystage>
+			<xystage axis="x">
+				<wait_moving_end></wait_moving_end>
+			</xystage>
+			<xystage axis="y">
+				<wait_moving_end></wait_moving_end>
+			</xystage>
+		</microscope>
+		<!-- SET NAME -->
+		<save>
+			<basename>/home/np451/data/22.6/6_BF/10X_X-1598Y-196</basename>
+			<append>DATE</append>
+		</save>
+		<!-- Turn on the light -->
+		<sleep>0:0:3</sleep>
+		<!-- Take a record -->
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>ON</record></camera>
+		<sleep>0:0:3</sleep>
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>OFF</record></camera>
+		<sleep>0:0:1.0</sleep>
+
+
+
+
+	<!-- Position x=-1598y=505 -->
+		<!-- MOVE -->
+		<microscope>
+			<xystage axis="x">
+				<move_absolute>-1598 5</move_absolute>
+			</xystage>
+			<xystage axis="y">
+				<move_absolute>505 5</move_absolute>
+			</xystage>
+			<xystage axis="x">
+				<wait_moving_end></wait_moving_end>
+			</xystage>
+			<xystage axis="y">
+				<wait_moving_end></wait_moving_end>
+			</xystage>
+		</microscope>
+		<!-- SET NAME -->
+		<save>
+			<basename>/home/np451/data/22.6/6_BF/10X_X-1598Y505</basename>
+			<append>DATE</append>
+		</save>
+		<!-- Turn on the light -->
+		<sleep>0:0:3</sleep>
+		<!-- Take a record -->
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>ON</record></camera>
+		<sleep>0:0:3</sleep>
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>OFF</record></camera>
+		<sleep>0:0:1.0</sleep>
+
+
+
+
+	<!-- Position x=-1598y=1206 -->
+		<!-- MOVE -->
+		<microscope>
+			<xystage axis="x">
+				<move_absolute>-1598 5</move_absolute>
+			</xystage>
+			<xystage axis="y">
+				<move_absolute>1206 5</move_absolute>
+			</xystage>
+			<xystage axis="x">
+				<wait_moving_end></wait_moving_end>
+			</xystage>
+			<xystage axis="y">
+				<wait_moving_end></wait_moving_end>
+			</xystage>
+		</microscope>
+		<!-- SET NAME -->
+		<save>
+			<basename>/home/np451/data/22.6/6_BF/10X_X-1598Y1206</basename>
+			<append>DATE</append>
+		</save>
+		<!-- Turn on the light -->
+		<sleep>0:0:3</sleep>
+		<!-- Take a record -->
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>ON</record></camera>
+		<sleep>0:0:3</sleep>
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>OFF</record></camera>
+		<sleep>0:0:1.0</sleep>
+
+
+
+
+	<!-- Position x=-1598y=1907 -->
+		<!-- MOVE -->
+		<microscope>
+			<xystage axis="x">
+				<move_absolute>-1598 5</move_absolute>
+			</xystage>
+			<xystage axis="y">
+				<move_absolute>1907 5</move_absolute>
+			</xystage>
+			<xystage axis="x">
+				<wait_moving_end></wait_moving_end>
+			</xystage>
+			<xystage axis="y">
+				<wait_moving_end></wait_moving_end>
+			</xystage>
+		</microscope>
+		<!-- SET NAME -->
+		<save>
+			<basename>/home/np451/data/22.6/6_BF/10X_X-1598Y1907</basename>
+			<append>DATE</append>
+		</save>
+		<!-- Turn on the light -->
+		<sleep>0:0:3</sleep>
+		<!-- Take a record -->
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>ON</record></camera>
+		<sleep>0:0:3</sleep>
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>OFF</record></camera>
+		<sleep>0:0:1.0</sleep>
+
+
+
+
+	<!-- Position x=-1598y=2608 -->
+		<!-- MOVE -->
+		<microscope>
+			<xystage axis="x">
+				<move_absolute>-1598 5</move_absolute>
+			</xystage>
+			<xystage axis="y">
+				<move_absolute>2608 5</move_absolute>
+			</xystage>
+			<xystage axis="x">
+				<wait_moving_end></wait_moving_end>
+			</xystage>
+			<xystage axis="y">
+				<wait_moving_end></wait_moving_end>
+			</xystage>
+		</microscope>
+		<!-- SET NAME -->
+		<save>
+			<basename>/home/np451/data/22.6/6_BF/10X_X-1598Y2608</basename>
+			<append>DATE</append>
+		</save>
+		<!-- Turn on the light -->
+		<sleep>0:0:3</sleep>
+		<!-- Take a record -->
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>ON</record></camera>
+		<sleep>0:0:3</sleep>
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>OFF</record></camera>
+		<sleep>0:0:1.0</sleep>
+
+
+
+
+	<!-- Position x=-1598y=3309 -->
+		<!-- MOVE -->
+		<microscope>
+			<xystage axis="x">
+				<move_absolute>-1598 5</move_absolute>
+			</xystage>
+			<xystage axis="y">
+				<move_absolute>3309 5</move_absolute>
+			</xystage>
+			<xystage axis="x">
+				<wait_moving_end></wait_moving_end>
+			</xystage>
+			<xystage axis="y">
+				<wait_moving_end></wait_moving_end>
+			</xystage>
+		</microscope>
+		<!-- SET NAME -->
+		<save>
+			<basename>/home/np451/data/22.6/6_BF/10X_X-1598Y3309</basename>
+			<append>DATE</append>
+		</save>
+		<!-- Turn on the light -->
+		<sleep>0:0:3</sleep>
+		<!-- Take a record -->
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>ON</record></camera>
+		<sleep>0:0:3</sleep>
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>OFF</record></camera>
+		<sleep>0:0:1.0</sleep>
+
+
+
+
+	<!-- Position x=-897y=-3000 -->
+		<!-- MOVE -->
+		<microscope>
+			<xystage axis="x">
+				<move_absolute>-897 5</move_absolute>
+			</xystage>
+			<xystage axis="y">
+				<move_absolute>-3000 5</move_absolute>
+			</xystage>
+			<xystage axis="x">
+				<wait_moving_end></wait_moving_end>
+			</xystage>
+			<xystage axis="y">
+				<wait_moving_end></wait_moving_end>
+			</xystage>
+		</microscope>
+		<!-- SET NAME -->
+		<save>
+			<basename>/home/np451/data/22.6/6_BF/10X_X-897Y-3000</basename>
+			<append>DATE</append>
+		</save>
+		<!-- Turn on the light -->
+		<sleep>0:0:3</sleep>
+		<!-- Take a record -->
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>ON</record></camera>
+		<sleep>0:0:3</sleep>
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>OFF</record></camera>
+		<sleep>0:0:1.0</sleep>
+
+
+
+
+	<!-- Position x=-897y=-2299 -->
+		<!-- MOVE -->
+		<microscope>
+			<xystage axis="x">
+				<move_absolute>-897 5</move_absolute>
+			</xystage>
+			<xystage axis="y">
+				<move_absolute>-2299 5</move_absolute>
+			</xystage>
+			<xystage axis="x">
+				<wait_moving_end></wait_moving_end>
+			</xystage>
+			<xystage axis="y">
+				<wait_moving_end></wait_moving_end>
+			</xystage>
+		</microscope>
+		<!-- SET NAME -->
+		<save>
+			<basename>/home/np451/data/22.6/6_BF/10X_X-897Y-2299</basename>
+			<append>DATE</append>
+		</save>
+		<!-- Turn on the light -->
+		<sleep>0:0:3</sleep>
+		<!-- Take a record -->
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>ON</record></camera>
+		<sleep>0:0:3</sleep>
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>OFF</record></camera>
+		<sleep>0:0:1.0</sleep>
+
+
+
+
+	<!-- Position x=-897y=-1598 -->
+		<!-- MOVE -->
+		<microscope>
+			<xystage axis="x">
+				<move_absolute>-897 5</move_absolute>
+			</xystage>
+			<xystage axis="y">
+				<move_absolute>-1598 5</move_absolute>
+			</xystage>
+			<xystage axis="x">
+				<wait_moving_end></wait_moving_end>
+			</xystage>
+			<xystage axis="y">
+				<wait_moving_end></wait_moving_end>
+			</xystage>
+		</microscope>
+		<!-- SET NAME -->
+		<save>
+			<basename>/home/np451/data/22.6/6_BF/10X_X-897Y-1598</basename>
+			<append>DATE</append>
+		</save>
+		<!-- Turn on the light -->
+		<sleep>0:0:3</sleep>
+		<!-- Take a record -->
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>ON</record></camera>
+		<sleep>0:0:3</sleep>
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>OFF</record></camera>
+		<sleep>0:0:1.0</sleep>
+
+
+
+
+	<!-- Position x=-897y=-897 -->
+		<!-- MOVE -->
+		<microscope>
+			<xystage axis="x">
+				<move_absolute>-897 5</move_absolute>
+			</xystage>
+			<xystage axis="y">
+				<move_absolute>-897 5</move_absolute>
+			</xystage>
+			<xystage axis="x">
+				<wait_moving_end></wait_moving_end>
+			</xystage>
+			<xystage axis="y">
+				<wait_moving_end></wait_moving_end>
+			</xystage>
+		</microscope>
+		<!-- SET NAME -->
+		<save>
+			<basename>/home/np451/data/22.6/6_BF/10X_X-897Y-897</basename>
+			<append>DATE</append>
+		</save>
+		<!-- Turn on the light -->
+		<sleep>0:0:3</sleep>
+		<!-- Take a record -->
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>ON</record></camera>
+		<sleep>0:0:3</sleep>
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>OFF</record></camera>
+		<sleep>0:0:1.0</sleep>
+
+
+
+
+	<!-- Position x=-897y=-196 -->
+		<!-- MOVE -->
+		<microscope>
+			<xystage axis="x">
+				<move_absolute>-897 5</move_absolute>
+			</xystage>
+			<xystage axis="y">
+				<move_absolute>-196 5</move_absolute>
+			</xystage>
+			<xystage axis="x">
+				<wait_moving_end></wait_moving_end>
+			</xystage>
+			<xystage axis="y">
+				<wait_moving_end></wait_moving_end>
+			</xystage>
+		</microscope>
+		<!-- SET NAME -->
+		<save>
+			<basename>/home/np451/data/22.6/6_BF/10X_X-897Y-196</basename>
+			<append>DATE</append>
+		</save>
+		<!-- Turn on the light -->
+		<sleep>0:0:3</sleep>
+		<!-- Take a record -->
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>ON</record></camera>
+		<sleep>0:0:3</sleep>
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>OFF</record></camera>
+		<sleep>0:0:1.0</sleep>
+
+
+
+
+	<!-- Position x=-897y=505 -->
+		<!-- MOVE -->
+		<microscope>
+			<xystage axis="x">
+				<move_absolute>-897 5</move_absolute>
+			</xystage>
+			<xystage axis="y">
+				<move_absolute>505 5</move_absolute>
+			</xystage>
+			<xystage axis="x">
+				<wait_moving_end></wait_moving_end>
+			</xystage>
+			<xystage axis="y">
+				<wait_moving_end></wait_moving_end>
+			</xystage>
+		</microscope>
+		<!-- SET NAME -->
+		<save>
+			<basename>/home/np451/data/22.6/6_BF/10X_X-897Y505</basename>
+			<append>DATE</append>
+		</save>
+		<!-- Turn on the light -->
+		<sleep>0:0:3</sleep>
+		<!-- Take a record -->
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>ON</record></camera>
+		<sleep>0:0:3</sleep>
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>OFF</record></camera>
+		<sleep>0:0:1.0</sleep>
+
+
+
+
+	<!-- Position x=-897y=1206 -->
+		<!-- MOVE -->
+		<microscope>
+			<xystage axis="x">
+				<move_absolute>-897 5</move_absolute>
+			</xystage>
+			<xystage axis="y">
+				<move_absolute>1206 5</move_absolute>
+			</xystage>
+			<xystage axis="x">
+				<wait_moving_end></wait_moving_end>
+			</xystage>
+			<xystage axis="y">
+				<wait_moving_end></wait_moving_end>
+			</xystage>
+		</microscope>
+		<!-- SET NAME -->
+		<save>
+			<basename>/home/np451/data/22.6/6_BF/10X_X-897Y1206</basename>
+			<append>DATE</append>
+		</save>
+		<!-- Turn on the light -->
+		<sleep>0:0:3</sleep>
+		<!-- Take a record -->
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>ON</record></camera>
+		<sleep>0:0:3</sleep>
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>OFF</record></camera>
+		<sleep>0:0:1.0</sleep>
+
+
+
+
+	<!-- Position x=-897y=1907 -->
+		<!-- MOVE -->
+		<microscope>
+			<xystage axis="x">
+				<move_absolute>-897 5</move_absolute>
+			</xystage>
+			<xystage axis="y">
+				<move_absolute>1907 5</move_absolute>
+			</xystage>
+			<xystage axis="x">
+				<wait_moving_end></wait_moving_end>
+			</xystage>
+			<xystage axis="y">
+				<wait_moving_end></wait_moving_end>
+			</xystage>
+		</microscope>
+		<!-- SET NAME -->
+		<save>
+			<basename>/home/np451/data/22.6/6_BF/10X_X-897Y1907</basename>
+			<append>DATE</append>
+		</save>
+		<!-- Turn on the light -->
+		<sleep>0:0:3</sleep>
+		<!-- Take a record -->
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>ON</record></camera>
+		<sleep>0:0:3</sleep>
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>OFF</record></camera>
+		<sleep>0:0:1.0</sleep>
+
+
+
+
+	<!-- Position x=-897y=2608 -->
+		<!-- MOVE -->
+		<microscope>
+			<xystage axis="x">
+				<move_absolute>-897 5</move_absolute>
+			</xystage>
+			<xystage axis="y">
+				<move_absolute>2608 5</move_absolute>
+			</xystage>
+			<xystage axis="x">
+				<wait_moving_end></wait_moving_end>
+			</xystage>
+			<xystage axis="y">
+				<wait_moving_end></wait_moving_end>
+			</xystage>
+		</microscope>
+		<!-- SET NAME -->
+		<save>
+			<basename>/home/np451/data/22.6/6_BF/10X_X-897Y2608</basename>
+			<append>DATE</append>
+		</save>
+		<!-- Turn on the light -->
+		<sleep>0:0:3</sleep>
+		<!-- Take a record -->
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>ON</record></camera>
+		<sleep>0:0:3</sleep>
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>OFF</record></camera>
+		<sleep>0:0:1.0</sleep>
+
+
+
+
+	<!-- Position x=-897y=3309 -->
+		<!-- MOVE -->
+		<microscope>
+			<xystage axis="x">
+				<move_absolute>-897 5</move_absolute>
+			</xystage>
+			<xystage axis="y">
+				<move_absolute>3309 5</move_absolute>
+			</xystage>
+			<xystage axis="x">
+				<wait_moving_end></wait_moving_end>
+			</xystage>
+			<xystage axis="y">
+				<wait_moving_end></wait_moving_end>
+			</xystage>
+		</microscope>
+		<!-- SET NAME -->
+		<save>
+			<basename>/home/np451/data/22.6/6_BF/10X_X-897Y3309</basename>
+			<append>DATE</append>
+		</save>
+		<!-- Turn on the light -->
+		<sleep>0:0:3</sleep>
+		<!-- Take a record -->
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>ON</record></camera>
+		<sleep>0:0:3</sleep>
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>OFF</record></camera>
+		<sleep>0:0:1.0</sleep>
+
+
+
+
+	<!-- Position x=-196y=-3000 -->
+		<!-- MOVE -->
+		<microscope>
+			<xystage axis="x">
+				<move_absolute>-196 5</move_absolute>
+			</xystage>
+			<xystage axis="y">
+				<move_absolute>-3000 5</move_absolute>
+			</xystage>
+			<xystage axis="x">
+				<wait_moving_end></wait_moving_end>
+			</xystage>
+			<xystage axis="y">
+				<wait_moving_end></wait_moving_end>
+			</xystage>
+		</microscope>
+		<!-- SET NAME -->
+		<save>
+			<basename>/home/np451/data/22.6/6_BF/10X_X-196Y-3000</basename>
+			<append>DATE</append>
+		</save>
+		<!-- Turn on the light -->
+		<sleep>0:0:3</sleep>
+		<!-- Take a record -->
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>ON</record></camera>
+		<sleep>0:0:3</sleep>
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>OFF</record></camera>
+		<sleep>0:0:1.0</sleep>
+
+
+
+
+	<!-- Position x=-196y=-2299 -->
+		<!-- MOVE -->
+		<microscope>
+			<xystage axis="x">
+				<move_absolute>-196 5</move_absolute>
+			</xystage>
+			<xystage axis="y">
+				<move_absolute>-2299 5</move_absolute>
+			</xystage>
+			<xystage axis="x">
+				<wait_moving_end></wait_moving_end>
+			</xystage>
+			<xystage axis="y">
+				<wait_moving_end></wait_moving_end>
+			</xystage>
+		</microscope>
+		<!-- SET NAME -->
+		<save>
+			<basename>/home/np451/data/22.6/6_BF/10X_X-196Y-2299</basename>
+			<append>DATE</append>
+		</save>
+		<!-- Turn on the light -->
+		<sleep>0:0:3</sleep>
+		<!-- Take a record -->
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>ON</record></camera>
+		<sleep>0:0:3</sleep>
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>OFF</record></camera>
+		<sleep>0:0:1.0</sleep>
+
+
+
+
+	<!-- Position x=-196y=-1598 -->
+		<!-- MOVE -->
+		<microscope>
+			<xystage axis="x">
+				<move_absolute>-196 5</move_absolute>
+			</xystage>
+			<xystage axis="y">
+				<move_absolute>-1598 5</move_absolute>
+			</xystage>
+			<xystage axis="x">
+				<wait_moving_end></wait_moving_end>
+			</xystage>
+			<xystage axis="y">
+				<wait_moving_end></wait_moving_end>
+			</xystage>
+		</microscope>
+		<!-- SET NAME -->
+		<save>
+			<basename>/home/np451/data/22.6/6_BF/10X_X-196Y-1598</basename>
+			<append>DATE</append>
+		</save>
+		<!-- Turn on the light -->
+		<sleep>0:0:3</sleep>
+		<!-- Take a record -->
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>ON</record></camera>
+		<sleep>0:0:3</sleep>
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>OFF</record></camera>
+		<sleep>0:0:1.0</sleep>
+
+
+
+
+	<!-- Position x=-196y=-897 -->
+		<!-- MOVE -->
+		<microscope>
+			<xystage axis="x">
+				<move_absolute>-196 5</move_absolute>
+			</xystage>
+			<xystage axis="y">
+				<move_absolute>-897 5</move_absolute>
+			</xystage>
+			<xystage axis="x">
+				<wait_moving_end></wait_moving_end>
+			</xystage>
+			<xystage axis="y">
+				<wait_moving_end></wait_moving_end>
+			</xystage>
+		</microscope>
+		<!-- SET NAME -->
+		<save>
+			<basename>/home/np451/data/22.6/6_BF/10X_X-196Y-897</basename>
+			<append>DATE</append>
+		</save>
+		<!-- Turn on the light -->
+		<sleep>0:0:3</sleep>
+		<!-- Take a record -->
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>ON</record></camera>
+		<sleep>0:0:3</sleep>
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>OFF</record></camera>
+		<sleep>0:0:1.0</sleep>
+
+
+
+
+	<!-- Position x=-196y=-196 -->
+		<!-- MOVE -->
+		<microscope>
+			<xystage axis="x">
+				<move_absolute>-196 5</move_absolute>
+			</xystage>
+			<xystage axis="y">
+				<move_absolute>-196 5</move_absolute>
+			</xystage>
+			<xystage axis="x">
+				<wait_moving_end></wait_moving_end>
+			</xystage>
+			<xystage axis="y">
+				<wait_moving_end></wait_moving_end>
+			</xystage>
+		</microscope>
+		<!-- SET NAME -->
+		<save>
+			<basename>/home/np451/data/22.6/6_BF/10X_X-196Y-196</basename>
+			<append>DATE</append>
+		</save>
+		<!-- Turn on the light -->
+		<sleep>0:0:3</sleep>
+		<!-- Take a record -->
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>ON</record></camera>
+		<sleep>0:0:3</sleep>
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>OFF</record></camera>
+		<sleep>0:0:1.0</sleep>
+
+
+
+
+	<!-- Position x=-196y=505 -->
+		<!-- MOVE -->
+		<microscope>
+			<xystage axis="x">
+				<move_absolute>-196 5</move_absolute>
+			</xystage>
+			<xystage axis="y">
+				<move_absolute>505 5</move_absolute>
+			</xystage>
+			<xystage axis="x">
+				<wait_moving_end></wait_moving_end>
+			</xystage>
+			<xystage axis="y">
+				<wait_moving_end></wait_moving_end>
+			</xystage>
+		</microscope>
+		<!-- SET NAME -->
+		<save>
+			<basename>/home/np451/data/22.6/6_BF/10X_X-196Y505</basename>
+			<append>DATE</append>
+		</save>
+		<!-- Turn on the light -->
+		<sleep>0:0:3</sleep>
+		<!-- Take a record -->
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>ON</record></camera>
+		<sleep>0:0:3</sleep>
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>OFF</record></camera>
+		<sleep>0:0:1.0</sleep>
+
+
+
+
+	<!-- Position x=-196y=1206 -->
+		<!-- MOVE -->
+		<microscope>
+			<xystage axis="x">
+				<move_absolute>-196 5</move_absolute>
+			</xystage>
+			<xystage axis="y">
+				<move_absolute>1206 5</move_absolute>
+			</xystage>
+			<xystage axis="x">
+				<wait_moving_end></wait_moving_end>
+			</xystage>
+			<xystage axis="y">
+				<wait_moving_end></wait_moving_end>
+			</xystage>
+		</microscope>
+		<!-- SET NAME -->
+		<save>
+			<basename>/home/np451/data/22.6/6_BF/10X_X-196Y1206</basename>
+			<append>DATE</append>
+		</save>
+		<!-- Turn on the light -->
+		<sleep>0:0:3</sleep>
+		<!-- Take a record -->
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>ON</record></camera>
+		<sleep>0:0:3</sleep>
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>OFF</record></camera>
+		<sleep>0:0:1.0</sleep>
+
+
+
+
+	<!-- Position x=-196y=1907 -->
+		<!-- MOVE -->
+		<microscope>
+			<xystage axis="x">
+				<move_absolute>-196 5</move_absolute>
+			</xystage>
+			<xystage axis="y">
+				<move_absolute>1907 5</move_absolute>
+			</xystage>
+			<xystage axis="x">
+				<wait_moving_end></wait_moving_end>
+			</xystage>
+			<xystage axis="y">
+				<wait_moving_end></wait_moving_end>
+			</xystage>
+		</microscope>
+		<!-- SET NAME -->
+		<save>
+			<basename>/home/np451/data/22.6/6_BF/10X_X-196Y1907</basename>
+			<append>DATE</append>
+		</save>
+		<!-- Turn on the light -->
+		<sleep>0:0:3</sleep>
+		<!-- Take a record -->
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>ON</record></camera>
+		<sleep>0:0:3</sleep>
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>OFF</record></camera>
+		<sleep>0:0:1.0</sleep>
+
+
+
+
+	<!-- Position x=-196y=2608 -->
+		<!-- MOVE -->
+		<microscope>
+			<xystage axis="x">
+				<move_absolute>-196 5</move_absolute>
+			</xystage>
+			<xystage axis="y">
+				<move_absolute>2608 5</move_absolute>
+			</xystage>
+			<xystage axis="x">
+				<wait_moving_end></wait_moving_end>
+			</xystage>
+			<xystage axis="y">
+				<wait_moving_end></wait_moving_end>
+			</xystage>
+		</microscope>
+		<!-- SET NAME -->
+		<save>
+			<basename>/home/np451/data/22.6/6_BF/10X_X-196Y2608</basename>
+			<append>DATE</append>
+		</save>
+		<!-- Turn on the light -->
+		<sleep>0:0:3</sleep>
+		<!-- Take a record -->
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>ON</record></camera>
+		<sleep>0:0:3</sleep>
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>OFF</record></camera>
+		<sleep>0:0:1.0</sleep>
+
+
+
+
+	<!-- Position x=-196y=3309 -->
+		<!-- MOVE -->
+		<microscope>
+			<xystage axis="x">
+				<move_absolute>-196 5</move_absolute>
+			</xystage>
+			<xystage axis="y">
+				<move_absolute>3309 5</move_absolute>
+			</xystage>
+			<xystage axis="x">
+				<wait_moving_end></wait_moving_end>
+			</xystage>
+			<xystage axis="y">
+				<wait_moving_end></wait_moving_end>
+			</xystage>
+		</microscope>
+		<!-- SET NAME -->
+		<save>
+			<basename>/home/np451/data/22.6/6_BF/10X_X-196Y3309</basename>
+			<append>DATE</append>
+		</save>
+		<!-- Turn on the light -->
+		<sleep>0:0:3</sleep>
+		<!-- Take a record -->
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>ON</record></camera>
+		<sleep>0:0:3</sleep>
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>OFF</record></camera>
+		<sleep>0:0:1.0</sleep>
+
+
+
+
+	<!-- Position x=505y=-3000 -->
+		<!-- MOVE -->
+		<microscope>
+			<xystage axis="x">
+				<move_absolute>505 5</move_absolute>
+			</xystage>
+			<xystage axis="y">
+				<move_absolute>-3000 5</move_absolute>
+			</xystage>
+			<xystage axis="x">
+				<wait_moving_end></wait_moving_end>
+			</xystage>
+			<xystage axis="y">
+				<wait_moving_end></wait_moving_end>
+			</xystage>
+		</microscope>
+		<!-- SET NAME -->
+		<save>
+			<basename>/home/np451/data/22.6/6_BF/10X_X505Y-3000</basename>
+			<append>DATE</append>
+		</save>
+		<!-- Turn on the light -->
+		<sleep>0:0:3</sleep>
+		<!-- Take a record -->
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>ON</record></camera>
+		<sleep>0:0:3</sleep>
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>OFF</record></camera>
+		<sleep>0:0:1.0</sleep>
+
+
+
+
+	<!-- Position x=505y=-2299 -->
+		<!-- MOVE -->
+		<microscope>
+			<xystage axis="x">
+				<move_absolute>505 5</move_absolute>
+			</xystage>
+			<xystage axis="y">
+				<move_absolute>-2299 5</move_absolute>
+			</xystage>
+			<xystage axis="x">
+				<wait_moving_end></wait_moving_end>
+			</xystage>
+			<xystage axis="y">
+				<wait_moving_end></wait_moving_end>
+			</xystage>
+		</microscope>
+		<!-- SET NAME -->
+		<save>
+			<basename>/home/np451/data/22.6/6_BF/10X_X505Y-2299</basename>
+			<append>DATE</append>
+		</save>
+		<!-- Turn on the light -->
+		<sleep>0:0:3</sleep>
+		<!-- Take a record -->
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>ON</record></camera>
+		<sleep>0:0:3</sleep>
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>OFF</record></camera>
+		<sleep>0:0:1.0</sleep>
+
+
+
+
+	<!-- Position x=505y=-1598 -->
+		<!-- MOVE -->
+		<microscope>
+			<xystage axis="x">
+				<move_absolute>505 5</move_absolute>
+			</xystage>
+			<xystage axis="y">
+				<move_absolute>-1598 5</move_absolute>
+			</xystage>
+			<xystage axis="x">
+				<wait_moving_end></wait_moving_end>
+			</xystage>
+			<xystage axis="y">
+				<wait_moving_end></wait_moving_end>
+			</xystage>
+		</microscope>
+		<!-- SET NAME -->
+		<save>
+			<basename>/home/np451/data/22.6/6_BF/10X_X505Y-1598</basename>
+			<append>DATE</append>
+		</save>
+		<!-- Turn on the light -->
+		<sleep>0:0:3</sleep>
+		<!-- Take a record -->
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>ON</record></camera>
+		<sleep>0:0:3</sleep>
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>OFF</record></camera>
+		<sleep>0:0:1.0</sleep>
+
+
+
+
+	<!-- Position x=505y=-897 -->
+		<!-- MOVE -->
+		<microscope>
+			<xystage axis="x">
+				<move_absolute>505 5</move_absolute>
+			</xystage>
+			<xystage axis="y">
+				<move_absolute>-897 5</move_absolute>
+			</xystage>
+			<xystage axis="x">
+				<wait_moving_end></wait_moving_end>
+			</xystage>
+			<xystage axis="y">
+				<wait_moving_end></wait_moving_end>
+			</xystage>
+		</microscope>
+		<!-- SET NAME -->
+		<save>
+			<basename>/home/np451/data/22.6/6_BF/10X_X505Y-897</basename>
+			<append>DATE</append>
+		</save>
+		<!-- Turn on the light -->
+		<sleep>0:0:3</sleep>
+		<!-- Take a record -->
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>ON</record></camera>
+		<sleep>0:0:3</sleep>
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>OFF</record></camera>
+		<sleep>0:0:1.0</sleep>
+
+
+
+
+	<!-- Position x=505y=-196 -->
+		<!-- MOVE -->
+		<microscope>
+			<xystage axis="x">
+				<move_absolute>505 5</move_absolute>
+			</xystage>
+			<xystage axis="y">
+				<move_absolute>-196 5</move_absolute>
+			</xystage>
+			<xystage axis="x">
+				<wait_moving_end></wait_moving_end>
+			</xystage>
+			<xystage axis="y">
+				<wait_moving_end></wait_moving_end>
+			</xystage>
+		</microscope>
+		<!-- SET NAME -->
+		<save>
+			<basename>/home/np451/data/22.6/6_BF/10X_X505Y-196</basename>
+			<append>DATE</append>
+		</save>
+		<!-- Turn on the light -->
+		<sleep>0:0:3</sleep>
+		<!-- Take a record -->
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>ON</record></camera>
+		<sleep>0:0:3</sleep>
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>OFF</record></camera>
+		<sleep>0:0:1.0</sleep>
+
+
+
+
+	<!-- Position x=505y=505 -->
+		<!-- MOVE -->
+		<microscope>
+			<xystage axis="x">
+				<move_absolute>505 5</move_absolute>
+			</xystage>
+			<xystage axis="y">
+				<move_absolute>505 5</move_absolute>
+			</xystage>
+			<xystage axis="x">
+				<wait_moving_end></wait_moving_end>
+			</xystage>
+			<xystage axis="y">
+				<wait_moving_end></wait_moving_end>
+			</xystage>
+		</microscope>
+		<!-- SET NAME -->
+		<save>
+			<basename>/home/np451/data/22.6/6_BF/10X_X505Y505</basename>
+			<append>DATE</append>
+		</save>
+		<!-- Turn on the light -->
+		<sleep>0:0:3</sleep>
+		<!-- Take a record -->
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>ON</record></camera>
+		<sleep>0:0:3</sleep>
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>OFF</record></camera>
+		<sleep>0:0:1.0</sleep>
+
+
+
+
+	<!-- Position x=505y=1206 -->
+		<!-- MOVE -->
+		<microscope>
+			<xystage axis="x">
+				<move_absolute>505 5</move_absolute>
+			</xystage>
+			<xystage axis="y">
+				<move_absolute>1206 5</move_absolute>
+			</xystage>
+			<xystage axis="x">
+				<wait_moving_end></wait_moving_end>
+			</xystage>
+			<xystage axis="y">
+				<wait_moving_end></wait_moving_end>
+			</xystage>
+		</microscope>
+		<!-- SET NAME -->
+		<save>
+			<basename>/home/np451/data/22.6/6_BF/10X_X505Y1206</basename>
+			<append>DATE</append>
+		</save>
+		<!-- Turn on the light -->
+		<sleep>0:0:3</sleep>
+		<!-- Take a record -->
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>ON</record></camera>
+		<sleep>0:0:3</sleep>
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>OFF</record></camera>
+		<sleep>0:0:1.0</sleep>
+
+
+
+
+	<!-- Position x=505y=1907 -->
+		<!-- MOVE -->
+		<microscope>
+			<xystage axis="x">
+				<move_absolute>505 5</move_absolute>
+			</xystage>
+			<xystage axis="y">
+				<move_absolute>1907 5</move_absolute>
+			</xystage>
+			<xystage axis="x">
+				<wait_moving_end></wait_moving_end>
+			</xystage>
+			<xystage axis="y">
+				<wait_moving_end></wait_moving_end>
+			</xystage>
+		</microscope>
+		<!-- SET NAME -->
+		<save>
+			<basename>/home/np451/data/22.6/6_BF/10X_X505Y1907</basename>
+			<append>DATE</append>
+		</save>
+		<!-- Turn on the light -->
+		<sleep>0:0:3</sleep>
+		<!-- Take a record -->
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>ON</record></camera>
+		<sleep>0:0:3</sleep>
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>OFF</record></camera>
+		<sleep>0:0:1.0</sleep>
+
+
+
+
+	<!-- Position x=505y=2608 -->
+		<!-- MOVE -->
+		<microscope>
+			<xystage axis="x">
+				<move_absolute>505 5</move_absolute>
+			</xystage>
+			<xystage axis="y">
+				<move_absolute>2608 5</move_absolute>
+			</xystage>
+			<xystage axis="x">
+				<wait_moving_end></wait_moving_end>
+			</xystage>
+			<xystage axis="y">
+				<wait_moving_end></wait_moving_end>
+			</xystage>
+		</microscope>
+		<!-- SET NAME -->
+		<save>
+			<basename>/home/np451/data/22.6/6_BF/10X_X505Y2608</basename>
+			<append>DATE</append>
+		</save>
+		<!-- Turn on the light -->
+		<sleep>0:0:3</sleep>
+		<!-- Take a record -->
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>ON</record></camera>
+		<sleep>0:0:3</sleep>
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>OFF</record></camera>
+		<sleep>0:0:1.0</sleep>
+
+
+
+
+	<!-- Position x=505y=3309 -->
+		<!-- MOVE -->
+		<microscope>
+			<xystage axis="x">
+				<move_absolute>505 5</move_absolute>
+			</xystage>
+			<xystage axis="y">
+				<move_absolute>3309 5</move_absolute>
+			</xystage>
+			<xystage axis="x">
+				<wait_moving_end></wait_moving_end>
+			</xystage>
+			<xystage axis="y">
+				<wait_moving_end></wait_moving_end>
+			</xystage>
+		</microscope>
+		<!-- SET NAME -->
+		<save>
+			<basename>/home/np451/data/22.6/6_BF/10X_X505Y3309</basename>
+			<append>DATE</append>
+		</save>
+		<!-- Turn on the light -->
+		<sleep>0:0:3</sleep>
+		<!-- Take a record -->
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>ON</record></camera>
+		<sleep>0:0:3</sleep>
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>OFF</record></camera>
+		<sleep>0:0:1.0</sleep>
+
+
+
+
+	<!-- Position x=1206y=-3000 -->
+		<!-- MOVE -->
+		<microscope>
+			<xystage axis="x">
+				<move_absolute>1206 5</move_absolute>
+			</xystage>
+			<xystage axis="y">
+				<move_absolute>-3000 5</move_absolute>
+			</xystage>
+			<xystage axis="x">
+				<wait_moving_end></wait_moving_end>
+			</xystage>
+			<xystage axis="y">
+				<wait_moving_end></wait_moving_end>
+			</xystage>
+		</microscope>
+		<!-- SET NAME -->
+		<save>
+			<basename>/home/np451/data/22.6/6_BF/10X_X1206Y-3000</basename>
+			<append>DATE</append>
+		</save>
+		<!-- Turn on the light -->
+		<sleep>0:0:3</sleep>
+		<!-- Take a record -->
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>ON</record></camera>
+		<sleep>0:0:3</sleep>
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>OFF</record></camera>
+		<sleep>0:0:1.0</sleep>
+
+
+
+
+	<!-- Position x=1206y=-2299 -->
+		<!-- MOVE -->
+		<microscope>
+			<xystage axis="x">
+				<move_absolute>1206 5</move_absolute>
+			</xystage>
+			<xystage axis="y">
+				<move_absolute>-2299 5</move_absolute>
+			</xystage>
+			<xystage axis="x">
+				<wait_moving_end></wait_moving_end>
+			</xystage>
+			<xystage axis="y">
+				<wait_moving_end></wait_moving_end>
+			</xystage>
+		</microscope>
+		<!-- SET NAME -->
+		<save>
+			<basename>/home/np451/data/22.6/6_BF/10X_X1206Y-2299</basename>
+			<append>DATE</append>
+		</save>
+		<!-- Turn on the light -->
+		<sleep>0:0:3</sleep>
+		<!-- Take a record -->
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>ON</record></camera>
+		<sleep>0:0:3</sleep>
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>OFF</record></camera>
+		<sleep>0:0:1.0</sleep>
+
+
+
+
+	<!-- Position x=1206y=-1598 -->
+		<!-- MOVE -->
+		<microscope>
+			<xystage axis="x">
+				<move_absolute>1206 5</move_absolute>
+			</xystage>
+			<xystage axis="y">
+				<move_absolute>-1598 5</move_absolute>
+			</xystage>
+			<xystage axis="x">
+				<wait_moving_end></wait_moving_end>
+			</xystage>
+			<xystage axis="y">
+				<wait_moving_end></wait_moving_end>
+			</xystage>
+		</microscope>
+		<!-- SET NAME -->
+		<save>
+			<basename>/home/np451/data/22.6/6_BF/10X_X1206Y-1598</basename>
+			<append>DATE</append>
+		</save>
+		<!-- Turn on the light -->
+		<sleep>0:0:3</sleep>
+		<!-- Take a record -->
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>ON</record></camera>
+		<sleep>0:0:3</sleep>
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>OFF</record></camera>
+		<sleep>0:0:1.0</sleep>
+
+
+
+
+	<!-- Position x=1206y=-897 -->
+		<!-- MOVE -->
+		<microscope>
+			<xystage axis="x">
+				<move_absolute>1206 5</move_absolute>
+			</xystage>
+			<xystage axis="y">
+				<move_absolute>-897 5</move_absolute>
+			</xystage>
+			<xystage axis="x">
+				<wait_moving_end></wait_moving_end>
+			</xystage>
+			<xystage axis="y">
+				<wait_moving_end></wait_moving_end>
+			</xystage>
+		</microscope>
+		<!-- SET NAME -->
+		<save>
+			<basename>/home/np451/data/22.6/6_BF/10X_X1206Y-897</basename>
+			<append>DATE</append>
+		</save>
+		<!-- Turn on the light -->
+		<sleep>0:0:3</sleep>
+		<!-- Take a record -->
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>ON</record></camera>
+		<sleep>0:0:3</sleep>
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>OFF</record></camera>
+		<sleep>0:0:1.0</sleep>
+
+
+
+
+	<!-- Position x=1206y=-196 -->
+		<!-- MOVE -->
+		<microscope>
+			<xystage axis="x">
+				<move_absolute>1206 5</move_absolute>
+			</xystage>
+			<xystage axis="y">
+				<move_absolute>-196 5</move_absolute>
+			</xystage>
+			<xystage axis="x">
+				<wait_moving_end></wait_moving_end>
+			</xystage>
+			<xystage axis="y">
+				<wait_moving_end></wait_moving_end>
+			</xystage>
+		</microscope>
+		<!-- SET NAME -->
+		<save>
+			<basename>/home/np451/data/22.6/6_BF/10X_X1206Y-196</basename>
+			<append>DATE</append>
+		</save>
+		<!-- Turn on the light -->
+		<sleep>0:0:3</sleep>
+		<!-- Take a record -->
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>ON</record></camera>
+		<sleep>0:0:3</sleep>
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>OFF</record></camera>
+		<sleep>0:0:1.0</sleep>
+
+
+
+
+	<!-- Position x=1206y=505 -->
+		<!-- MOVE -->
+		<microscope>
+			<xystage axis="x">
+				<move_absolute>1206 5</move_absolute>
+			</xystage>
+			<xystage axis="y">
+				<move_absolute>505 5</move_absolute>
+			</xystage>
+			<xystage axis="x">
+				<wait_moving_end></wait_moving_end>
+			</xystage>
+			<xystage axis="y">
+				<wait_moving_end></wait_moving_end>
+			</xystage>
+		</microscope>
+		<!-- SET NAME -->
+		<save>
+			<basename>/home/np451/data/22.6/6_BF/10X_X1206Y505</basename>
+			<append>DATE</append>
+		</save>
+		<!-- Turn on the light -->
+		<sleep>0:0:3</sleep>
+		<!-- Take a record -->
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>ON</record></camera>
+		<sleep>0:0:3</sleep>
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>OFF</record></camera>
+		<sleep>0:0:1.0</sleep>
+
+
+
+
+	<!-- Position x=1206y=1206 -->
+		<!-- MOVE -->
+		<microscope>
+			<xystage axis="x">
+				<move_absolute>1206 5</move_absolute>
+			</xystage>
+			<xystage axis="y">
+				<move_absolute>1206 5</move_absolute>
+			</xystage>
+			<xystage axis="x">
+				<wait_moving_end></wait_moving_end>
+			</xystage>
+			<xystage axis="y">
+				<wait_moving_end></wait_moving_end>
+			</xystage>
+		</microscope>
+		<!-- SET NAME -->
+		<save>
+			<basename>/home/np451/data/22.6/6_BF/10X_X1206Y1206</basename>
+			<append>DATE</append>
+		</save>
+		<!-- Turn on the light -->
+		<sleep>0:0:3</sleep>
+		<!-- Take a record -->
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>ON</record></camera>
+		<sleep>0:0:3</sleep>
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>OFF</record></camera>
+		<sleep>0:0:1.0</sleep>
+
+
+
+
+	<!-- Position x=1206y=1907 -->
+		<!-- MOVE -->
+		<microscope>
+			<xystage axis="x">
+				<move_absolute>1206 5</move_absolute>
+			</xystage>
+			<xystage axis="y">
+				<move_absolute>1907 5</move_absolute>
+			</xystage>
+			<xystage axis="x">
+				<wait_moving_end></wait_moving_end>
+			</xystage>
+			<xystage axis="y">
+				<wait_moving_end></wait_moving_end>
+			</xystage>
+		</microscope>
+		<!-- SET NAME -->
+		<save>
+			<basename>/home/np451/data/22.6/6_BF/10X_X1206Y1907</basename>
+			<append>DATE</append>
+		</save>
+		<!-- Turn on the light -->
+		<sleep>0:0:3</sleep>
+		<!-- Take a record -->
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>ON</record></camera>
+		<sleep>0:0:3</sleep>
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>OFF</record></camera>
+		<sleep>0:0:1.0</sleep>
+
+
+
+
+	<!-- Position x=1206y=2608 -->
+		<!-- MOVE -->
+		<microscope>
+			<xystage axis="x">
+				<move_absolute>1206 5</move_absolute>
+			</xystage>
+			<xystage axis="y">
+				<move_absolute>2608 5</move_absolute>
+			</xystage>
+			<xystage axis="x">
+				<wait_moving_end></wait_moving_end>
+			</xystage>
+			<xystage axis="y">
+				<wait_moving_end></wait_moving_end>
+			</xystage>
+		</microscope>
+		<!-- SET NAME -->
+		<save>
+			<basename>/home/np451/data/22.6/6_BF/10X_X1206Y2608</basename>
+			<append>DATE</append>
+		</save>
+		<!-- Turn on the light -->
+		<sleep>0:0:3</sleep>
+		<!-- Take a record -->
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>ON</record></camera>
+		<sleep>0:0:3</sleep>
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>OFF</record></camera>
+		<sleep>0:0:1.0</sleep>
+
+
+
+
+	<!-- Position x=1206y=3309 -->
+		<!-- MOVE -->
+		<microscope>
+			<xystage axis="x">
+				<move_absolute>1206 5</move_absolute>
+			</xystage>
+			<xystage axis="y">
+				<move_absolute>3309 5</move_absolute>
+			</xystage>
+			<xystage axis="x">
+				<wait_moving_end></wait_moving_end>
+			</xystage>
+			<xystage axis="y">
+				<wait_moving_end></wait_moving_end>
+			</xystage>
+		</microscope>
+		<!-- SET NAME -->
+		<save>
+			<basename>/home/np451/data/22.6/6_BF/10X_X1206Y3309</basename>
+			<append>DATE</append>
+		</save>
+		<!-- Turn on the light -->
+		<sleep>0:0:3</sleep>
+		<!-- Take a record -->
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>ON</record></camera>
+		<sleep>0:0:3</sleep>
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>OFF</record></camera>
+		<sleep>0:0:1.0</sleep>
+
+
+
+
+	<!-- Position x=1907y=-3000 -->
+		<!-- MOVE -->
+		<microscope>
+			<xystage axis="x">
+				<move_absolute>1907 5</move_absolute>
+			</xystage>
+			<xystage axis="y">
+				<move_absolute>-3000 5</move_absolute>
+			</xystage>
+			<xystage axis="x">
+				<wait_moving_end></wait_moving_end>
+			</xystage>
+			<xystage axis="y">
+				<wait_moving_end></wait_moving_end>
+			</xystage>
+		</microscope>
+		<!-- SET NAME -->
+		<save>
+			<basename>/home/np451/data/22.6/6_BF/10X_X1907Y-3000</basename>
+			<append>DATE</append>
+		</save>
+		<!-- Turn on the light -->
+		<sleep>0:0:3</sleep>
+		<!-- Take a record -->
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>ON</record></camera>
+		<sleep>0:0:3</sleep>
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>OFF</record></camera>
+		<sleep>0:0:1.0</sleep>
+
+
+
+
+	<!-- Position x=1907y=-2299 -->
+		<!-- MOVE -->
+		<microscope>
+			<xystage axis="x">
+				<move_absolute>1907 5</move_absolute>
+			</xystage>
+			<xystage axis="y">
+				<move_absolute>-2299 5</move_absolute>
+			</xystage>
+			<xystage axis="x">
+				<wait_moving_end></wait_moving_end>
+			</xystage>
+			<xystage axis="y">
+				<wait_moving_end></wait_moving_end>
+			</xystage>
+		</microscope>
+		<!-- SET NAME -->
+		<save>
+			<basename>/home/np451/data/22.6/6_BF/10X_X1907Y-2299</basename>
+			<append>DATE</append>
+		</save>
+		<!-- Turn on the light -->
+		<sleep>0:0:3</sleep>
+		<!-- Take a record -->
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>ON</record></camera>
+		<sleep>0:0:3</sleep>
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>OFF</record></camera>
+		<sleep>0:0:1.0</sleep>
+
+
+
+
+	<!-- Position x=1907y=-1598 -->
+		<!-- MOVE -->
+		<microscope>
+			<xystage axis="x">
+				<move_absolute>1907 5</move_absolute>
+			</xystage>
+			<xystage axis="y">
+				<move_absolute>-1598 5</move_absolute>
+			</xystage>
+			<xystage axis="x">
+				<wait_moving_end></wait_moving_end>
+			</xystage>
+			<xystage axis="y">
+				<wait_moving_end></wait_moving_end>
+			</xystage>
+		</microscope>
+		<!-- SET NAME -->
+		<save>
+			<basename>/home/np451/data/22.6/6_BF/10X_X1907Y-1598</basename>
+			<append>DATE</append>
+		</save>
+		<!-- Turn on the light -->
+		<sleep>0:0:3</sleep>
+		<!-- Take a record -->
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>ON</record></camera>
+		<sleep>0:0:3</sleep>
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>OFF</record></camera>
+		<sleep>0:0:1.0</sleep>
+
+
+
+
+	<!-- Position x=1907y=-897 -->
+		<!-- MOVE -->
+		<microscope>
+			<xystage axis="x">
+				<move_absolute>1907 5</move_absolute>
+			</xystage>
+			<xystage axis="y">
+				<move_absolute>-897 5</move_absolute>
+			</xystage>
+			<xystage axis="x">
+				<wait_moving_end></wait_moving_end>
+			</xystage>
+			<xystage axis="y">
+				<wait_moving_end></wait_moving_end>
+			</xystage>
+		</microscope>
+		<!-- SET NAME -->
+		<save>
+			<basename>/home/np451/data/22.6/6_BF/10X_X1907Y-897</basename>
+			<append>DATE</append>
+		</save>
+		<!-- Turn on the light -->
+		<sleep>0:0:3</sleep>
+		<!-- Take a record -->
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>ON</record></camera>
+		<sleep>0:0:3</sleep>
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>OFF</record></camera>
+		<sleep>0:0:1.0</sleep>
+
+
+
+
+	<!-- Position x=1907y=-196 -->
+		<!-- MOVE -->
+		<microscope>
+			<xystage axis="x">
+				<move_absolute>1907 5</move_absolute>
+			</xystage>
+			<xystage axis="y">
+				<move_absolute>-196 5</move_absolute>
+			</xystage>
+			<xystage axis="x">
+				<wait_moving_end></wait_moving_end>
+			</xystage>
+			<xystage axis="y">
+				<wait_moving_end></wait_moving_end>
+			</xystage>
+		</microscope>
+		<!-- SET NAME -->
+		<save>
+			<basename>/home/np451/data/22.6/6_BF/10X_X1907Y-196</basename>
+			<append>DATE</append>
+		</save>
+		<!-- Turn on the light -->
+		<sleep>0:0:3</sleep>
+		<!-- Take a record -->
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>ON</record></camera>
+		<sleep>0:0:3</sleep>
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>OFF</record></camera>
+		<sleep>0:0:1.0</sleep>
+
+
+
+
+	<!-- Position x=1907y=505 -->
+		<!-- MOVE -->
+		<microscope>
+			<xystage axis="x">
+				<move_absolute>1907 5</move_absolute>
+			</xystage>
+			<xystage axis="y">
+				<move_absolute>505 5</move_absolute>
+			</xystage>
+			<xystage axis="x">
+				<wait_moving_end></wait_moving_end>
+			</xystage>
+			<xystage axis="y">
+				<wait_moving_end></wait_moving_end>
+			</xystage>
+		</microscope>
+		<!-- SET NAME -->
+		<save>
+			<basename>/home/np451/data/22.6/6_BF/10X_X1907Y505</basename>
+			<append>DATE</append>
+		</save>
+		<!-- Turn on the light -->
+		<sleep>0:0:3</sleep>
+		<!-- Take a record -->
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>ON</record></camera>
+		<sleep>0:0:3</sleep>
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>OFF</record></camera>
+		<sleep>0:0:1.0</sleep>
+
+
+
+
+	<!-- Position x=1907y=1206 -->
+		<!-- MOVE -->
+		<microscope>
+			<xystage axis="x">
+				<move_absolute>1907 5</move_absolute>
+			</xystage>
+			<xystage axis="y">
+				<move_absolute>1206 5</move_absolute>
+			</xystage>
+			<xystage axis="x">
+				<wait_moving_end></wait_moving_end>
+			</xystage>
+			<xystage axis="y">
+				<wait_moving_end></wait_moving_end>
+			</xystage>
+		</microscope>
+		<!-- SET NAME -->
+		<save>
+			<basename>/home/np451/data/22.6/6_BF/10X_X1907Y1206</basename>
+			<append>DATE</append>
+		</save>
+		<!-- Turn on the light -->
+		<sleep>0:0:3</sleep>
+		<!-- Take a record -->
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>ON</record></camera>
+		<sleep>0:0:3</sleep>
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>OFF</record></camera>
+		<sleep>0:0:1.0</sleep>
+
+
+
+
+	<!-- Position x=1907y=1907 -->
+		<!-- MOVE -->
+		<microscope>
+			<xystage axis="x">
+				<move_absolute>1907 5</move_absolute>
+			</xystage>
+			<xystage axis="y">
+				<move_absolute>1907 5</move_absolute>
+			</xystage>
+			<xystage axis="x">
+				<wait_moving_end></wait_moving_end>
+			</xystage>
+			<xystage axis="y">
+				<wait_moving_end></wait_moving_end>
+			</xystage>
+		</microscope>
+		<!-- SET NAME -->
+		<save>
+			<basename>/home/np451/data/22.6/6_BF/10X_X1907Y1907</basename>
+			<append>DATE</append>
+		</save>
+		<!-- Turn on the light -->
+		<sleep>0:0:3</sleep>
+		<!-- Take a record -->
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>ON</record></camera>
+		<sleep>0:0:3</sleep>
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>OFF</record></camera>
+		<sleep>0:0:1.0</sleep>
+
+
+
+
+	<!-- Position x=1907y=2608 -->
+		<!-- MOVE -->
+		<microscope>
+			<xystage axis="x">
+				<move_absolute>1907 5</move_absolute>
+			</xystage>
+			<xystage axis="y">
+				<move_absolute>2608 5</move_absolute>
+			</xystage>
+			<xystage axis="x">
+				<wait_moving_end></wait_moving_end>
+			</xystage>
+			<xystage axis="y">
+				<wait_moving_end></wait_moving_end>
+			</xystage>
+		</microscope>
+		<!-- SET NAME -->
+		<save>
+			<basename>/home/np451/data/22.6/6_BF/10X_X1907Y2608</basename>
+			<append>DATE</append>
+		</save>
+		<!-- Turn on the light -->
+		<sleep>0:0:3</sleep>
+		<!-- Take a record -->
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>ON</record></camera>
+		<sleep>0:0:3</sleep>
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>OFF</record></camera>
+		<sleep>0:0:1.0</sleep>
+
+
+
+
+	<!-- Position x=1907y=3309 -->
+		<!-- MOVE -->
+		<microscope>
+			<xystage axis="x">
+				<move_absolute>1907 5</move_absolute>
+			</xystage>
+			<xystage axis="y">
+				<move_absolute>3309 5</move_absolute>
+			</xystage>
+			<xystage axis="x">
+				<wait_moving_end></wait_moving_end>
+			</xystage>
+			<xystage axis="y">
+				<wait_moving_end></wait_moving_end>
+			</xystage>
+		</microscope>
+		<!-- SET NAME -->
+		<save>
+			<basename>/home/np451/data/22.6/6_BF/10X_X1907Y3309</basename>
+			<append>DATE</append>
+		</save>
+		<!-- Turn on the light -->
+		<sleep>0:0:3</sleep>
+		<!-- Take a record -->
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>ON</record></camera>
+		<sleep>0:0:3</sleep>
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>OFF</record></camera>
+		<sleep>0:0:1.0</sleep>
+
+
+
+
+	<!-- Position x=2608y=-3000 -->
+		<!-- MOVE -->
+		<microscope>
+			<xystage axis="x">
+				<move_absolute>2608 5</move_absolute>
+			</xystage>
+			<xystage axis="y">
+				<move_absolute>-3000 5</move_absolute>
+			</xystage>
+			<xystage axis="x">
+				<wait_moving_end></wait_moving_end>
+			</xystage>
+			<xystage axis="y">
+				<wait_moving_end></wait_moving_end>
+			</xystage>
+		</microscope>
+		<!-- SET NAME -->
+		<save>
+			<basename>/home/np451/data/22.6/6_BF/10X_X2608Y-3000</basename>
+			<append>DATE</append>
+		</save>
+		<!-- Turn on the light -->
+		<sleep>0:0:3</sleep>
+		<!-- Take a record -->
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>ON</record></camera>
+		<sleep>0:0:3</sleep>
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>OFF</record></camera>
+		<sleep>0:0:1.0</sleep>
+
+
+
+
+	<!-- Position x=2608y=-2299 -->
+		<!-- MOVE -->
+		<microscope>
+			<xystage axis="x">
+				<move_absolute>2608 5</move_absolute>
+			</xystage>
+			<xystage axis="y">
+				<move_absolute>-2299 5</move_absolute>
+			</xystage>
+			<xystage axis="x">
+				<wait_moving_end></wait_moving_end>
+			</xystage>
+			<xystage axis="y">
+				<wait_moving_end></wait_moving_end>
+			</xystage>
+		</microscope>
+		<!-- SET NAME -->
+		<save>
+			<basename>/home/np451/data/22.6/6_BF/10X_X2608Y-2299</basename>
+			<append>DATE</append>
+		</save>
+		<!-- Turn on the light -->
+		<sleep>0:0:3</sleep>
+		<!-- Take a record -->
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>ON</record></camera>
+		<sleep>0:0:3</sleep>
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>OFF</record></camera>
+		<sleep>0:0:1.0</sleep>
+
+
+
+
+	<!-- Position x=2608y=-1598 -->
+		<!-- MOVE -->
+		<microscope>
+			<xystage axis="x">
+				<move_absolute>2608 5</move_absolute>
+			</xystage>
+			<xystage axis="y">
+				<move_absolute>-1598 5</move_absolute>
+			</xystage>
+			<xystage axis="x">
+				<wait_moving_end></wait_moving_end>
+			</xystage>
+			<xystage axis="y">
+				<wait_moving_end></wait_moving_end>
+			</xystage>
+		</microscope>
+		<!-- SET NAME -->
+		<save>
+			<basename>/home/np451/data/22.6/6_BF/10X_X2608Y-1598</basename>
+			<append>DATE</append>
+		</save>
+		<!-- Turn on the light -->
+		<sleep>0:0:3</sleep>
+		<!-- Take a record -->
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>ON</record></camera>
+		<sleep>0:0:3</sleep>
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>OFF</record></camera>
+		<sleep>0:0:1.0</sleep>
+
+
+
+
+	<!-- Position x=2608y=-897 -->
+		<!-- MOVE -->
+		<microscope>
+			<xystage axis="x">
+				<move_absolute>2608 5</move_absolute>
+			</xystage>
+			<xystage axis="y">
+				<move_absolute>-897 5</move_absolute>
+			</xystage>
+			<xystage axis="x">
+				<wait_moving_end></wait_moving_end>
+			</xystage>
+			<xystage axis="y">
+				<wait_moving_end></wait_moving_end>
+			</xystage>
+		</microscope>
+		<!-- SET NAME -->
+		<save>
+			<basename>/home/np451/data/22.6/6_BF/10X_X2608Y-897</basename>
+			<append>DATE</append>
+		</save>
+		<!-- Turn on the light -->
+		<sleep>0:0:3</sleep>
+		<!-- Take a record -->
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>ON</record></camera>
+		<sleep>0:0:3</sleep>
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>OFF</record></camera>
+		<sleep>0:0:1.0</sleep>
+
+
+
+
+	<!-- Position x=2608y=-196 -->
+		<!-- MOVE -->
+		<microscope>
+			<xystage axis="x">
+				<move_absolute>2608 5</move_absolute>
+			</xystage>
+			<xystage axis="y">
+				<move_absolute>-196 5</move_absolute>
+			</xystage>
+			<xystage axis="x">
+				<wait_moving_end></wait_moving_end>
+			</xystage>
+			<xystage axis="y">
+				<wait_moving_end></wait_moving_end>
+			</xystage>
+		</microscope>
+		<!-- SET NAME -->
+		<save>
+			<basename>/home/np451/data/22.6/6_BF/10X_X2608Y-196</basename>
+			<append>DATE</append>
+		</save>
+		<!-- Turn on the light -->
+		<sleep>0:0:3</sleep>
+		<!-- Take a record -->
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>ON</record></camera>
+		<sleep>0:0:3</sleep>
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>OFF</record></camera>
+		<sleep>0:0:1.0</sleep>
+
+
+
+
+	<!-- Position x=2608y=505 -->
+		<!-- MOVE -->
+		<microscope>
+			<xystage axis="x">
+				<move_absolute>2608 5</move_absolute>
+			</xystage>
+			<xystage axis="y">
+				<move_absolute>505 5</move_absolute>
+			</xystage>
+			<xystage axis="x">
+				<wait_moving_end></wait_moving_end>
+			</xystage>
+			<xystage axis="y">
+				<wait_moving_end></wait_moving_end>
+			</xystage>
+		</microscope>
+		<!-- SET NAME -->
+		<save>
+			<basename>/home/np451/data/22.6/6_BF/10X_X2608Y505</basename>
+			<append>DATE</append>
+		</save>
+		<!-- Turn on the light -->
+		<sleep>0:0:3</sleep>
+		<!-- Take a record -->
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>ON</record></camera>
+		<sleep>0:0:3</sleep>
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>OFF</record></camera>
+		<sleep>0:0:1.0</sleep>
+
+
+
+
+	<!-- Position x=2608y=1206 -->
+		<!-- MOVE -->
+		<microscope>
+			<xystage axis="x">
+				<move_absolute>2608 5</move_absolute>
+			</xystage>
+			<xystage axis="y">
+				<move_absolute>1206 5</move_absolute>
+			</xystage>
+			<xystage axis="x">
+				<wait_moving_end></wait_moving_end>
+			</xystage>
+			<xystage axis="y">
+				<wait_moving_end></wait_moving_end>
+			</xystage>
+		</microscope>
+		<!-- SET NAME -->
+		<save>
+			<basename>/home/np451/data/22.6/6_BF/10X_X2608Y1206</basename>
+			<append>DATE</append>
+		</save>
+		<!-- Turn on the light -->
+		<sleep>0:0:3</sleep>
+		<!-- Take a record -->
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>ON</record></camera>
+		<sleep>0:0:3</sleep>
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>OFF</record></camera>
+		<sleep>0:0:1.0</sleep>
+
+
+
+
+	<!-- Position x=2608y=1907 -->
+		<!-- MOVE -->
+		<microscope>
+			<xystage axis="x">
+				<move_absolute>2608 5</move_absolute>
+			</xystage>
+			<xystage axis="y">
+				<move_absolute>1907 5</move_absolute>
+			</xystage>
+			<xystage axis="x">
+				<wait_moving_end></wait_moving_end>
+			</xystage>
+			<xystage axis="y">
+				<wait_moving_end></wait_moving_end>
+			</xystage>
+		</microscope>
+		<!-- SET NAME -->
+		<save>
+			<basename>/home/np451/data/22.6/6_BF/10X_X2608Y1907</basename>
+			<append>DATE</append>
+		</save>
+		<!-- Turn on the light -->
+		<sleep>0:0:3</sleep>
+		<!-- Take a record -->
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>ON</record></camera>
+		<sleep>0:0:3</sleep>
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>OFF</record></camera>
+		<sleep>0:0:1.0</sleep>
+
+
+
+
+	<!-- Position x=2608y=2608 -->
+		<!-- MOVE -->
+		<microscope>
+			<xystage axis="x">
+				<move_absolute>2608 5</move_absolute>
+			</xystage>
+			<xystage axis="y">
+				<move_absolute>2608 5</move_absolute>
+			</xystage>
+			<xystage axis="x">
+				<wait_moving_end></wait_moving_end>
+			</xystage>
+			<xystage axis="y">
+				<wait_moving_end></wait_moving_end>
+			</xystage>
+		</microscope>
+		<!-- SET NAME -->
+		<save>
+			<basename>/home/np451/data/22.6/6_BF/10X_X2608Y2608</basename>
+			<append>DATE</append>
+		</save>
+		<!-- Turn on the light -->
+		<sleep>0:0:3</sleep>
+		<!-- Take a record -->
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>ON</record></camera>
+		<sleep>0:0:3</sleep>
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>OFF</record></camera>
+		<sleep>0:0:1.0</sleep>
+
+
+
+
+	<!-- Position x=2608y=3309 -->
+		<!-- MOVE -->
+		<microscope>
+			<xystage axis="x">
+				<move_absolute>2608 5</move_absolute>
+			</xystage>
+			<xystage axis="y">
+				<move_absolute>3309 5</move_absolute>
+			</xystage>
+			<xystage axis="x">
+				<wait_moving_end></wait_moving_end>
+			</xystage>
+			<xystage axis="y">
+				<wait_moving_end></wait_moving_end>
+			</xystage>
+		</microscope>
+		<!-- SET NAME -->
+		<save>
+			<basename>/home/np451/data/22.6/6_BF/10X_X2608Y3309</basename>
+			<append>DATE</append>
+		</save>
+		<!-- Turn on the light -->
+		<sleep>0:0:3</sleep>
+		<!-- Take a record -->
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>ON</record></camera>
+		<sleep>0:0:3</sleep>
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>OFF</record></camera>
+		<sleep>0:0:1.0</sleep>
+
+
+
+
+	<!-- Position x=3309y=-3000 -->
+		<!-- MOVE -->
+		<microscope>
+			<xystage axis="x">
+				<move_absolute>3309 5</move_absolute>
+			</xystage>
+			<xystage axis="y">
+				<move_absolute>-3000 5</move_absolute>
+			</xystage>
+			<xystage axis="x">
+				<wait_moving_end></wait_moving_end>
+			</xystage>
+			<xystage axis="y">
+				<wait_moving_end></wait_moving_end>
+			</xystage>
+		</microscope>
+		<!-- SET NAME -->
+		<save>
+			<basename>/home/np451/data/22.6/6_BF/10X_X3309Y-3000</basename>
+			<append>DATE</append>
+		</save>
+		<!-- Turn on the light -->
+		<sleep>0:0:3</sleep>
+		<!-- Take a record -->
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>ON</record></camera>
+		<sleep>0:0:3</sleep>
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>OFF</record></camera>
+		<sleep>0:0:1.0</sleep>
+
+
+
+
+	<!-- Position x=3309y=-2299 -->
+		<!-- MOVE -->
+		<microscope>
+			<xystage axis="x">
+				<move_absolute>3309 5</move_absolute>
+			</xystage>
+			<xystage axis="y">
+				<move_absolute>-2299 5</move_absolute>
+			</xystage>
+			<xystage axis="x">
+				<wait_moving_end></wait_moving_end>
+			</xystage>
+			<xystage axis="y">
+				<wait_moving_end></wait_moving_end>
+			</xystage>
+		</microscope>
+		<!-- SET NAME -->
+		<save>
+			<basename>/home/np451/data/22.6/6_BF/10X_X3309Y-2299</basename>
+			<append>DATE</append>
+		</save>
+		<!-- Turn on the light -->
+		<sleep>0:0:3</sleep>
+		<!-- Take a record -->
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>ON</record></camera>
+		<sleep>0:0:3</sleep>
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>OFF</record></camera>
+		<sleep>0:0:1.0</sleep>
+
+
+
+
+	<!-- Position x=3309y=-1598 -->
+		<!-- MOVE -->
+		<microscope>
+			<xystage axis="x">
+				<move_absolute>3309 5</move_absolute>
+			</xystage>
+			<xystage axis="y">
+				<move_absolute>-1598 5</move_absolute>
+			</xystage>
+			<xystage axis="x">
+				<wait_moving_end></wait_moving_end>
+			</xystage>
+			<xystage axis="y">
+				<wait_moving_end></wait_moving_end>
+			</xystage>
+		</microscope>
+		<!-- SET NAME -->
+		<save>
+			<basename>/home/np451/data/22.6/6_BF/10X_X3309Y-1598</basename>
+			<append>DATE</append>
+		</save>
+		<!-- Turn on the light -->
+		<sleep>0:0:3</sleep>
+		<!-- Take a record -->
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>ON</record></camera>
+		<sleep>0:0:3</sleep>
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>OFF</record></camera>
+		<sleep>0:0:1.0</sleep>
+
+
+
+
+	<!-- Position x=3309y=-897 -->
+		<!-- MOVE -->
+		<microscope>
+			<xystage axis="x">
+				<move_absolute>3309 5</move_absolute>
+			</xystage>
+			<xystage axis="y">
+				<move_absolute>-897 5</move_absolute>
+			</xystage>
+			<xystage axis="x">
+				<wait_moving_end></wait_moving_end>
+			</xystage>
+			<xystage axis="y">
+				<wait_moving_end></wait_moving_end>
+			</xystage>
+		</microscope>
+		<!-- SET NAME -->
+		<save>
+			<basename>/home/np451/data/22.6/6_BF/10X_X3309Y-897</basename>
+			<append>DATE</append>
+		</save>
+		<!-- Turn on the light -->
+		<sleep>0:0:3</sleep>
+		<!-- Take a record -->
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>ON</record></camera>
+		<sleep>0:0:3</sleep>
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>OFF</record></camera>
+		<sleep>0:0:1.0</sleep>
+
+
+
+
+	<!-- Position x=3309y=-196 -->
+		<!-- MOVE -->
+		<microscope>
+			<xystage axis="x">
+				<move_absolute>3309 5</move_absolute>
+			</xystage>
+			<xystage axis="y">
+				<move_absolute>-196 5</move_absolute>
+			</xystage>
+			<xystage axis="x">
+				<wait_moving_end></wait_moving_end>
+			</xystage>
+			<xystage axis="y">
+				<wait_moving_end></wait_moving_end>
+			</xystage>
+		</microscope>
+		<!-- SET NAME -->
+		<save>
+			<basename>/home/np451/data/22.6/6_BF/10X_X3309Y-196</basename>
+			<append>DATE</append>
+		</save>
+		<!-- Turn on the light -->
+		<sleep>0:0:3</sleep>
+		<!-- Take a record -->
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>ON</record></camera>
+		<sleep>0:0:3</sleep>
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>OFF</record></camera>
+		<sleep>0:0:1.0</sleep>
+
+
+
+
+	<!-- Position x=3309y=505 -->
+		<!-- MOVE -->
+		<microscope>
+			<xystage axis="x">
+				<move_absolute>3309 5</move_absolute>
+			</xystage>
+			<xystage axis="y">
+				<move_absolute>505 5</move_absolute>
+			</xystage>
+			<xystage axis="x">
+				<wait_moving_end></wait_moving_end>
+			</xystage>
+			<xystage axis="y">
+				<wait_moving_end></wait_moving_end>
+			</xystage>
+		</microscope>
+		<!-- SET NAME -->
+		<save>
+			<basename>/home/np451/data/22.6/6_BF/10X_X3309Y505</basename>
+			<append>DATE</append>
+		</save>
+		<!-- Turn on the light -->
+		<sleep>0:0:3</sleep>
+		<!-- Take a record -->
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>ON</record></camera>
+		<sleep>0:0:3</sleep>
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>OFF</record></camera>
+		<sleep>0:0:1.0</sleep>
+
+
+
+
+	<!-- Position x=3309y=1206 -->
+		<!-- MOVE -->
+		<microscope>
+			<xystage axis="x">
+				<move_absolute>3309 5</move_absolute>
+			</xystage>
+			<xystage axis="y">
+				<move_absolute>1206 5</move_absolute>
+			</xystage>
+			<xystage axis="x">
+				<wait_moving_end></wait_moving_end>
+			</xystage>
+			<xystage axis="y">
+				<wait_moving_end></wait_moving_end>
+			</xystage>
+		</microscope>
+		<!-- SET NAME -->
+		<save>
+			<basename>/home/np451/data/22.6/6_BF/10X_X3309Y1206</basename>
+			<append>DATE</append>
+		</save>
+		<!-- Turn on the light -->
+		<sleep>0:0:3</sleep>
+		<!-- Take a record -->
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>ON</record></camera>
+		<sleep>0:0:3</sleep>
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>OFF</record></camera>
+		<sleep>0:0:1.0</sleep>
+
+
+
+
+	<!-- Position x=3309y=1907 -->
+		<!-- MOVE -->
+		<microscope>
+			<xystage axis="x">
+				<move_absolute>3309 5</move_absolute>
+			</xystage>
+			<xystage axis="y">
+				<move_absolute>1907 5</move_absolute>
+			</xystage>
+			<xystage axis="x">
+				<wait_moving_end></wait_moving_end>
+			</xystage>
+			<xystage axis="y">
+				<wait_moving_end></wait_moving_end>
+			</xystage>
+		</microscope>
+		<!-- SET NAME -->
+		<save>
+			<basename>/home/np451/data/22.6/6_BF/10X_X3309Y1907</basename>
+			<append>DATE</append>
+		</save>
+		<!-- Turn on the light -->
+		<sleep>0:0:3</sleep>
+		<!-- Take a record -->
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>ON</record></camera>
+		<sleep>0:0:3</sleep>
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>OFF</record></camera>
+		<sleep>0:0:1.0</sleep>
+
+
+
+
+	<!-- Position x=3309y=2608 -->
+		<!-- MOVE -->
+		<microscope>
+			<xystage axis="x">
+				<move_absolute>3309 5</move_absolute>
+			</xystage>
+			<xystage axis="y">
+				<move_absolute>2608 5</move_absolute>
+			</xystage>
+			<xystage axis="x">
+				<wait_moving_end></wait_moving_end>
+			</xystage>
+			<xystage axis="y">
+				<wait_moving_end></wait_moving_end>
+			</xystage>
+		</microscope>
+		<!-- SET NAME -->
+		<save>
+			<basename>/home/np451/data/22.6/6_BF/10X_X3309Y2608</basename>
+			<append>DATE</append>
+		</save>
+		<!-- Turn on the light -->
+		<sleep>0:0:3</sleep>
+		<!-- Take a record -->
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>ON</record></camera>
+		<sleep>0:0:3</sleep>
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>OFF</record></camera>
+		<sleep>0:0:1.0</sleep>
+
+
+
+
+	<!-- Position x=3309y=3309 -->
+		<!-- MOVE -->
+		<microscope>
+			<xystage axis="x">
+				<move_absolute>3309 5</move_absolute>
+			</xystage>
+			<xystage axis="y">
+				<move_absolute>3309 5</move_absolute>
+			</xystage>
+			<xystage axis="x">
+				<wait_moving_end></wait_moving_end>
+			</xystage>
+			<xystage axis="y">
+				<wait_moving_end></wait_moving_end>
+			</xystage>
+		</microscope>
+		<!-- SET NAME -->
+		<save>
+			<basename>/home/np451/data/22.6/6_BF/10X_X3309Y3309</basename>
+			<append>DATE</append>
+		</save>
+		<!-- Turn on the light -->
+		<sleep>0:0:3</sleep>
+		<!-- Take a record -->
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>ON</record></camera>
+		<sleep>0:0:3</sleep>
+		<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M"><record>OFF</record></camera>
+		<sleep>0:0:1.0</sleep>
+
+
+
+
+</temika>
